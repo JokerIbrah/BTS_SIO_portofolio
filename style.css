@@ -48,8 +48,9 @@ header nav ul li a:hover {
 }
 
 .section h2 {
-    color: #1a73e8;
+    color: red;
     margin-bottom: 15px;
+    background-color: #3ab600;
 }
 
 .card {
