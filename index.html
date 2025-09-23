@@ -32,12 +32,29 @@
 <h2>À propos</h2>
 <p>Je suis en reconvertion professionnel, étudiant en BTS SIO option SISR. 
     Je souhaitrais me spécialiser dans la cybersécurité par la suite.</p>
+    <!--image pixel art animé-->
+     <img src="photopixelart.png" id="floating-img" alt="Image flottante JS">
+       
+     <!--Script d'animation-->
+     <script>
+    const img = document.getElementById("floating-img");
+    let angle = 0;
+
+    function animate() {
+      angle += 0.05;
+      const y = Math.sin(angle) * 15;  // amplitude
+      img.style.transform = `translateY(${y}px)`;
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  </script>
 </section>
  
 
 
   <footer>
-    <!--Mention légale-->
+    <!--Mention -->
 <p>&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
 </footer>
 </body>
