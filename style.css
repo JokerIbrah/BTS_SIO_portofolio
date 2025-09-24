@@ -50,7 +50,7 @@ header nav ul li a:hover {
 .section h2 {
     color: red;
     margin-bottom: 15px;
-    background-color: #3ab600;
+    background-color: blue;
 }
 
 .card {
@@ -88,4 +88,44 @@ img {
     height: auto;
     border-radius: 8px;
     margin-top: 15px;
+}
+
+/* body */
+body {
+    background-color: limegreen;
+    text-align: center;
+}
+
+/* Sous menu documentation personnelle */
+
+.navigation {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.navigation h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 8px 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #005bb5;
+    text-decoration: underline;
 }
