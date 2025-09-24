@@ -94,6 +94,7 @@ img {
 body {
     background-color: limegreen;
     text-align: center;
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
 }
 
 /* Sous menu documentation personnelle */
