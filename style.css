@@ -121,11 +121,58 @@ body {
 
 .navigation a {
     text-decoration: none;
-    color: #0073e6;
+    color: yellow;
     font-weight: bold;
 }
 
 .navigation a:hover {
-    color: #005bb5;
+    color: yellow;
     text-decoration: underline;
+}
+
+/* carré compétences */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.level {
+    margin-left: 15px;
+}
+
+.level span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.level .filled {
+    background-color: yellow;
+    /* couleur du carré rempli */
+}
+
+.level .empty {
+    background-color: transparent;
+    /* vide */
+}
+
+/* Environnement de terminal */
+
+p {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    background-color: #111;
+    /* fond noir */
+    color: #0f0;
+    /* texte vert fluo façon terminal */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
 }
