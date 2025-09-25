@@ -67,15 +67,41 @@ document.getElementById('btn').addEventListener('click', changerTexte);
 
     <!--Présentation de l'étudiant-->
 <h2>À propos</h2>
-<p> J'ai 28 ans.Je suis en reconvertion professionnel, étudiant en BTS SIO option SISR. 
-    Je souhaitrais me spécialiser dans la cybersécurité par la suite. Avant je travaillais dans le domaine de l'industrie.</p>
-    <br>
-    <p>C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série "Mr. Robot". Après avoir terminé la série, j'ai commencé à apprendre le développement web au début par moi-même, je me rappelle de ces cours en anglais sur le language de balissage HTML via une plateforme gratuite. Puis j'ai découvert le CSS pour le style des pages, le JavaScript pour rendre dynamique le site, PhP pour cacher des parties du code, et j'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées, nos idées! Dans un sens, ce site est conçu par ces 3 grandes technologies. Vous pourriez dire qu'il est le fruit de mon apprentissage et aussi vous demandez pourquoi je n'ai pas mis de cookies? Très concrètement, je n'en vois pas l'utilité pour l'instant de créer une base de données SQL pour récupérer des données des utilisateurs.</p>
-    <br>
-    <p>A la suite de ma formation à l'école 42 Luxembourg, le réseaux d'école crée par Xavier Niel, j'ai compris qu'il me fallait une formation plus encadrée pour approfondir mes connaissances et mes compétences.</p>
-    <br>
-    <p>Après avoir découvert l'environnement Linux, je le préfère à l'environnement Windows, surtout l'interface graphique plasma KDE. La capacité de personnalisation de l'environnement est un véritable atout pour les personnes comme moi. Et qu'une chose aussi merveilleuse soit gratuite et open source, me rend encore plus accro.</p>
-    <br>
+
+    <div id="apropos" class="terminal"></div>
+
+<script>
+const texte = [
+  "J'ai 28 ans. Je suis en reconversion professionnelle, étudiant en BTS SIO option SISR. Je souhaiterais me spécialiser dans la cybersécurité par la suite. Avant je travaillais dans le domaine de l'industrie.",
+  "C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série 'Mr. Robot'. Après avoir terminé la série, j'ai commencé à apprendre le développement web par moi-même, en suivant des cours gratuits en anglais sur le HTML. Par la suite j'ai découvert le CSS, puis le JavaScript et le PHP. J'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées, nos idées! Dans un sens, ce site est conçu par ces 3 grandes technologies. Vous pourriez dire qu'il est le fruit de mon apprentissage et aussi vous demandez pourquoi je n'ai pas mis de cookies? Très concrètement, je n'en vois pas l'utilité pour l'instant de créer une base de données SQL pour récupérer des données des utilisateurs. ",
+  "À la suite de ma formation à l'école 42 Luxembourg, j'ai compris qu'il me fallait une formation plus encadrée pour approfondir mes connaissances et compétences.",
+  "Après avoir découvert l'environnement Linux, je le préfère à l'environnement Windows, surtout l'interface graphique plasma KDE. La capacité de personnalisation de l'environnement est un véritable atout pour les personnes comme moi. Et qu'une chose aussi merveilleuse soit gratuite et open source, me rend encore plus accro.",
+];
+
+let pIndex = 0;   // paragraphe en cours
+let cIndex = 0;   // caractère en cours
+
+function typeWriter() {
+  if (pIndex < texte.length) {
+    let paragraphe = texte[pIndex];
+
+    if (cIndex < paragraphe.length) {
+      document.getElementById("apropos").innerHTML += paragraphe.charAt(cIndex);
+      cIndex++;
+      setTimeout(typeWriter, 60); // vitesse d’écriture
+    } else {
+      document.getElementById("apropos").innerHTML += "<br><br>";
+      pIndex++;
+      cIndex = 0;
+      setTimeout(typeWriter, 500); // pause entre 2 paragraphes
+    }
+  }
+}
+
+// Lancer l'effet
+typeWriter();
+</script>
+
     <!--image pixel art animé-->
      <img src="photopixelart.png" id="floating-img" alt="Image flottante JS">
        
@@ -93,6 +119,7 @@ document.getElementById('btn').addEventListener('click', changerTexte);
 
     animate();
   </script>
+  
   <p>L'image ci-dessus c'est quelqu'un que vous allez rapidement connaître en mode pixel art, animé grâce à du code en language JavaScript.</p>
 </section>
  

@@ -177,7 +177,8 @@ body {
 /* Environnement de terminal */
 
 p,
-.skills-list {
+.skills-list,
+.terminal {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     background-color: #111;
     /* fond noir */
