@@ -204,10 +204,9 @@ h3 {
 }
 
 /*Style page CV.html*/
-.social-links,
-{
-color: lime;
-background-color: white;
+.social-links {
+    color: lime;
+    background-color: white;
 }
 
 /*Style page veille.html*/
