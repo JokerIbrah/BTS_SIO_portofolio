@@ -225,11 +225,7 @@ li {
 
 }
 
-/*Style page TPbloc3.html*/
-img {
-    width: 10%;
-    height: auto;
-}
+
 
 /*Style page project.html*/
 h1 {
@@ -291,4 +287,32 @@ h1 {
 
 li {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
+}
+
+/*Style bouton rétro arcade*/
+.retro-btn,
+#btn,
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: 'Press Start 2P', monospace;
+    /* style rétro arcade */
+    font-size: 14px;
+    color: #0f0;
+    background-color: #111;
+    border: 3px solid #0f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0;
+    transition: all 0.2s;
+}
+
+.retro-btn:hover,
+.btn:hover,
+#btn:hover {
+    color: #000;
+    background-color: #0f0;
+    box-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+    transform: scale(1.05);
 }
