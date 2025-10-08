@@ -97,7 +97,7 @@ img {
 }
 
 /* body */
-/* body {
+body {
     background-color: limegreen;
     text-align: center;
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
@@ -106,19 +106,7 @@ img {
     /* Pour rendre plus lisible la page 
     choix1 background-image: url("https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.etsy.com%2Fmarket%2Fmr_robot_fan_art&psig=AOvVaw1pKMJsszLvXLIo9hTc_wvz&ust=1759404729421000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCICApMvzgpADFQAAAAAdAAAAABCVAQ");
 choix 2 choisir une couleur de background (blanc, jaune, black)
-choix 3 faire une animation
-
-    
-width: 80%;
-height: 80%;
-background: limegreen;
-
-
-box-shadow: 0 0 20px limegreen,
-0 0 40px limegreen,
-0 0 80px limegreen;
-}
-*/
+choix 3 faire une animation comme si une lumière blanche nous chercher
 body {
     margin: 0;
     height: 100vh;
@@ -128,231 +116,221 @@ body {
     color: white;
     font-family: "Fira Code", monospace;
 }
+*/
 
-@keyframes neonMove {
-    0% {
-        background-position: 0% 50%;
+
+
+
+    /* Sous menu documentation personnelle */
+
+    .navigation {
+        margin: 20px 0;
+        padding: 15px;
+        background-color: black;
+        border-radius: 10px;
     }
 
-    50% {
-        background-position: 100% 50%;
+    .navigation h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-/* Sous menu documentation personnelle */
-
-.navigation {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: black;
-    border-radius: 10px;
-}
-
-.navigation h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.navigation ul {
-    list-style: none;
-    padding: 0;
-}
-
-.navigation li {
-    margin: 8px 0;
-}
-
-.navigation a {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    text-decoration: none;
-    color: lime;
-    font-weight: bold;
-}
-
-.navigation a:hover {
-    color: yellow;
-    text-decoration: underline;
-}
-
-/* carré compétences */
-.skills-list {
-    list-style: none;
-    padding: 0;
-}
-
-.skills-list li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    ;
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.level {
-    margin-left: 15px;
-}
-
-.level span {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-right: 4px;
-    border: 2px solid lime;
-    border-radius: 3px;
-}
-
-.level .filled {
-    background-color: yellow;
-    /* couleur du carré rempli */
-}
-
-.level .empty {
-    background-color: white;
-    /* vide */
-}
-
-/* Environnement de terminal */
-
-p,
-.skills-list,
-.terminal {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-
-}
-
-h3 {
-    font-size: xx-large;
-}
-
-/*Style page CV.html*/
-.social-links {
-
-    background-color: lime;
-}
-
-/*Style page veille.html*/
-.veille {
-    background-color: black;
-    color: lime;
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-ul,
-li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-
-}
-
-
-
-/*Style page project.html*/
-h1 {
-    text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
-    margin-bottom: 30px;
-}
-
-.loading-bar {
-    width: 500px;
-    height: 25px;
-    border: 2px solid #0f0;
-    border-radius: 5px;
-    overflow: hidden;
-    background: rgba(0, 255, 0, 0.1);
-    box-shadow: 0 0 15px #0f0;
-}
-
-.progress {
-    height: 100%;
-    width: 0%;
-    background: linear-gradient(90deg, #0f0, #0a0);
-    box-shadow: 0 0 20px #0f0;
-    transition: width 0.2s ease-in-out;
-}
-
-.glitch {
-    font-size: 20px;
-    margin-top: 20px;
-    text-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 25px #0f0;
-    animation: flicker 1.2s infinite;
-}
-
-@keyframes flicker {
-
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-        opacity: 1;
+    .navigation ul {
+        list-style: none;
+        padding: 0;
     }
 
-    20%,
-    24%,
-    55% {
-        opacity: 0.3;
+    .navigation li {
+        margin: 8px 0;
     }
-}
 
-/*Style certification diplôme.html*/
-.certification,
-.diplome {
-    background-color: black;
-    color: lime;
-}
+    .navigation a {
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+        text-decoration: none;
+        color: lime;
+        font-weight: bold;
+    }
 
-li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-}
+    .navigation a:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
 
-/*Style bouton rétro arcade*/
-.retro-btn,
-#btn,
-.btn {
-    display: inline-block;
-    padding: 12px 24px;
-    font-family: 'Press Start 2P', monospace;
-    /* style rétro arcade */
-    font-size: 14px;
-    color: #0f0;
-    background-color: #111;
-    border: 3px solid #0f0;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    box-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0;
-    transition: all 0.2s;
-}
+    /* carré compétences */
+    .skills-list {
+        list-style: none;
+        padding: 0;
+    }
 
-.retro-btn:hover,
-.btn:hover,
-#btn:hover {
-    color: #000;
-    background-color: #0f0;
-    box-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
-    transform: scale(1.05);
-}
+    .skills-list li {
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+        ;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .level {
+        margin-left: 15px;
+    }
+
+    .level span {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-right: 4px;
+        border: 2px solid lime;
+        border-radius: 3px;
+    }
+
+    .level .filled {
+        background-color: yellow;
+        /* couleur du carré rempli */
+    }
+
+    .level .empty {
+        background-color: white;
+        /* vide */
+    }
+
+    /* Environnement de terminal */
+
+    p,
+    .skills-list,
+    .terminal {
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+        background-color: #111;
+        /* fond noir */
+        color: #0f0;
+        /* texte vert fluo façon terminal */
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+
+    }
+
+    h3 {
+        font-size: xx-large;
+    }
+
+    /*Style page CV.html*/
+    .social-links {
+
+        background-color: lime;
+    }
+
+    /*Style page veille.html*/
+    .veille {
+        background-color: black;
+        color: lime;
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    ul,
+    li {
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+
+    }
+
+
+
+    /*Style page project.html*/
+    h1 {
+        text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+        margin-bottom: 30px;
+    }
+
+    .loading-bar {
+        width: 500px;
+        height: 25px;
+        border: 2px solid #0f0;
+        border-radius: 5px;
+        overflow: hidden;
+        background: rgba(0, 255, 0, 0.1);
+        box-shadow: 0 0 15px #0f0;
+    }
+
+    .progress {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #0f0, #0a0);
+        box-shadow: 0 0 20px #0f0;
+        transition: width 0.2s ease-in-out;
+    }
+
+    .glitch {
+        font-size: 20px;
+        margin-top: 20px;
+        text-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 25px #0f0;
+        animation: flicker 1.2s infinite;
+    }
+
+    @keyframes flicker {
+
+        0%,
+        19%,
+        21%,
+        23%,
+        25%,
+        54%,
+        56%,
+        100% {
+            opacity: 1;
+        }
+
+        20%,
+        24%,
+        55% {
+            opacity: 0.3;
+        }
+    }
+
+    /*Style certification diplôme.html*/
+    .certification,
+    .diplome {
+        background-color: black;
+        color: lime;
+    }
+
+    li {
+        font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    }
+
+    /*Style bouton rétro arcade*/
+    .retro-btn,
+    #btn,
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        font-family: 'Press Start 2P', monospace;
+        /* style rétro arcade */
+        font-size: 14px;
+        color: #0f0;
+        background-color: #111;
+        border: 3px solid #0f0;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        box-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 20px #0f0;
+        transition: all 0.2s;
+    }
+
+    .retro-btn:hover,
+    .btn:hover,
+    #btn:hover {
+        color: #000;
+        background-color: #0f0;
+        box-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+        transform: scale(1.05);
+    }
