@@ -97,10 +97,50 @@ img {
 }
 
 /* body */
-body {
+/* body {
     background-color: limegreen;
     text-align: center;
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
+
+
+    /* Pour rendre plus lisible la page 
+    choix1 background-image: url("https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.etsy.com%2Fmarket%2Fmr_robot_fan_art&psig=AOvVaw1pKMJsszLvXLIo9hTc_wvz&ust=1759404729421000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCICApMvzgpADFQAAAAAdAAAAABCVAQ");
+choix 2 choisir une couleur de background (blanc, jaune, black)
+choix 3 faire une animation
+
+    
+width: 80%;
+height: 80%;
+background: limegreen;
+
+
+box-shadow: 0 0 20px limegreen,
+0 0 40px limegreen,
+0 0 80px limegreen;
+}
+*/
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #39FF14, #F8F8FF, #39FF14, black);
+    background-size: 400% 400%;
+    animation: neonMove 10s ease infinite;
+    color: white;
+    font-family: "Fira Code", monospace;
+}
+
+@keyframes neonMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Sous menu documentation personnelle */

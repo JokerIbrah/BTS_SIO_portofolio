@@ -31,48 +31,50 @@
 <section id="about" class="section">
     <hr>
     <br>
-<!-- Message de citation pour améliorer l'expérience utilisateur-->
-<p id="message">Bienvenue, Welcome</p>
-<button id="btn">Fais attention où tu cliques</button>
+    <!-- Message de citation pour améliorer l'expérience utilisateur-->
+    <p id="message">Bienvenue, Welcome</p>
+    <button id="btn">Fais attention où tu cliques <img src="" </button>
 
-<script>
-const citations = [
-  "'Hello, world !' — Auteur inconnu",
-  "'Salut, l'ami' — Elliot",
-  "'Parler est facile. Montre-moi le code.' — Linus Torvalds",
-  "'L’informatique, ça n’a pas besoin d’être compliqué pour être utile.' — Steve Jobs",
-  "'Je pense donc je suis' — Descartes",
-  "'La connaissance est le pouvoir' — Francis Bacon",
-  "'La simplicité est la sophistication suprême' — Léonard de Vinci",
-  "'La créativité, c'est l'intelligence qui s'amuse' — Albert Einstein",
-  "'La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information' — Albert Einstein",
-  "'Le savoir est une arme.' — Francis Bacon",
-  "'La connaissance est le commencement de la sagesse.' — Socrate",
-  "'La technologie est meilleure lorsqu'elle réunit les gens.' — Matt Mullenweg",
-  "'Le futur appartient à ceux qui croient à la beauté de leurs rêves.' — Eleanor Roosevelt",
-  "'La seule façon de faire du bon travail est d'aimer ce que vous faites.' — Steve Jobs",
-  "'Quand on n'a pas ce que l'on aime, il faut aimer ce que l'on a.' — Jacques Prévert",
-  "'La vie est un défi, relève-le !' — Mère Teresa",
-  "'Quand il y a une volonté, il y a un chemin.' — Proverbe arabe"
-  "'Le logiciel, c’est comme le sexe : c’est mieux quand c’est gratuit.' — Linus Torvalds"
-  "'Un bon programmeur est quelqu’un qui regarde les deux côtés avant de traverser une rue à sens unique.' — Doug Linder"
-  "'Il n'y a pas de place pour les développeurs de logiciels qui ne sont pas prêts à se remettre en question.' — Alan Kay"
-  "'Les bons programmeurs utilisent toujours des commentaires.' — Steve McConnell"
-  "'Le code est comme l'humour. Quand il faut l'expliquer, c'est qu'il n'est pas bon.' — Cory House"
-  "'La plupart des bons programmeurs programment non pas pour être payés ou adulés, mais parce que programmer est amusant.' — Linus Torvalds"
-  "'I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones.' — Linus Torvalds"
-  "'L’intelligence est la capacité d’éviter de travailler tout en accomplissant le travail.' — Linus Torvalds"
-];
+    <script>
+    const citations = [
+      "'Hello, world !' — Auteur inconnu",
+      "'Salut, l'ami' — Elliot",
+      "'Parler est facile. Montre-moi le code.' — Linus Torvalds",
+      "'L’informatique, ça n’a pas besoin d’être compliqué pour être utile.' — Steve Jobs",
+      "'Je pense donc je suis' — Descartes",
+      "'La connaissance est le pouvoir' — Francis Bacon",
+      "'La simplicité est la sophistication suprême' — Léonard de Vinci",
+      "'La créativité, c'est l'intelligence qui s'amuse' — Albert Einstein",
+      "'La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information' — Albert Einstein",
+      "'Le savoir est une arme.' — Francis Bacon",
+      "'La connaissance est le commencement de la sagesse.' — Socrate",
+      "'La technologie est meilleure lorsqu'elle réunit les gens.' — Matt Mullenweg",
+      "'Le futur appartient à ceux qui croient à la beauté de leurs rêves.' — Eleanor Roosevelt",
+      "'La seule façon de faire du bon travail est d'aimer ce que vous faites.' — Steve Jobs",
+      "'Quand on n'a pas ce que l'on aime, il faut aimer ce que l'on a.' — Jacques Prévert",
+      "'La vie est un défi, relève-le !' — Mère Teresa",
+      "'Quand il y a une volonté, il y a un chemin.' — Proverbe arabe",
+      "'Le logiciel, c’est comme le sexe : c’est mieux quand c’est gratuit.' — Linus Torvalds",
+      "'Un bon programmeur est quelqu’un qui regarde les deux côtés avant de traverser une rue à sens unique.' — Doug Linder",
+      "'Il n'y a pas de place pour les développeurs de logiciels qui ne sont pas prêts à se remettre en question.' — Alan Kay",
+      "'Les bons programmeurs utilisent toujours des commentaires.' — Steve McConnell",
+      "'Le code est comme l'humour. Quand il faut l'expliquer, c'est qu'il n'est pas bon.' — Cory House",
+      "'La plupart des bons programmeurs programment non pas pour être payés ou adulés, mais parce que programmer est amusant.' — Linus Torvalds",
+      "'I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones.' — Linus Torvalds",
+      "'L’intelligence est la capacité d’éviter de travailler tout en accomplissant le travail.' — Linus Torvalds"
+    ];
 
-function changerTexte() {
-  const messageEl = document.getElementById('message');
-  const randomIndex = Math.floor(Math.random() * citations.length);
-  messageEl.innerText = citations[randomIndex];
-}
+    function changerTexte() {
+      const messageEl = document.getElementById('message');
+      const randomIndex = Math.floor(Math.random() * citations.length);
+      messageEl.innerText = citations[randomIndex];
+    }
 
-// On attache la fonction au clic
-document.getElementById('btn').addEventListener('click', changerTexte);
-</script>
+    // On attache la fonction au clic
+    document.getElementById('btn').addEventListener('click', changerTexte);
+    </script>
+</section>
+
 
 
     <!--Présentation de l'étudiant-->
