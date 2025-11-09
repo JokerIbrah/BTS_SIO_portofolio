@@ -54,7 +54,7 @@ header nav ul li a:hover {
 
 .section h2 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    color: red;
+    color: white;
     margin-bottom: 15px;
     background-color: blue;
 }
@@ -98,12 +98,23 @@ img {
 
 /* body */
 body {
-    background-color: limegreen;
+    display: inline-block;
+    background-color: black;
     text-align: center;
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    white-space: nowrap;
+    color: lime;
+    width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+    max-width: 100vw;
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+}
 
 
-    /* Pour rendre plus lisible la page 
+/* Pour rendre plus lisible la page 
     choix1 background-image: url("https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.etsy.com%2Fmarket%2Fmr_robot_fan_art&psig=AOvVaw1pKMJsszLvXLIo9hTc_wvz&ust=1759404729421000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCICApMvzgpADFQAAAAAdAAAAABCVAQ");
 choix 2 choisir une couleur de background (blanc, jaune, black)
 choix 3 faire une animation comme si une lumière blanche nous chercher
@@ -118,210 +129,350 @@ body {
 }
 */
 
+/*Pour être sûr que rien ne dépasse*/
+html {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+p
+/* Sous menu documentation personnelle */
+
+.navigation {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navigation h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 8px 0;
+}
+
+.navigation a {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-decoration: none;
+    color: lime;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* carré compétences */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    ;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.level {
+    margin-left: 15px;
+}
+
+.level span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border: 2px solid lime;
+    border-radius: 3px;
+}
+
+.level .filled {
+    background-color: yellow;
+    /* couleur du carré rempli */
+}
+
+.level .empty {
+    background-color: white;
+    /* vide */
+}
+
+/* Environnement de terminal */
+p {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    background-color: #111;
+    /* fond noir */
+    color: #0f0;
+    /* texte vert fluo façon terminal */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    white-space: normal;
+    /* permet le retour à la ligne */
+    word-wrap: break-word;
+    /* casse les mots longs si besoin */
+    margin: 16px 0;
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-align: center;
+    font-size: 20px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
 
 
 
-    /* Sous menu documentation personnelle */
+}
 
-    .navigation {
-        margin: 20px 0;
-        padding: 15px;
-        background-color: black;
-        border-radius: 10px;
+
+h2 {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-align: center;
+    font-size: 18px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+
+
+
+}
+
+
+h4 {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-align: center;
+    font-size: 16px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+
+
+
+}
+
+
+h5,
+h6 {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-align: center;
+    font-size: 14px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+
+
+
+}
+
+
+
+.skills-list,
+.terminal {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    background-color: #111;
+    /* fond noir */
+    color: #0f0;
+    /* texte vert fluo façon terminal */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    white-space: normal;
+    /* permet le retour à la ligne */
+    word-wrap: break-word;
+    /* casse les mots longs si besoin */
+    margin: 16px 0;
+    display: block;
+    max-width: 100%;
+}
+
+
+/*Style page CV.html*/
+.social-links {
+
+    background-color: lime;
+}
+
+/*Style page veille.html*/
+.veille {
+    background-color: black;
+    color: lime;
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+ul,
+li {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-align: center;
+
+}
+
+
+
+/*Style page project.html*/
+
+.loading-bar {
+    width: 500px;
+    height: 25px;
+    border: 2px solid #0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    background: rgba(0, 255, 0, 0.1);
+    box-shadow: 0 0 15px #0f0;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #0f0, #0a0);
+    box-shadow: 0 0 20px #0f0;
+    transition: width 0.2s ease-in-out;
+}
+
+.glitch {
+    font-size: 20px;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 25px #0f0;
+    animation: flicker 1.2s infinite;
+}
+
+@keyframes flicker {
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        opacity: 1;
     }
 
-    .navigation h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
+    20%,
+    24%,
+    55% {
+        opacity: 0.3;
+    }
+}
+
+/*Style certification diplôme.html*/
+.certification,
+.diplome {
+    background-color: black;
+    color: lime;
+}
+
+li {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+}
+
+
+
+
+
+
+
+/*Attention à ne pas supprimer le code au dessus de cette ligne*/
+
+/*Style bouton rétro arcade*/
+.retro-btn {
+    display: inline-block;
+    background-color: #000;
+    /* Fond noir */
+    color: #7FFF00;
+    /* Vert pomme */
+    border: 2px solid #7FFF00;
+    /* Contour vert lumineux */
+    font-family: 'Press Start 2P', monospace;
+    /* Police rétro pixel */
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #7FFF00;
+    box-shadow: 0 0 8px #7FFF00 inset, 0 0 8px #7FFF00;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+    /* Légèrement arrondi, optionnel */
+    white-space: nowrap;
+    line-height: 1.5;
+    /* plus d’espace vertical */
+    text-align: center;
+    text-decoration: none;
+}
+
+.retro-btn:hover {
+    color: #000;
+    /* Texte noir */
+    color: #000;
+    /* Texte noir au survol */
+    background-color: #7FFF00;
+    /* Inversion des couleurs */
+    text-shadow: 0 0 8px #000;
+    box-shadow:
+        0 0 10px #7FFF00,
+        0 0 20px #00FF66,
+        0 0 40px #00FF66,
+        0 0 80px #00FF66;
+    /* Effet néon intense */
+    transform: scale(1.05);
+    /* Léger zoom au survol */
+}
+
+.retro-btn:active {
+    transform: scale(0.95);
+    /* Effet de pression */
+    box-shadow: 0 0 5px #7FFF00 inset;
+}
+
+@keyframes neon-blink {
+
+    0%,
+    100% {
+        box-shadow: 0 0 15px #7FFF00;
     }
 
-    .navigation ul {
-        list-style: none;
-        padding: 0;
+    50% {
+        box-shadow: 0 0 30px #00FF66;
     }
+}
 
-    .navigation li {
-        margin: 8px 0;
-    }
-
-    .navigation a {
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-        text-decoration: none;
-        color: lime;
-        font-weight: bold;
-    }
-
-    .navigation a:hover {
-        color: yellow;
-        text-decoration: underline;
-    }
-
-    /* carré compétences */
-    .skills-list {
-        list-style: none;
-        padding: 0;
-    }
-
-    .skills-list li {
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-        ;
-        margin: 10px 0;
-        font-size: 18px;
-    }
-
-    .level {
-        margin-left: 15px;
-    }
-
-    .level span {
-        display: inline-block;
-        width: 15px;
-        height: 15px;
-        margin-right: 4px;
-        border: 2px solid lime;
-        border-radius: 3px;
-    }
-
-    .level .filled {
-        background-color: yellow;
-        /* couleur du carré rempli */
-    }
-
-    .level .empty {
-        background-color: white;
-        /* vide */
-    }
-
-    /* Environnement de terminal */
-
-    p,
-    .skills-list,
-    .terminal {
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-        background-color: #111;
-        /* fond noir */
-        color: #0f0;
-        /* texte vert fluo façon terminal */
-        padding: 15px;
-        border-radius: 8px;
-        font-size: 16px;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-
-    }
-
-    h3 {
-        font-size: xx-large;
-    }
-
-    /*Style page CV.html*/
-    .social-links {
-
-        background-color: lime;
-    }
-
-    /*Style page veille.html*/
-    .veille {
-        background-color: black;
-        color: lime;
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-        padding: 10px;
-        border-radius: 5px;
-        margin-bottom: 20px;
-    }
-
-    ul,
-    li {
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-
-    }
-
-
-
-    /*Style page project.html*/
-    h1 {
-        text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
-        margin-bottom: 30px;
-    }
-
-    .loading-bar {
-        width: 500px;
-        height: 25px;
-        border: 2px solid #0f0;
-        border-radius: 5px;
-        overflow: hidden;
-        background: rgba(0, 255, 0, 0.1);
-        box-shadow: 0 0 15px #0f0;
-    }
-
-    .progress {
-        height: 100%;
-        width: 0%;
-        background: linear-gradient(90deg, #0f0, #0a0);
-        box-shadow: 0 0 20px #0f0;
-        transition: width 0.2s ease-in-out;
-    }
-
-    .glitch {
-        font-size: 20px;
-        margin-top: 20px;
-        text-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 25px #0f0;
-        animation: flicker 1.2s infinite;
-    }
-
-    @keyframes flicker {
-
-        0%,
-        19%,
-        21%,
-        23%,
-        25%,
-        54%,
-        56%,
-        100% {
-            opacity: 1;
-        }
-
-        20%,
-        24%,
-        55% {
-            opacity: 0.3;
-        }
-    }
-
-    /*Style certification diplôme.html*/
-    .certification,
-    .diplome {
-        background-color: black;
-        color: lime;
-    }
-
-    li {
-        font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    }
-
-    /*Style bouton rétro arcade*/
-    ul {
-        list-style: none;
-        /* enlève les puces par défaut */
-        padding-left: 1.2em;
-    }
-
-    ul li::before {
-        content: "◆";
-        /* symbole personnalisé (peut être ■, ►, ✦, etc.) */
-        color: #FF00FF;
-        /* vert pomme */
-        font-size: 1.2em;
-        margin-right: 10px;
-        text-shadow: 0 0 100px #FF00FF;
-        /* effet lumineux rétro */
-        background-color: black;
-    }
+.retro-btn:hover {
+    animation: neon-blink 0.8s infinite alternate;
+}
