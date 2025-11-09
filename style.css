@@ -140,7 +140,7 @@ html {
 
 }
 
-p
+
 /* Sous menu documentation personnelle */
 
 .navigation {
@@ -247,6 +247,22 @@ h1 {
 
 }
 
+h3 {
+    color: #FF1493;
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    text-align: center;
+    font-size: 16px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
 
 h2 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
@@ -258,6 +274,7 @@ h2 {
     display: block;
     max-width: 100%;
     border-radius: 8px;
+    color: #FFFF33;
 
 
 
@@ -475,4 +492,57 @@ li {
 
 .retro-btn:hover {
     animation: neon-blink 0.8s infinite alternate;
+}
+
+/* Fin style bouton rétro arcade */
+
+/* style pour les listes à puce */
+ul {
+    list-style: none;
+    /* retire les puces classiques */
+    font-family: 'Press Start 2P', monospace;
+    color: #39FF14;
+    /* vert néon lisible sur fond noir */
+    padding: 20px;
+    margin: 0;
+}
+
+li {
+    position: relative;
+    padding-left: 30px;
+    /* espace pour la puce personnalisée */
+    margin: 12px 0;
+    line-height: 1.6;
+    text-shadow: 0 0 6px #39FF14;
+    transition: all 0.2s ease;
+}
+
+/* Puce rétro par défaut : carré vert clignotant */
+li::before {
+    content: '▣';
+    position: absolute;
+    left: 0;
+    color: #00FF66;
+    text-shadow: 0 0 5px #00FF66, 0 0 10px #00FF66;
+    animation: blink 1.2s infinite alternate;
+}
+
+/* Survol : effet néon bleu clair */
+li:hover {
+    color: #00FFFF;
+    text-shadow: 0 0 8px #00FFFF, 0 0 16px #00FFFF;
+    transform: scale(1.02);
+}
+
+/* Animation de clignotement néon */
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
 }
