@@ -19,6 +19,33 @@
       img {
     background-color: white;
 }
+.certificates-container {
+  display: flex;
+  flex-direction: column; /* une pile verticale */
+  align-items: center;
+}
+
+.certificate-item {
+  margin: 30px 0;  /* 30px en haut et en bas entre chaque bloc */
+  padding: 20px;   /* un peu de “rembourrage” interne pour aérer le contenu */
+  max-width: 600px;  
+  width: 90%;
+  box-sizing: border-box;
+}
+
+/* Si tu veux plus d’espacement sur les écrans larges */
+@media screen and (min-width: 768px) {
+  .certificate-item {
+    margin: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .certificate-item {
+    margin: 60px 0;
+  }
+}
+
 
    </style>
 </head>
@@ -147,19 +174,24 @@
      <h3>Notions de base sur les réseaux </h3>
      <p>Commencez à apprendre les bases des réseaux informatiques et découvrez le fonctionnement des réseaux</p>
      <a href="Networking_Basics_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-
+<div class="certificates-container">
 <h3> Network Technician Career Path</h3>
 <p>Testez vos connaissances sur l’ensemble du parcours de carrière de Technicien Réseau et obtenez un badge numérique pour vérifier vos compétences</p>
 <a href="Network_Technician_Career_Path_certificate_vincent-klein.pdf" target="_blank" rel="noopener noopener" class="retro-btn">Voir le PDF</a>
-
-
+</div>
+<br>
+<div class="certificates-container">
 <h3>Gestion des cybermenaces </h3>
 <p>Découvrez la gouvernance de la cybersécurité et développez vos compétences pour gérer les menaces.</p>
 <a href="Cyber_Threat_Management_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-
+</div>
+<br>
+<div class="certificates-container">
 <h3>Sécurité des terminaux</h3>
 <p>Apprenez à sécuriser votre réseau jusqu'à la périphérie.</p>
 <a href="Endpoint_Security_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+</div>
+<br>
 <footer>
     
     <!--Mention -->
