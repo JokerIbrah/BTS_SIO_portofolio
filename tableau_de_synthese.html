@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sous-domaine documentation personnelle du Portfolio, tableau de synthèse</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="tableau de synthèse de KLEIN Vincent, étudiant en BTS SIO SISR.">
+    <!-- Import de la police rétro 
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+-->
+</head>
+<div>
+    
+    <header>
+    <nav>
+        <!--Menu déroulant pour accéder aux autres pages-->
+        <ul>
+            <li><a href="index.html">A propos</a></li>
+            <li><a href="skills.html">Compétences</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="documentationpersonnelle.html">Documentation personelle</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Contenu de la page scindé en différente parties pour une meilleure expérience utilisateur -->
+  <nav>
+    <ul>
+    <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+    <li><a href="TPbloc1.html">TP Bloc 1</a></li>
+    <li><a href="TPbloc2.html">TP Bloc 2</a></li>
+    <li><a href="TPbloc3.html">TP Bloc 3</a></li>
+    <li><a href="veille.html">Veille technologique</a></li>
+    <li><a href="tableau_de_synthese.html">Tableau de synthèse</a></li>
+  </ul>
+  </nav>
+   <style>
+      body{
+        background-color: black
+      }
+      </style>
+    </header>
+    <hr>
+    <!--
+    <main>
+    <h1>Tableau de synthèse</h1>
+    <p>Ce tableau de synthèse regroupe les différentes compétences et connaissances acquises au cours de mes études en BTS SIO SISR, ainsi que les travaux pratiques réalisés. Il permet d'avoir une vue d'ensemble sur les domaines abordés et les compétences développées.</p>
+    <a href="tableau_de_synthese.xlsx" target="_blank" rel="noopener noreferrer" class="retro-btn">Télécharger le fichier excel</a>-->
+    </main>
+
+
+    <!--Animation de chargement en cours de dévelloppement à supprimer le jour où la page sera développé -->
+    <h1>[ SYSTEM BOOTING... ]</h1>
+  <div class="loading-bar">
+    <div class="progress" id="progress"></div>
+  </div>
+  <div class="glitch" id="status">Loading...</div>
+
+   <script>
+    let progress = 0;
+    const progressBar = document.getElementById("progress");
+    const statusText = document.getElementById("status");
+
+    const loading = setInterval(() => {
+      if (progress >= 100) {
+        clearInterval(loading);
+        statusText.textContent = "[ EN DÉVELOPPEMENT 🚧 ]";
+        statusText.style.color = "#ff0";
+        statusText.style.textShadow = "0 0 10px #ff0, 0 0 20px #ff0";
+      } else {
+        progress += Math.floor(Math.random() * 5) + 1;
+        if (progress > 100) progress = 100;
+        progressBar.style.width = progress + "%";
+        statusText.textContent = `Loading... ${progress}%`;
+      }
+    }, 200);
+  </script>
+    
+</nav>
+</div>
+<footer>
+        <!--Mention légale-->
+     <p>&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
+  <p><a href="Politique_de_confidentialité.html">Politique de confidentialité</a></p>
+  <p><a href="Mentions légales.html">Mentions légales</a></p>
+  </footer>
+
+</body>
+</html>
