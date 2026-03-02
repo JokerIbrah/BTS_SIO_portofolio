@@ -18,12 +18,12 @@ header {
 header h1 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     margin-bottom: 10px;
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 header nav ul {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     list-style: none;
     margin-top: 10px;
 }
@@ -74,7 +74,7 @@ ul {
 /* Footer */
 footer {
     background: #333;
-    color: white;
+    color: violet;
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
@@ -111,6 +111,7 @@ body {
     margin: 0px;
     padding: 40px;
     text-align: center;
+    text-size: 20px;
 }
 
 
@@ -186,7 +187,7 @@ html {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     ;
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .level {
@@ -235,7 +236,7 @@ p {
 h1 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     white-space: normal;
     word-wrap: break-word;
     margin: auto;
@@ -251,7 +252,7 @@ h3 {
     color: #FF1493;
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     text-align: center;
-    font-size: 16px;
+    font-size: 32px;
     white-space: normal;
     word-wrap: break-word;
     margin: auto;
@@ -267,7 +268,7 @@ h3 {
 h2 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     text-align: center;
-    font-size: 18px;
+    font-size: 34px;
     white-space: normal;
     word-wrap: break-word;
     margin: auto;
@@ -284,7 +285,7 @@ h2 {
 h4 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     text-align: center;
-    font-size: 16px;
+    font-size: 32px;
     white-space: normal;
     word-wrap: break-word;
     margin: auto;
@@ -301,7 +302,7 @@ h5,
 h6 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     text-align: center;
-    font-size: 14px;
+    font-size: 38px;
     white-space: normal;
     word-wrap: break-word;
     margin: auto;
@@ -324,7 +325,7 @@ h6 {
     /* texte vert fluo façon terminal */
     padding: 15px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 32px;
     text-align: center;
     white-space: normal;
     /* permet le retour à la ligne */
@@ -382,7 +383,7 @@ li {
 }
 
 .glitch {
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 20px;
     text-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 25px #0f0;
     animation: flicker 1.2s infinite;
@@ -548,3 +549,27 @@ li:hover {
 }
 
 /* Fin style pour les listes à puce */
+
+.main {
+    background-color: black;
+    color: lime;
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: violet;
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+}
