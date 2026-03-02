@@ -25,7 +25,7 @@
             <div class="container">
         <h1>Portfolio de KLEIN Vincent</h1>
     
-    <p>Etudiant BTS SIO option SISR</p>
+    <p style="font-size: 28px;">Etudiant BTS SIO option SISR - TECHNICIEN INFORMATIQUE DE NIVEAU 2 - INTERET POUR LA CYBER ET L'UNIVERS OPEN-SOURCE LINUX ET LE SHELL</p>
 </div>
 </header>
 <div class="main">
@@ -34,7 +34,7 @@
     <br>
     <!-- Message de citation pour améliorer l'expérience utilisateur-->
     <p id="message">Bienvenue, Welcome</p>
-    <button id="btn">Fais attention où tu cliques <img src="" </button>
+    <button id="btn" rel="noopener noreferrer" class="retro-btn">Fais attention où tu cliques</button>
 
     <script>
     const citations = [
@@ -86,7 +86,7 @@
 <script>
 const texte = [
   "J'ai 28 ans. Je suis en reconversion professionnelle, étudiant en BTS SIO option SISR. Je souhaiterais me spécialiser dans la cybersécurité par la suite. Avant je travaillais dans le domaine de l'industrie.",
-  "C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série 'Mr. Robot'. Après avoir terminé la série, j'ai commencé à apprendre le développement web par moi-même, en suivant des cours gratuits en anglais sur le HTML. Par la suite j'ai découvert le CSS, puis le JavaScript et le PHP. J'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées, nos idées! Dans un sens, ce site est conçu par 3 grandes technologies (HTML, CSS, JavaScript). Vous pourriez dire qu'il est le fruit de mon apprentissage et aussi vous demandez pourquoi je n'ai pas mis de cookies? Très concrètement, je n'en vois pas l'utilité pour l'instant de créer une base de données SQL pour récupérer des données des utilisateurs. ",
+  "C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série 'Mr. Robot'. Après avoir terminé la série, j'ai commencé à apprendre le développement web par moi-même, en suivant des cours gratuits en anglais sur le HTML. Par la suite j'ai découvert le CSS, puis le JavaScript et le PHP. J'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées, nos idées! Dans un sens, ce site est conçu par 3 grandes technologies de languages (HTML, CSS, JavaScript). Vous pourriez dire qu'il est le fruit de mon apprentissage et aussi vous demandez pourquoi je n'ai pas mis de cookies? Très concrètement, je n'en vois pas l'utilité pour l'instant de créer une base de données SQL pour récupérer des données des utilisateurs. ",
   "À la suite de ma formation à l'école 42 Luxembourg, j'ai compris qu'il me fallait une formation plus encadrée pour approfondir mes connaissances et compétences.",
   "Après avoir découvert l'environnement Linux, je le préfère à l'environnement Windows, surtout l'interface graphique plasma KDE. La capacité de personnalisation de l'environnement est un véritable atout pour les personnes comme moi. Et qu'une chose aussi merveilleuse soit gratuite et open source, me rend encore plus accro.",
 ];
@@ -101,7 +101,7 @@ function typeWriter() {
     if (cIndex < paragraphe.length) {
       document.getElementById("apropos").innerHTML += paragraphe.charAt(cIndex);
       cIndex++;
-      setTimeout(typeWriter, 60); // vitesse d’écriture
+      setTimeout(typeWriter, 10); // vitesse d’écriture
     } else {
       document.getElementById("apropos").innerHTML += "<br><br>";
       pIndex++;

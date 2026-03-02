@@ -18,12 +18,12 @@ header {
 header h1 {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
     margin-bottom: 10px;
-    font-size: 5rem;
+    font-size: 10rem;
 }
 
 header nav ul {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     list-style: none;
     margin-top: 10px;
 }
@@ -572,4 +572,70 @@ li:hover {
     text-align: center;
     width: 20%;
     margin-left: 40%;
+}
+
+.main p {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    background-color: #111;
+    /* fond noir */
+    color: #0f0;
+    /* texte vert fluo façon terminal */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 28px;
+    text-align: center;
+    white-space: normal;
+    /* permet le retour à la ligne */
+    word-wrap: break-word;
+    /* casse les mots longs si besoin */
+    margin: 16px 0;
+    display: block;
+    max-width: 100%;
+}
+
+
+.footer p {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    background-color: #111;
+    /* fond noir */
+    color: #0f0;
+    /* texte vert fluo façon terminal */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 22px;
+    text-align: center;
+    white-space: normal;
+    /* permet le retour à la ligne */
+    word-wrap: break-word;
+    /* casse les mots longs si besoin */
+    margin: 16px 0;
+    display: block;
+    max-width: 100%;
+}
+
+a:link,
+a:visited {
+    color: purple background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text align: center;
+}
+
+a:hover {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text align: center;
+}
+
+.footer a:link,
+.footer a:visited {
+    color: purple background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text align: center;
 }
