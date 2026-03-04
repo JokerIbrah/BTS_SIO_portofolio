@@ -23,9 +23,10 @@ header h1 {
 
 header nav ul {
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    font-size: 3.4rem;
+    font-size: 25px;
     list-style: none;
     margin-top: 10px;
+    margin-right: 10%;
 }
 
 header nav ul li {
