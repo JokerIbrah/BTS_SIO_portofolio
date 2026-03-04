@@ -596,7 +596,9 @@ li:hover {
 
 /* Fin style pour les listes à puce */
 
-.main {
+.main h1,
+.main h2,
+.main h3 {
     background-color: black;
     color: lime;
     font-family: "Fira Code", "Consolas", "Courier New", monospace;
@@ -606,6 +608,7 @@ li:hover {
     width: 70%;
     margin-left: 15%;
     text-align: center;
+    font-size: 45px;
 }
 
 .footer {
@@ -637,6 +640,7 @@ li:hover {
     margin: 16px 0;
     display: block;
     max-width: 100%;
+    font-size: 22px;
 }
 
 
