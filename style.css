@@ -613,6 +613,31 @@ li:hover {
     max-width: 100%;
 }
 
+.footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    background-color: #111;
+    /* fond noir */
+    color: #0f0;
+    /* texte vert fluo façon terminal */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 45px;
+    text-align: center;
+    white-space: normal;
+    /* permet le retour à la ligne */
+    word-wrap: break-word;
+    /* casse les mots longs si besoin */
+    margin: 16px 0;
+    display: block;
+    max-width: 100%;
+}
+
+
 a:link,
 a:visited {
     color: purple background-color: black;
