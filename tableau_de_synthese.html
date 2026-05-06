@@ -48,43 +48,14 @@
       </style>
     </header>
     <hr>
-    <!--
+    
     <main>
     <h1>Tableau de synthèse</h1>
     <p style="font-size: 22px;">Ce tableau de synthèse regroupe les différentes compétences et connaissances acquises au cours de mes études en BTS SIO SISR, ainsi que les travaux pratiques réalisés. Il permet d'avoir une vue d'ensemble sur les domaines abordés et les compétences développées.</p>
-    <a href="tableau_de_synthese.xlsx" target="_blank" rel="noopener noreferrer" class="retro-btn">Télécharger le fichier excel</a>
-    </main> -->
+    <a href="Tableau_de_synthese.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Télécharger le fichier excel</a>
+    </main> 
 
-
-    <!--Animation de chargement en cours de dévelloppement à supprimer le jour où la page sera développé -->
-    <h1>[ SYSTEM BOOTING... ]</h1>
-  <div class="loading-bar">
-    <div class="progress" id="progress"></div>
-  </div>
-  <div class="glitch" id="status">Loading...</div>
-
-   <script>
-    let progress = 0;
-    const progressBar = document.getElementById("progress");
-    const statusText = document.getElementById("status");
-
-    const loading = setInterval(() => {
-      if (progress >= 100) {
-        clearInterval(loading);
-        statusText.textContent = "[ EN DÉVELOPPEMENT 🚧 ]";
-        statusText.style.color = "#ff0";
-        statusText.style.textShadow = "0 0 10px #ff0, 0 0 20px #ff0";
-      } else {
-        progress += Math.floor(Math.random() * 5) + 1;
-        if (progress > 100) progress = 100;
-        progressBar.style.width = progress + "%";
-        statusText.textContent = `Loading... ${progress}%`;
-      }
-    }, 200);
-  </script>
-    
-</nav>
-</div>
+ 
 <footer>
         <!--Mention légale-->
      <p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
