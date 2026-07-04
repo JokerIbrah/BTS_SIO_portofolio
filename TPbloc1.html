@@ -1,186 +1,215 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:;">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-    <!-- Référencement (SEO) -->
-    <title>TP Bloc 1 : Administration système — Vincent Klein | BTS SIO SISR</title>
-    <meta name="description" content="Travaux pratiques du bloc 1 en administration système de Vincent Klein, étudiant BTS SIO SISR : installation et configuration de systèmes Linux et Windows, gestion des utilisateurs et des services.">
-    <meta name="author" content="Vincent Klein">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://jokeribrah.github.io/BTS_SIO_portofolio/TPbloc1.html">
-    <link rel="icon" type="image/png" href="photopixelart.png">
-    <meta name="theme-color" content="#000000">
+  <!-- Référencement (SEO) -->
+  <title>TP Bloc 1 : Administration système — Vincent Klein | BTS SIO SISR</title>
+  <meta name="description"
+    content="Travaux pratiques du bloc 1 en administration système de Vincent Klein, étudiant BTS SIO SISR : installation et configuration de systèmes Linux et Windows, gestion des utilisateurs et des services.">
+  <meta name="author" content="Vincent Klein">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jokeribrah.github.io/BTS_SIO_portofolio/TPbloc1.html">
+  <link rel="icon" type="image/png" href="photopixelart.png">
+  <meta name="theme-color" content="#000000">
 
-    <!-- Partage sur les réseaux sociaux (Open Graph / Twitter) -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Portfolio de Vincent Klein — BTS SIO SISR">
-    <meta property="og:title" content="TP Bloc 1 : Administration système — Vincent Klein | BTS SIO SISR">
-    <meta property="og:description" content="Travaux pratiques d'administration système Linux et Windows de Vincent Klein, étudiant BTS SIO SISR.">
-    <meta property="og:url" content="https://jokeribrah.github.io/BTS_SIO_portofolio/TPbloc1.html">
-    <meta property="og:image" content="https://jokeribrah.github.io/BTS_SIO_portofolio/photopixelart.png">
-    <meta property="og:locale" content="fr_FR">
-    <meta name="twitter:card" content="summary">
+  <!-- Partage sur les réseaux sociaux (Open Graph / Twitter) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Portfolio de Vincent Klein — BTS SIO SISR">
+  <meta property="og:title" content="TP Bloc 1 : Administration système — Vincent Klein | BTS SIO SISR">
+  <meta property="og:description"
+    content="Travaux pratiques d'administration système Linux et Windows de Vincent Klein, étudiant BTS SIO SISR.">
+  <meta property="og:url" content="https://jokeribrah.github.io/BTS_SIO_portofolio/TPbloc1.html">
+  <meta property="og:image" content="https://jokeribrah.github.io/BTS_SIO_portofolio/photopixelart.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
 
-      <style>
-        img {
-          width: clamp(80px, 15vw, 250px);
-          height: auto;
-        }
-        h1 {
-          color: white;
-        }
-      </style>
-    <link rel="stylesheet" href="style.css">
-     <!-- Import de la police rétro -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    img {
+      width: clamp(80px, 15vw, 250px);
+      height: auto;
+    }
+
+    h1 {
+      color: white;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <!-- Import de la police rétro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
-        
-     <header>
-<nav>
-    <!--Menu principal-->
-        <ul>
-            <li><a href="index.html">A propos</a></li>
-            <li><a href="skills.html">Compétences</a></li>
-            <li><a href="CV.html">Parcours</a></li>
-            <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
-            <li><a href="project.html">Projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+  <header>
+    <nav>
+      <!--Menu principal-->
+      <ul>
+        <li><a href="index.html">A propos</a></li>
+        <li><a href="skills.html">Compétences</a></li>
+        <li><a href="CV.html">Parcours</a></li>
+        <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+        <li><a href="project.html">Projets</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-     <!--Contenu de la page scindé en différente parties pour une meilleure expérience utilisateur -->
-  <nav>
-    <ul>
-    <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
-    <li><a href="TPbloc1.html">TP Bloc 1</a></li>
-    <li><a href="TPbloc2.html">TP Bloc 2</a></li>
-    <li><a href="TPbloc3.html">TP Bloc 3</a></li>
-    <li><a href="veille.html">Veille technologique</a></li>
+    <!--Contenu de la page scindé en différente parties pour une meilleure expérience utilisateur -->
+    <nav>
+      <ul>
+        <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+        <li><a href="TPbloc1.html">TP Bloc 1</a></li>
+        <li><a href="TPbloc2.html">TP Bloc 2</a></li>
+        <li><a href="TPbloc3.html">TP Bloc 3</a></li>
+        <li><a href="veille.html">Veille technologique</a></li>
+        <br>
+        <li><a href="tableau_de_synthese.html">Tableau de synthèse</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--TP à télécharger-->
+  <bold>
+    <div id="main">
+      <h1>TP BLOC 1 Administration Système</h1>
+
+  </bold>
+  <!--Classons par thème les TP-->
+
+  <img src="logo vmware.png" alt="Logo VMware" class="vmware-logo">
+  <h2>Procédure pour créer une machine virtuelle</h2>
+  <p>création d'une machine virtuelle à l'aide de VMware.
+    <a href="Procedure_pour_creer_une_machine_virtuelle_VM_sur_Workstation_en_16_étapes_et_16_pages_KLEIN_Vincent.pdf"
+      target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+  </p>
+  <br>
+  <img src="logo linux.png" alt="Logo Linux" class="linux-logo">
+  <h2>linux</h2>
+  <p>ligne de commande shell pour gérer les utilisateurs.
+    <a href="Exercice_8_KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+  </p>
+
+  <p>Droits Linux
+    <a href="Gestion_des_droits_Linux.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+  </p>
+  <p>Installation d'un serveur Ubuntu
+    <a href="procedure_Ubuntu_sans_interface_graphique.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <br>
+
+  <img src="logo glpi.png" alt="Logo GLPI" class="glpi-logo">
+  <h2>GLPI</h2>
+  <p>
+    Déploiement et configuration de GLPI
+    <a href="Deploiement_et_configuration_de_GLPI.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir
+      le PDF</a>
+  </p>
+  <p>Ajout d'un utilisateur
+    <a href="KLEINVincent-Procedure_pour_ajouter_un_utilisateur.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+
+  <p>Création d'un ticket
+    <a href="KLEIN_Vincent_creation_de_ticket.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le
+      PDF</a>
+  </p>
+  <p>Gabarit de ticket
+    <a href="KLEIN_Vincent_categorie_et_gabarit_ticket_sur_glpi.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>Faire un contrat
+    <a href="faire_des_contrats_sur_GLPI.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le
+      PDF</a>
     <br>
-    <li><a href="tableau_de_synthese.html">Tableau de synthèse</a></li>
-  </ul>
-  </nav>
-</header>
-<!--TP à télécharger-->
-<bold>
-  <div id="main">
-<h1>TP BLOC 1 Administration Système</h1>
+  </p>
 
-</bold>
-<!--Classons par thème les TP-->
+  <img src="logo ocs inventory.png" alt="Logo OCS Inventory" class="ocs-logo">
+  <h2>OCS INVENTORY</h2>
+  <p>Installation d'un agent OCS INVENTORY Windows/Linux
+    <a href="KLEIN_Vincent-agent_OCS_windows_umbuntu_lier_a_un_user_glpi.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <br>
+  <br>
 
-<img src="logo vmware.png" alt="Logo VMware" class="vmware-logo">
-<h2>Procédure pour créer une machine virtuelle</h2>
-<p>création d'une machine virtuelle à l'aide de VMware.
-<a href="Procedure_pour_creer_une_machine_virtuelle_VM_sur_Workstation_en_16_étapes_et_16_pages_KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a> </p>
-<br>
- <img src="logo linux.png" alt="Logo Linux" class="linux-logo">
-<h2>linux</h2>
-<p>ligne de commande shell pour gérer les utilisateurs.
-<a href="Exercice_8_KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
+  <img src="raid.png" alt="système de RAID" class="raid">
+  <h2>RAID</h2>
+  <p>Le RAID (Redundant Array of Independent Disks) est une technologie qui permet de combiner plusieurs disques durs en
+    un seul volume logique pour améliorer la performance et la fiabilité.</p>
+  <p>Création sur Windows
+    <a href="KLEIN Vincent Mettre_des_disques_en_RAID_simulation_de_panne_sur_VM_Ware.pdf" target="_blank"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>Création sur Linux
+    <a href="KLEIN_VINCENT_réparation_de_panne_de_disque_sur_RAID.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <br>
+  <img src="logo windows server.png" alt="Logo Windows Server" class="windows-server-logo">
+  <h2>Active Directory</h2>
+  <p>Un Active Directory est un service d'annuaire Windows qui permet de gérer les identités et les ressources d'un
+    réseau local.</p>
+  <p>Création d'une Unité d'organisation(OU)
+    <a href="KLEIN_Vincent_creation_d_UO_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le
+      PDF</a>
+  </p>
+  <p>Création d'un user
+    <a href="KLEIN_Vincent-création_d_un_utilisateur_1.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>Création d'un dossier partagé et GPO lecteur réseaux
+    <a href="KLEIN_Vincent_procédure_création_d_un_dossier_partagé_(1).pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>Création GPO d'interdiction d'accés au panneau de configuration
+    <a href="KLEIN_Vincent_interdire_l_accès_au_panneau_de_configuration_1.pdf" target="_blank"
+      rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+  </p>
+  <p>créer des groupe de sécurité
+    <a href="KLEIN_Vincent_créer_un_groupe_de_sécurité_2.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>création d'un utilisateur itinérant
+    <a href="KLEIN_Vincent_creation_d_utilisateur_itinerant _1.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>Création d'un utilisateur obligatoire
+    <a href="KLEIN_Vincent_creation_d_utilisateur_obligatoire_1.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
+  <p>Création d'une politique de mot de passe
+    <a href="KLEIN_Vincent-politique_de_mot_de_passe_1.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">voir le PDF</a>
+  </p>
 
-<p>Droits Linux 
-<a href="Gestion_des_droits_Linux.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a> </p>
-<p>Installation d'un serveur Ubuntu
-<a href="procedure_Ubuntu_sans_interface_graphique.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<br>
-
-<img src="logo glpi.png" alt="Logo GLPI" class="glpi-logo">
-<h2>GLPI</h2>
-<p>
-  Déploiement et configuration de GLPI
-  <a href="Deploiement_et_configuration_de_GLPI.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn"></a>
-</p>
-<p>Ajout d'un utilisateur
-<a href="KLEINVincent-Procedure_pour_ajouter_un_utilisateur.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-
-<p>Création d'un ticket
-<a href="KLEIN_Vincent_creation_de_ticket.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Gabarit de ticket
-<a href="KLEIN_Vincent_categorie_et_gabarit_ticket_sur_glpi.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Faire un contrat
-<a href="faire_des_contrats_sur_GLPI.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-<br>
-</p>
-
-<img src="logo ocs inventory.png" alt="Logo OCS Inventory" class="ocs-logo">
-<h2>OCS INVENTORY</h2>
-<p>Installation d'un agent OCS INVENTORY Windows/Linux
-<a href="KLEIN_Vincent-agent_OCS_windows_umbuntu_lier_a_un_user_glpi.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<br>
-<br>
-
-<img src="raid.png" alt="système de RAID" class="raid">
-<h2>RAID</h2>
-<p>Le RAID (Redundant Array of Independent Disks) est une technologie qui permet de combiner plusieurs disques durs en un seul volume logique pour améliorer la performance et la fiabilité.</p>
-<p>Création sur Windows
-<a href="KLEIN Vincent Mettre_des_disques_en_RAID_simulation_de_panne_sur_VM_Ware.pdf" target="_blank" class="retro-btn">voir le PDF</a>
-</p>
-<p>Création sur Linux
-<a href="KLEIN_VINCENT_réparation_de_panne_de_disque_sur_RAID.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<br>
-<img src="logo windows server.png" alt="Logo Windows Server" class="windows-server-logo">
-<h2>Active Directory</h2>
-<p>Un Active Directory est un service d'annuaire Windows qui permet de gérer les identités et les ressources d'un réseau local.</p>
-<p>Création d'une Unité d'organisation(OU)
-<a href="KLEIN_Vincent_creation_d_UO_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Création d'un user
-<a href="KLEIN_Vincent-création_d_un_utilisateur_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Création d'un dossier partagé et GPO lecteur réseaux
-<a href="KLEIN_Vincent_procédure_création_d_un_dossier_partagé_(1).pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Création GPO d'interdiction d'accés au panneau de configuration
-<a href="KLEIN_Vincent_interdire_l_accès_au_panneau_de_configuration_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>créer des groupe de sécurité
-<a href="KLEIN_Vincent_créer_un_groupe_de_sécurité_2.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>création d'un utilisateur itinérant
-<a href="KLEIN_Vincent_creation_d_utilisateur_itinerant _1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Création d'un utilisateur obligatoire
-<a href="KLEIN_Vincent_creation_d_utilisateur_obligatoire_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Création d'une politique de mot de passe
-<a href="KLEIN_Vincent-politique_de_mot_de_passe_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-
-<p>Mise en place d'un DNS
-<a href="Mise_en_place_du_serveur_DNS_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<p>Mise en place d'un serveur DHCP
-<a href="DHCP_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-<img src="serveur-de-fichiers-samba-debian.jpg" alt="Pricipe de Sambe expliqué sur cette image" class="samba-img">
-<h2>Samba</h2>
-<p>Samba est un logiciel libre qui permet de partager des fichiers et des imprimantes entre machines sous Linux et Windows.</p>
-<p>Mise en place de Samba
-<a href="Serveur_Samba_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
-</p>
-</div>
-<footer>
+  <p>Mise en place d'un DNS
+    <a href="Mise_en_place_du_serveur_DNS_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le
+      PDF</a>
+  </p>
+  <p>Mise en place d'un serveur DHCP
+    <a href="DHCP_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+  </p>
+  <img src="serveur-de-fichiers-samba-debian.jpg" alt="Pricipe de Sambe expliqué sur cette image" class="samba-img">
+  <h2>Samba</h2>
+  <p>Samba est un logiciel libre qui permet de partager des fichiers et des imprimantes entre machines sous Linux et
+    Windows.</p>
+  <p>Mise en place de Samba
+    <a href="Serveur_Samba_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+  </p>
+  </div>
+  <footer>
     <!--Mention légale-->
-<p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
-  <p style="font-size: 22px;"><a href="Politique_de_confidentialité.html">Politique de confidentialité</a></p>
-<p style="font-size: 22px;"><a href="mentions_legales.html">Mentions légales</a></p>
-</footer>
+    <p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
+    <p style="font-size: 22px;"><a href="Politique_de_confidentialité.html">Politique de confidentialité</a></p>
+    <p style="font-size: 22px;"><a href="mentions_legales.html">Mentions légales</a></p>
+  </footer>
 
 </body>
 

@@ -1,291 +1,364 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:;">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-    <!-- Référencement (SEO) -->
-    <title>Certifications &amp; diplômes — Vincent Klein | BTS SIO SISR</title>
-    <meta name="description" content="Les diplômes et certifications informatiques de Vincent Klein, étudiant BTS SIO SISR : parcours de formation, certifications obtenues et entraînement CTF sur TryHackMe.">
-    <meta name="author" content="Vincent Klein">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://jokeribrah.github.io/BTS_SIO_portofolio/certification%20dipl%C3%B4me.html">
-    <link rel="icon" type="image/png" href="photopixelart.png">
-    <meta name="theme-color" content="#000000">
+  <!-- Référencement (SEO) -->
+  <title>Certifications &amp; diplômes — Vincent Klein | BTS SIO SISR</title>
+  <meta name="description"
+    content="Les diplômes et certifications informatiques de Vincent Klein, étudiant BTS SIO SISR : parcours de formation, certifications obtenues et entraînement CTF sur TryHackMe.">
+  <meta name="author" content="Vincent Klein">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jokeribrah.github.io/BTS_SIO_portofolio/certification%20dipl%C3%B4me.html">
+  <link rel="icon" type="image/png" href="photopixelart.png">
+  <meta name="theme-color" content="#000000">
 
-    <!-- Partage sur les réseaux sociaux (Open Graph / Twitter) -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Portfolio de Vincent Klein — BTS SIO SISR">
-    <meta property="og:title" content="Certifications &amp; diplômes — Vincent Klein | BTS SIO SISR">
-    <meta property="og:description" content="Diplômes, certifications informatiques et entraînement CTF TryHackMe de Vincent Klein, étudiant BTS SIO SISR.">
-    <meta property="og:url" content="https://jokeribrah.github.io/BTS_SIO_portofolio/certification%20dipl%C3%B4me.html">
-    <meta property="og:image" content="https://jokeribrah.github.io/BTS_SIO_portofolio/photopixelart.png">
-    <meta property="og:locale" content="fr_FR">
-    <meta name="twitter:card" content="summary">
+  <!-- Partage sur les réseaux sociaux (Open Graph / Twitter) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Portfolio de Vincent Klein — BTS SIO SISR">
+  <meta property="og:title" content="Certifications &amp; diplômes — Vincent Klein | BTS SIO SISR">
+  <meta property="og:description"
+    content="Diplômes, certifications informatiques et entraînement CTF TryHackMe de Vincent Klein, étudiant BTS SIO SISR.">
+  <meta property="og:url" content="https://jokeribrah.github.io/BTS_SIO_portofolio/certification%20dipl%C3%B4me.html">
+  <meta property="og:image" content="https://jokeribrah.github.io/BTS_SIO_portofolio/photopixelart.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary">
 
-    <link rel="stylesheet" href="style.css">
-    <!-- Import de la police rétro -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-   <style>
-  
-  h1 {
-      color: #FF00FF;}
-      img {
-    background-color: white;
-}
-.certificates-container {
-  display: flex;
-  flex-direction: column; /* une pile verticale */
-  align-items: center;
-}
+  <link rel="stylesheet" href="style.css">
+  <!-- Import de la police rétro -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    h1 {
+      color: #FF00FF;
+    }
 
-.certificate-item {
-  margin: 30px 0;  /* 30px en haut et en bas entre chaque bloc */
-  padding: 20px;   /* un peu de “rembourrage” interne pour aérer le contenu */
-  max-width: 600px;  
-  width: 90%;
-  box-sizing: border-box;
-}
+    img {
+      background-color: white;
+    }
 
-/* Si tu veux plus d’espacement sur les écrans larges */
-@media screen and (min-width: 768px) {
-  .certificate-item {
-    margin: 40px 0;
-  }
-}
+    .certificates-container {
+      display: flex;
+      flex-direction: column;
+      /* une pile verticale */
+      align-items: center;
+    }
 
-@media screen and (min-width: 1200px) {
-  .certificate-item {
-    margin: 60px 0;
-  }
-}
+    .certificate-item {
+      margin: 30px 0;
+      /* 30px en haut et en bas entre chaque bloc */
+      padding: 20px;
+      /* un peu de “rembourrage” interne pour aérer le contenu */
+      max-width: 600px;
+      width: 90%;
+      box-sizing: border-box;
+    }
 
+    /* Si tu veux plus d’espacement sur les écrans larges */
+    @media screen and (min-width: 768px) {
+      .certificate-item {
+        margin: 40px 0;
+      }
+    }
 
-   </style>
+    @media screen and (min-width: 1200px) {
+      .certificate-item {
+        margin: 60px 0;
+      }
+    }
+  </style>
 </head>
-<body>
-<div>
-    <header>
-        <nav>
-        <ul>
-            <li><a href="index.html">A propos</a></li>
-            <li><a href="skills.html">Compétences</a></li>
-            <li><a href="CV.html">Parcours</a></li>
-            <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
-            <li><a href="project.html">Projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <!--Lien vers les autres pages-->
-<nav class="nav-bar">
-    <ul>
-        <li><a href="CV.html">CV</a></li>
-        <li><a href="certification diplôme.html">Certifications/diplôme</a></li>
-        <li><a href="présentation_BTS_SIO.html">Présentation BTS SIO</a></li>
-        <li><a href="présentation de l'école mewo.html">Présentation de l'école MEWO</a></li>
-        <br>
-        <li><a href="fiche métier.html">Fiche métier</a></li>
 
-        
-        
-    </ul>
-    </nav>
+<body>
+  <div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">A propos</a></li>
+          <li><a href="skills.html">Compétences</a></li>
+          <li><a href="CV.html">Parcours</a></li>
+          <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+          <li><a href="project.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!--Lien vers les autres pages-->
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="CV.html">CV</a></li>
+          <li><a href="certification diplôme.html">Certifications/diplôme</a></li>
+          <li><a href="présentation_BTS_SIO.html">Présentation BTS SIO</a></li>
+          <li><a href="présentation de l'école mewo.html">Présentation de l'école MEWO</a></li>
+          <br>
+          <li><a href="fiche métier.html">Fiche métier</a></li>
+
+
+
+        </ul>
+      </nav>
     </header>
     <hr>
-    
+
     <!--Section diplome-->
     <h1>Diplômes obtenus</h1>
     <div class="diplome">
-<p>2017: Bac ES </p>
-<p>2021: Bac pro TCI</p>
-<p>2023: MC soudure</p>
+      <p>2017: Bac ES </p>
+      <p>2021: Bac pro TCI</p>
+      <p>2023: MC soudure</p>
     </div>
     <h1>Entrainement au CTF tryhackme</h1>
-    <p style="font-size: 22px;">Entrainement au CTF tryhackme pour développer mes compétences en cybersécurité et en hacking éthique. TryHackMe propose des défis pratiques et interactifs qui couvrent divers aspects de la sécurité informatique, tels que l'exploitation de vulnérabilités, la cryptographie, l'analyse de réseau, et bien plus encore. En participant à ces défis, j'ai pu renforcer mes connaissances techniques, améliorer mes compétences en résolution de problèmes et me préparer à des scénarios réels de cybersécurité.</p>
-    <p style="font-size: 22px;">J'ai commencé la première année jusqu'à ce que mon formateur en cybersécurité me dise que je devais arrêter. En effet j'ai remarquer que d'une part j'acquérisé des compétences importantes pour la poursuite de mes études en cybersécurité, d'une autre part je voyais que niveau réseaux je commencé à être à la ramasse. Du coup je me suis plus concentré sur ma formation comme préconisé mon formateur en cybersécurité.</p>
-  <img src="profile_tryhackme.png" alt="mon profil Tryhackme" >
-  <br>
-  <img src="defis_fini.png" alt="CTF terminée Tryhackme">
+    <p style="font-size: 22px;">Entrainement au CTF tryhackme pour développer mes compétences en cybersécurité et en
+      hacking éthique. TryHackMe propose des défis pratiques et interactifs qui couvrent divers aspects de la sécurité
+      informatique, tels que l'exploitation de vulnérabilités, la cryptographie, l'analyse de réseau, et bien plus
+      encore. En participant à ces défis, j'ai pu renforcer mes connaissances techniques, améliorer mes compétences en
+      résolution de problèmes et me préparer à des scénarios réels de cybersécurité.</p>
+    <p style="font-size: 22px;">J'ai commencé la première année jusqu'à ce que mon formateur en cybersécurité me dise
+      que je devais arrêter. En effet j'ai remarquer que d'une part j'acquérisé des compétences importantes pour la
+      poursuite de mes études en cybersécurité, d'une autre part je voyais que niveau réseaux je commencé à être à la
+      ramasse. Du coup je me suis plus concentré sur ma formation comme préconisé mon formateur en cybersécurité.</p>
+    <img src="profile_tryhackme.png" alt="mon profil Tryhackme">
+    <br>
+    <img src="defis_fini.png" alt="CTF terminée Tryhackme">
     </ul>
-  </p>
- 
-  <!--Section certification-->
+    </p>
+
+    <!--Section certification-->
     <h1>Certifications informatique obtenues</h1>
     <img src="Tryhackme.png" alt="logo Tryhackme" style="width:10%;height:auto;">
     <h2>Tryhackme</h2>
-  
-   
+
+
     <div class="certificates-container">
-    <h3><b>DevSecOps</b></h3> <p> sécurité pratique des pipelines CI/CD · Introduction à la sécurisation de l'IAC · Containerisation Sécurité · Applications des frameworks DevSecOps</p>
-    <br>
-    <img src="DevSecOps.png" alt="Certification DevSecOps" style="width:20%;height:auto;">
-</div>
-
-<div class="certificates-container">
-    <h3><b>Jr Penetration Tester</b></h3>
-    <p> Méthodologies et tactiques de pentest · Dénombrement, exploitation et signalement · Exercices de piratage réalistes</p>
-    <br>
-    <img src="JrPenetrationTester.png" alt="Certification Jr Penetration Tester" style="width:20%;height:auto;">
+      <h3><b>DevSecOps</b></h3>
+      <p> sécurité pratique des pipelines CI/CD · Introduction à la sécurisation de l'IAC · Containerisation Sécurité ·
+        Applications des frameworks DevSecOps</p>
+      <br>
+      <img src="DevSecOps.png" alt="Certification DevSecOps" style="width:20%;height:auto;">
     </div>
-  
 
- <div class="certificates-container">
-    <h3><b>Security Engineer</b></h3> 
-    
-    <p>ingénierie sécurité réseaux · ingénierie sécurité système · ingénierie sécurité logicielle · gestion des risques et réponse aux incidents · blue teams · Ingénieur Sécurité · Analyste sécurité · General cyber</p>
-    <br>
-    <img src="Securityeng.png" alt="Certification Security Engineer" style="width:20%;height:auto;">
+    <div class="certificates-container">
+      <h3><b>Jr Penetration Tester</b></h3>
+      <p> Méthodologies et tactiques de pentest · Dénombrement, exploitation et signalement · Exercices de piratage
+        réalistes</p>
+      <br>
+      <img src="JrPenetrationTester.png" alt="Certification Jr Penetration Tester" style="width:20%;height:auto;">
     </div>
-  
 
-<div class="certificates-container">
-    <h3><b>Web Fundamental </b> </h3> <p> Principales vulnérabilités expliquées · Comprendre les fondamentaux web · Apprenez les outils utilisés par l'industrie · Évaluations d'applications Web</p>
-    <br>
-    <img src="Webfundamental.png" alt="Certification Web Fundamental" style="width:20%;height:auto;">
-</div>
-  
 
-<div class="certificates-container">
-    <h3><b>Cybersecurity 101 </b></h3> <p>Explorez les réseaux informatiques et la cryptographie · Apprenez les bases de Linux, Windows et AD · Explorez le monde de la cybersécurité offensive · Découvrez les techniques de sécurité défensive</p>
-    <br>
-    <img src="cybersecurity 101.png" alt="Certification Cybersecurity 101" style="width:20%;height:auto;">
-</div>
- 
-    
-<div class="certificates-container">
-   <h3> <b>Pre Security </b></h3> <p> Le web et les attaques commune · Cybersécurité de base · Sécurité réseau · Bases et faiblesse du réseautage · Bases et faiblesses du réseautage · Linux · Cybercrime · Sensibilisation à la sécurité de l’information · web et les attaques communes</p>
-    <br>
-    <img src="Pre security.png" alt="Certification Pre Security" style="width:20%;height:auto;">
-   </div>
-    
+    <div class="certificates-container">
+      <h3><b>Security Engineer</b></h3>
+
+      <p>ingénierie sécurité réseaux · ingénierie sécurité système · ingénierie sécurité logicielle · gestion des
+        risques et réponse aux incidents · blue teams · Ingénieur Sécurité · Analyste sécurité · General cyber</p>
+      <br>
+      <img src="Securityeng.png" alt="Certification Security Engineer" style="width:20%;height:auto;">
+    </div>
+
+
+    <div class="certificates-container">
+      <h3><b>Web Fundamental </b> </h3>
+      <p> Principales vulnérabilités expliquées · Comprendre les fondamentaux web · Apprenez les outils utilisés par
+        l'industrie · Évaluations d'applications Web</p>
+      <br>
+      <img src="Webfundamental.png" alt="Certification Web Fundamental" style="width:20%;height:auto;">
+    </div>
+
+
+    <div class="certificates-container">
+      <h3><b>Cybersecurity 101 </b></h3>
+      <p>Explorez les réseaux informatiques et la cryptographie · Apprenez les bases de Linux, Windows et AD · Explorez
+        le monde de la cybersécurité offensive · Découvrez les techniques de sécurité défensive</p>
+      <br>
+      <img src="cybersecurity 101.png" alt="Certification Cybersecurity 101" style="width:20%;height:auto;">
+    </div>
+
+
+    <div class="certificates-container">
+      <h3> <b>Pre Security </b></h3>
+      <p> Le web et les attaques commune · Cybersécurité de base · Sécurité réseau · Bases et faiblesse du réseautage ·
+        Bases et faiblesses du réseautage · Linux · Cybercrime · Sensibilisation à la sécurité de l’information · web et
+        les attaques communes</p>
+      <br>
+      <img src="Pre security.png" alt="Certification Pre Security" style="width:20%;height:auto;">
+    </div>
+
 
     <h2><b>Autres certifications</b></h2>
     <br>
     <img src="log cisco.png" alt="logo cisco">
     <div class="certificates-container">
-    <h2><b>Cisco</b></h2>
-    <h3><b>Ethical Hackeur</b></h3> <p> Connaissances de base en sécurité informatique · Techniques de piratage éthique · Outils et méthodologies de test d'intrusion · Concepts de sécurité réseau. "Apprenez l'art de la sécurité offensive pour découvrir les cybermenaces et les vulnérabilités avant les cybercriminels. </p>
-     <a href="certificate ethical hacker.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>.
+      <h2><b>Cisco</b></h2>
+      <h3><b>Ethical Hackeur</b></h3>
+      <p> Connaissances de base en sécurité informatique · Techniques de piratage éthique · Outils et méthodologies de
+        test d'intrusion · Concepts de sécurité réseau. "Apprenez l'art de la sécurité offensive pour découvrir les
+        cybermenaces et les vulnérabilités avant les cybercriminels. </p>
+      <a href="certificate_ethical_hacker.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le
+        PDF</a>.
 
-     </div>
-     <br>
-     <br>
-     <div class="certificates-container">
-     <h3><b>Supports et Sécurité des réseaux</b></h3> <p> Développez vos compétences en matière de dépannage réseau et de contrôle d'accès des utilisateurs pour commencer votre carrière dans la technologie. (Network Support and Security) </p>
-     <a href="certificate supports et sécurité des réseaux.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-     </div>
-<br>
-<br>
-<div class="certificates-container">
-     <h3><b>English for IT 1</b></h3> <p>"A course that teaches the English language in a specific IT context at the “B2” proficiency level which is a basic requirement for employment use." (un cours qui enseigne la langue anglaise dans un contexte informatique spécifique au niveau de compétence "B2" qui est une exigence de base pour l'emploi.) </p>
-    <a href="certificate_English_for_IT.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>.
     </div>
-     
-     <h3><b>Intro à la cybersécurité</b></h3><p>Explorez le domaine passionnant de la cybersécurité et découvrez pourquoi il va durer dans le temps </p>
-    <a href="certificate_intro_a_la_cybersecurite.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>.
-  </div>
-     <h3><b>Linux Unhatched</b> </h3> <p> Une présentation rapide du célèbre système d'exploitation, Linux. </p>
-      <a href="Linux_Unhatched_certificate_vincent-klein.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>.
-     <div class="certificates-container">
-     <h3>
-      <b>Sensibilisation à l'informatique</b></h3> <p>Apprenez des compétences numériques pratiques que vous pourrez appliquer à la maison, à l'école ou au travail, et découvrez comment protéger la sécurité en ligne. </p>
-    
-      <a href="Digital_Awareness_certificate_vincent-klein.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">VOir le PDF</a>
-     </div>
-
-<div class="certificates-container">
-     <h3>
-      <b>Utilisation d'ordinateurs et d'équipements mobiles</b></h3> <p>Apprenez les compétences de base sur la façon d'utiliser efficacement les ordinateurs et les terminaux mobiles pour accéder aux services en ligne.</p>
-      <a href="Using_Computer_and_Mobile_Devices_certificate_vincent-klein.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<div class="certificates-container">
-      <h3>Adressage réseau et dépannage de base </h3>
-      <p>Adressage réseau et dépannage de base. Approfondissez vos connaissances en matière de réseau et explorez les prochaines étapes vers une carrière dans la technologie</p>
-      <a href="Network_Addressing_and_Basic_Troubleshooting_certificate_vincent-klein.pdf"target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-     </div>
+    <br>
+    <br>
     <div class="certificates-container">
-     <h3>Introduction à l'IoT (IdO) et à la transformation digital</h3>
-     <p>Des milliards d'équipements se connectent au réseau chaque jour. Découvrez comment l'IoT transforme le monde et ouvre de nouveaux horizons</p>
-     <a href="Introduction_to_IoT_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+      <h3><b>Supports et Sécurité des réseaux</b></h3>
+      <p> Développez vos compétences en matière de dépannage réseau et de contrôle d'accès des utilisateurs pour
+        commencer votre carrière dans la technologie. (Network Support and Security) </p>
+      <a href="certificat_Support_et_securité_des_reseaux_cisco.pdf" target="_blank" rel="noopener noreferrer"
+        class="retro-btn">Voir le PDF</a>
     </div>
-     <div class="certificates-container">
-     <h3>Equipement Réseau et configuration de base</h3>
-     <p>Poursuivez l'apprentissage des éléments essentiels des réseaux et renforcez vos compétences de base</p>
-     <a href="Network_Addressing_and_Basic_Troubleshooting_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<div class="certificates-container">
-     <h3>Notions de base sur les réseaux </h3>
-     <p>Commencez à apprendre les bases des réseaux informatiques et découvrez le fonctionnement des réseaux</p>
-     <a href="Networking_Basics_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<div class="certificates-container">
-<h3> Network Technician Career Path</h3>
-<p>Testez vos connaissances sur l’ensemble du parcours de carrière de Technicien Réseau et obtenez un badge numérique pour vérifier vos compétences</p>
-<a href="Network_Technician_Career_Path_certificate_vincent-klein.pdf" target="_blank" rel="noopener noopener" class="retro-btn">Voir le PDF</a>
-</div>
-<br>
-<div class="certificates-container">
-<h3>Gestion des cybermenaces </h3>
-<p>Découvrez la gouvernance de la cybersécurité et développez vos compétences pour gérer les menaces.</p>
-<a href="Cyber_Threat_Management_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<br>
-<div class="certificates-container">
-<h3>Sécurité des terminaux</h3>
-<p>Apprenez à sécuriser votre réseau jusqu'à la périphérie.</p>
-<a href="Endpoint_Security_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<br>
-<div class="certificates-container">
-<h3>Défense du réseau</h3>
-<p>Découvrez comment surveiller et sécuriser votre réseau et évaluer les alertes de sécurité</p>
-<a href="Network_Defense_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<br>
-<div class="certificates-container">
+    <br>
+    <br>
+    <div class="certificates-container">
+      <h3><b>English for IT 1</b></h3>
+      <p>"A course that teaches the English language in a specific IT context at the “B2” proficiency level which is a
+        basic requirement for employment use." (un cours qui enseigne la langue anglaise dans un contexte informatique
+        spécifique au niveau de compétence "B2" qui est une exigence de base pour l'emploi.) </p>
+      <a href="certificate_English_for_IT.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le
+        PDF</a>.
+    </div>
+
+    <h3><b>Intro à la cybersécurité</b></h3>
+    <p>Explorez le domaine passionnant de la cybersécurité et découvrez pourquoi il va durer dans le temps </p>
+    <a href="certificate_intro_à_la_cybersecurite.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir
+      le PDF</a>.
+  </div>
+  <h3><b>Linux Unhatched</b> </h3>
+  <p> Une présentation rapide du célèbre système d'exploitation, Linux. </p>
+  <a href="Linux_Unhatched_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+    class="retro-btn">Voir le PDF</a>.
   <div class="certificates-container">
-<h3>Les bases du matériel</h3>
-<p></p>
-<a href="Computer_Hardware_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-<div class="certificates-container">
-<h3>Analyste cybersécurité</h3>
-<p></p>
-<a href="Junior_Cybersecurity_Analyst_Career_Path_certificate_vincent-klein-mewo-campus-fr_e0229448-d29d-4703-ba70-06584df63af6.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
-</div>
-  
-  <img src="anssi-logo.jpg" alt="logo ANSSI">
+    <h3>
+      <b>Sensibilisation à l'informatique</b>
+    </h3>
+    <p>Apprenez des compétences numériques pratiques que vous pourrez appliquer à la maison, à l'école ou au travail, et
+      découvrez comment protéger la sécurité en ligne. </p>
+
+    <a href="Digital_Awareness_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">VOir le PDF</a>
+  </div>
+
+  <div class="certificates-container">
+    <h3>
+      <b>Utilisation d'ordinateurs et d'équipements mobiles</b>
+    </h3>
+    <p>Apprenez les compétences de base sur la façon d'utiliser efficacement les ordinateurs et les terminaux mobiles
+      pour accéder aux services en ligne.</p>
+    <a href="Using_Computer_and_Mobile_Devices_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <div class="certificates-container">
+    <h3>Adressage réseau et dépannage de base </h3>
+    <p>Adressage réseau et dépannage de base. Approfondissez vos connaissances en matière de réseau et explorez les
+      prochaines étapes vers une carrière dans la technologie</p>
+    <a href="Network_Addressing_and_Basic_Troubleshooting_certificate_vincent-klein.pdf" target="_blank"
+      rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+  </div>
+  <div class="certificates-container">
+    <h3>Introduction à l'IoT (IdO) et à la transformation digital</h3>
+    <p>Des milliards d'équipements se connectent au réseau chaque jour. Découvrez comment l'IoT transforme le monde et
+      ouvre de nouveaux horizons</p>
+    <a href="Introduction_to_IoT_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <div class="certificates-container">
+    <h3>Equipement Réseau et configuration de base</h3>
+    <p>Poursuivez l'apprentissage des éléments essentiels des réseaux et renforcez vos compétences de base</p>
+    <a href="Networking_Devices_and_Initial_Configuration_certificate_vincent-klein.pdf" target="_blank"
+      rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+  </div>
+  <div class="certificates-container">
+    <h3>Notions de base sur les réseaux </h3>
+    <p>Commencez à apprendre les bases des réseaux informatiques et découvrez le fonctionnement des réseaux</p>
+    <a href="Networking_Basics_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <div class="certificates-container">
+    <h3> Network Technician Career Path</h3>
+    <p>Testez vos connaissances sur l’ensemble du parcours de carrière de Technicien Réseau et obtenez un badge
+      numérique pour vérifier vos compétences</p>
+    <a href="Network_Technician_Career_Path_certificate_vincent-klein.pdf" target="_blank" rel="noopener noopener"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <br>
+  <div class="certificates-container">
+    <h3>Gestion des cybermenaces </h3>
+    <p>Découvrez la gouvernance de la cybersécurité et développez vos compétences pour gérer les menaces.</p>
+    <a href="Cyber_Threat_Management_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <br>
+  <div class="certificates-container">
+    <h3>Sécurité des terminaux</h3>
+    <p>Apprenez à sécuriser votre réseau jusqu'à la périphérie.</p>
+    <a href="Endpoint_Security_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <br>
+  <div class="certificates-container">
+    <h3>Défense du réseau</h3>
+    <p>Découvrez comment surveiller et sécuriser votre réseau et évaluer les alertes de sécurité</p>
+    <a href="Network_Defense_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+      class="retro-btn">Voir le PDF</a>
+  </div>
+  <br>
+  <div class="certificates-container">
+    <div class="certificates-container">
+      <h3>Les bases du matériel</h3>
+      <p></p>
+      <a href="Computer_Hardware_Basics_certificate_vincent-klein.pdf" target="_blank" rel="noopener noreferrer"
+        class="retro-btn">Voir le PDF</a>
+    </div>
+    <div class="certificates-container">
+      <h3>Analyste cybersécurité</h3>
+      <p></p>
+      <a href="Junior_Cybersecurity_Analyst_Career_Path_certificate_vincent-klein-mewo-campus-fr_e0229448-d29d-4703-ba70-06584df63af6.pdf"
+        target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+    </div>
+
+    <img src="anssi-logo.jpg" alt="logo ANSSI">
     <h2><b>ANSSI</b></h2>
     <div class="certificates-container">
-    <h3>SecNumacademy</h3>
-    <p>certification attestant de la maîtrise des bonnes pratiques en cybersécurité, de la compréhension des risques numériques et de la protection des systèmes et des données au sein d’une organisation</p>
-    <a href="attestation_sec_num_academy.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+      <h3>SecNumacademy</h3>
+      <p>certification attestant de la maîtrise des bonnes pratiques en cybersécurité, de la compréhension des risques
+        numériques et de la protection des systèmes et des données au sein d’une organisation</p>
+      <a href="attestation_sec_num_academy.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le
+        PDF</a>
     </div>
     <img src="#" alt="logo CNIL">
     <h2><b>CNIL</b></h2>
     <div class="certificates-container">
-    <h3>Certification RGPD</h3>
-    <p>Certification attestant de la maîtrise des principes du Règlement Général sur la Protection des Données (RGPD) et de la capacité à mettre en œuvre des mesures conformes à la réglementation en matière de protection des données personnelles.</p>
-    <a href="Certificat_module_1_RGPD.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF certificat module 1</a>
-    <a href="Attestation_de_suivi_RGPD_module2.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF attestation de suivi module 2</a>
-    <a href="Certificat_RGPD_module3.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF certificat module 3</a>
-    <a href="Certificat_RGPD_module4.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF certificat module 4</a>
-    <a href="Certificat_RGPD_module5.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF certificat module 5</a>
-    <a href="Attestation_de_suivi_RGPD_module6.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF certificat module 6</a>
-</div>
-<footer>
+      <h3>Certification RGPD</h3>
+      <p>Certification attestant de la maîtrise des principes du Règlement Général sur la Protection des Données (RGPD)
+        et de la capacité à mettre en œuvre des mesures conformes à la réglementation en matière de protection des
+        données personnelles.</p>
+      <a href="Certificat_module_1_RGPD.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF
+        certificat module 1</a>
+      <a href="Attestation_de_suivi_RGPD_module2.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir
+        le PDF attestation de suivi module 2</a>
+      <a href="Certificat_RGPD_module3.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF
+        certificat module 3</a>
+      <a href="Certificat_RGPD_module4.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF
+        certificat module 4</a>
+      <a href="Certificat_RGPD_module5.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF
+        certificat module 5</a>
+      <a href="Attestation_de_suivi_RGPD_module6.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir
+        le PDF certificat module 6</a>
+    </div>
+    <footer>
 
 
-    
-    <!--Mention -->
-<p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
-<p style="font-size: 22px;"><a href="Politique_de_confidentialité.html">Politique de confidentialité</a></p>
-<p><a href="mentions_legales.html">Mentions légales</a></p>
-</footer>
+
+      <!--Mention -->
+      <p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
+      <p style="font-size: 22px;"><a href="Politique_de_confidentialité.html">Politique de confidentialité</a></p>
+      <p><a href="mentions_legales.html">Mentions légales</a></p>
+    </footer>
 </body>
+
 </html>

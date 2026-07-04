@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* ==========================================================================
    Portfolio BTS SIO SISR — KLEIN Vincent
    Style rétro terminal (fond noir, vert néon, polices monospace)
@@ -7,16 +9,17 @@
 /* Variables du thème rétro */
 :root {
     --bg: #000;
-    --panel: #111;
-    --green: #0f0;
+    --panel: #0d0d0d;
+    --green: #39FF14;
     --neon-green: #39FF14;
     --apple-green: #7FFF00;
-    --neon-cyan: #00FFFF;
+    --neon-cyan: #00f0ff;
     --neon-mint: #00FF66;
     --yellow: #FFFF33;
     --violet: violet;
-    --blue: blue;
-    --font-mono: "Fira Code", "Consolas", "Courier New", monospace;
+    --blue: #00f0ff;
+    --mr-robot-red: #ff003c;
+    --font-mono: "Ubuntu Mono", "Fira Code", "Consolas", "Courier New", monospace;
     --font-pixel: 'Press Start 2P', monospace;
 }
 
@@ -58,11 +61,27 @@ body {
 
 header {
     font-family: var(--font-mono);
-    background-color: var(--blue);
+    background-color: #030303;
     color: white;
-    padding: clamp(10px, 2vw, 20px) 0;
+    padding: clamp(25px, 3.5vw, 35px) 15px clamp(15px, 2vw, 25px);
     text-align: center;
     border-radius: 8px;
+    border: 1px solid var(--mr-robot-red);
+    box-shadow: 0 0 15px rgba(255, 0, 60, 0.2);
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff5f56;
+    box-shadow: 18px 0 0 #ffbd2e, 36px 0 0 #27c93f;
+    z-index: 10;
 }
 
 header h1 {
@@ -120,17 +139,21 @@ header nav ul li a:focus {
 
 .section h2 {
     font-family: var(--font-mono);
-    color: white;
+    color: var(--neon-cyan);
     margin-bottom: 15px;
-    background-color: var(--blue);
+    background-color: #0d0d0d;
+    border: 1px solid var(--neon-cyan);
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
 }
 
 .card {
-    background: #f5f5f5;
+    background: #080808;
+    color: #dedede;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #222;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Images : jamais plus larges que l'écran */
@@ -700,4 +723,283 @@ a:hover {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/* ==========================================================================
+   Animations et Effets Terminal CRT
+   ========================================================================== */
+
+/* Scanlines CRT */
+body::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.22) 50%), linear-gradient(90deg, rgba(0, 255, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 255, 0, 0.02));
+    z-index: 99999;
+    background-size: 100% 4px, 6px 100%;
+    pointer-events: none;
+}
+
+/* Effet de lueur et vignette verte de terminal */
+body::after {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 0 80px rgba(0, 255, 0, 0.08) inset;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 70%, rgba(0, 48, 0, 0.15) 100%);
+    z-index: 100000;
+    pointer-events: none;
+}
+
+/* Curseur clignotant de terminal */
+.terminal::after,
+h1::after,
+h2::after {
+    content: " ▋";
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    animation: terminal-blink 1s step-end infinite;
+    color: var(--neon-green);
+    text-shadow: 0 0 8px var(--neon-green);
+}
+
+/* Désactive l'affichage du carets pour les boutons qui utilisent h1/h2 à l'intérieur */
+.retro-btn::after {
+    display: none !important;
+}
+
+@keyframes terminal-blink {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Indicateur de commande sur les liens de menu au survol */
+header nav ul li a::before {
+    content: "$ ";
+    color: var(--yellow);
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+    margin-right: 4px;
+}
+
+header nav ul li a:hover::before,
+header nav ul li a:focus::before {
+    opacity: 1;
+}
+
+/* Effets et Animations de type Mr. Robot / Cyberpunk */
+.glitch-text {
+    position: relative;
+    color: #fff;
+    text-shadow: 0 0 5px var(--mr-robot-red), 0 0 10px var(--mr-robot-red);
+}
+
+.glitch-text::before,
+.glitch-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg);
+}
+
+.glitch-text::before {
+    left: 2px;
+    text-shadow: -1px 0 #ff00c1;
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch-text::after {
+    left: -2px;
+    text-shadow: -1px 0 #00fff9, 0 1px #00fff9;
+    clip: rect(85px, 450px, 140px, 0);
+    animation: glitch-anim-2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+    0% {
+        clip: rect(15px, 9999px, 66px, 0);
+    }
+
+    10% {
+        clip: rect(34px, 9999px, 55px, 0);
+    }
+
+    20% {
+        clip: rect(87px, 9999px, 11px, 0);
+    }
+
+    30% {
+        clip: rect(23px, 9999px, 78px, 0);
+    }
+
+    40% {
+        clip: rect(40px, 9999px, 64px, 0);
+    }
+
+    50% {
+        clip: rect(54px, 9999px, 20px, 0);
+    }
+
+    60% {
+        clip: rect(98px, 9999px, 12px, 0);
+    }
+
+    70% {
+        clip: rect(10px, 9999px, 34px, 0);
+    }
+
+    80% {
+        clip: rect(76px, 9999px, 98px, 0);
+    }
+
+    90% {
+        clip: rect(3px, 9999px, 45px, 0);
+    }
+
+    100% {
+        clip: rect(23px, 9999px, 67px, 0);
+    }
+}
+
+@keyframes glitch-anim-2 {
+    0% {
+        clip: rect(76px, 9999px, 116px, 0);
+    }
+
+    11% {
+        clip: rect(45px, 9999px, 67px, 0);
+    }
+
+    22% {
+        clip: rect(2px, 9999px, 30px, 0);
+    }
+
+    33% {
+        clip: rect(88px, 9999px, 110px, 0);
+    }
+
+    44% {
+        clip: rect(12px, 9999px, 54px, 0);
+    }
+
+    55% {
+        clip: rect(99px, 9999px, 130px, 0);
+    }
+
+    66% {
+        clip: rect(34px, 9999px, 78px, 0);
+    }
+
+    77% {
+        clip: rect(60px, 9999px, 80px, 0);
+    }
+
+    88% {
+        clip: rect(5px, 9999px, 40px, 0);
+    }
+
+    100% {
+        clip: rect(87px, 9999px, 120px, 0);
+    }
+}
+
+/* Animations de focus et de lueur plus attrayante */
+.retro-btn {
+    transition: all 0.2s ease-in-out;
+}
+
+.retro-btn:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 15px var(--neon-cyan);
+    background-color: rgba(0, 240, 255, 0.1);
+    transform: scale(1.02);
+}
+
+/* Terminal Interactif fsociety */
+.terminal-shell {
+    background-color: #050505;
+    border: 1px solid var(--mr-robot-red);
+    border-radius: 6px;
+    margin: 25px auto 0;
+    max-width: 900px;
+    box-shadow: 0 4px 20px rgba(255, 0, 60, 0.15);
+    font-family: var(--font-mono);
+    text-align: left;
+}
+
+.shell-header {
+    background-color: #0d0d0d;
+    padding: 8px 12px;
+    border-bottom: 1px solid #222;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+}
+
+.shell-title {
+    color: var(--mr-robot-red);
+}
+
+.shell-body {
+    padding: 15px;
+    height: 350px;
+    overflow-y: auto;
+    color: var(--green);
+    display: flex;
+    flex-direction: column;
+}
+
+.shell-output {
+    white-space: pre-wrap;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+    color: var(--neon-green);
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: clamp(0.85rem, 1.8vw, 1.15rem);
+    font-family: var(--font-mono);
+}
+
+.shell-input-line {
+    display: flex;
+    align-items: center;
+}
+
+.shell-prompt {
+    color: var(--yellow);
+    margin-right: 8px;
+    white-space: nowrap;
+    font-size: clamp(0.85rem, 1.8vw, 1.15rem);
+}
+
+#shell-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: var(--font-mono);
+    font-size: clamp(0.85rem, 1.8vw, 1.15rem);
+    flex-grow: 1;
+    caret-color: var(--neon-green);
 }
