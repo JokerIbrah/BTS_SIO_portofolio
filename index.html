@@ -27,6 +27,7 @@
   <meta name="twitter:card" content="summary">
 
   <link rel="stylesheet" href="style.css">
+  <script src="terminal-themes.js" defer></script>
   <!-- Import de la police rétro -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -181,25 +182,26 @@
       language JavaScript.</p>
     </section>
 
-    <!-- Terminal Interactif Hacking -->
+    <!-- Terminal de Simulation et de Navigation -->
     <section class="section">
-      <h2>Terminal Interactif fsociety</h2>
-      <p>Prenez le contrôle. Entrez des commandes dans la console fsociety ci-dessous (ex: <code>help</code>,
-        <code>whoami</code>, <code>skills</code>, <code>decrypt</code>, <code>matrix</code>) pour explorer mes dossiers
-        confidentiels.</p>
+      <h2>Console Interactive de Diagnostic Réseau</h2>
+      <p>Entrez des commandes dans la console ci-dessous (ex: <code>help</code>,
+        <code>whoami</code>, <code>skills</code>, <code>decrypt</code>, <code>matrix</code>, <code>cd skills</code>)
+        pour voyager à travers le site ou simuler un décryptage réseau.
+      </p>
 
       <div class="terminal-shell" id="terminal-shell">
         <div class="shell-header">
-          <span class="shell-title">fsociety@shell:~#</span>
+          <span class="shell-title">visiteur@klein-portfolio:~#</span>
         </div>
         <div class="shell-body" id="shell-body">
-          <pre class="shell-output">Bienvenue dans la console interactive fsociety.
+          <pre class="shell-output">Bienvenue dans la console de diagnostic du portfolio de Vincent Klein.
 Tapez "help" pour voir la liste des commandes disponibles.
-Initialisation du protocole de communication... OK.
+Initialisation du système... OK.
 
-fsociety@klein:~$ </pre>
+visiteur@klein-portfolio:~$ </pre>
           <div class="shell-input-line">
-            <span class="shell-prompt">fsociety@klein:~$</span>
+            <span class="shell-prompt">visiteur@klein-portfolio:~$</span>
             <input type="text" id="shell-input" autocomplete="off" placeholder="entrez une commande...">
           </div>
         </div>
@@ -212,10 +214,10 @@ fsociety@klein:~$ </pre>
           const shellOutput = document.querySelector('.shell-output');
 
           const commands = {
-            help: "Commandes disponibles :\n  help      - Affiche cette aide\n  whoami    - Détails sur le profil de Vincent Klein\n  skills    - Liste des compétences techniques\n  decrypt   - Simuler une attaque de décryptage fsociety\n  matrix    - Lancer la pluie de code numérique Matrix\n  clear     - Effacer l'historique du terminal\n  contact   - Afficher les canaux de contact sécurisés",
-            whoami: "IDENTITÉ COMPAGNON :\n- Nom : Vincent Klein\n- Age : 28 ans\n- Rôle : Étudiant en reconversion, BTS SIO Option SISR\n- Cible : Spécialisation en administration systèmes et Cybersécurité\n- Origine : Ancien technicien industriel reconverti par passion (inspiré par Elliot Alderson).",
-            skills: "DOSSIER COMPÉTENCES TECHNIQUES :\n- Réseaux : Cisco, DHCP Snooping, VLANs, Routage IPv6 (OSPF, RIP)\n- Systèmes : Linux (Debian, Ubuntu, Arch), Windows Server, AD GPO\n- Sécurité & Supervision : Tailscale, VPN WireGuard, Proxy Squid, OPNsense, Zabbix\n- Outillage : Scripting BASH et automatisation de sauvegardes.",
-            contact: "CANAUX SÉCURISÉS :\n- GitHub : https://github.com/JokerIbrah\n- Email : Cliquez sur le bouton de messagerie sécurisée sur la page Contact.",
+            help: "Commandes disponibles :\n  help          - Affiche cette aide\n  whoami        - Informations sur Vincent Klein\n  skills        - Liste des compétences\n  decrypt       - Simulation d'un protocole de déchiffrement\n  matrix        - Lancement du défilement de flux réseau Matrix\n  cd [destination] - Permet de naviguer vers une page (ex: cd skills, cd cv, cd projets, cd contact, cd doc)\n  clear         - Nettoyer l'historique du terminal\n  contact       - Obtenir les informations de contact sécurisées",
+            whoami: "PROFIL PROFESSIONNEL :\n- Nom : Vincent Klein\n- Age : 28 ans\n- Rôle : Étudiant en reconversion, BTS SIO Option SISR\n- Cible : Spécialisation en administration systèmes, réseaux et Cybersécurité\n- Origine : Reconversion professionnelle depuis l'industrie.",
+            skills: "DOSSIER COMPÉTENCES TECHNIQUES :\n- Réseaux : Cisco CLI, DHCP Snooping, VLANs, Routage IPv6 (OSPF, RIP)\n- Systèmes : Linux (Debian, Ubuntu, Arch), Windows Server, AD GPO\n- Sécurité & Supervision : Tailscale, VPN WireGuard, Proxy Squid, OPNsense, Zabbix\n- Automatisation : Scripting BASH et sauvegardes système.",
+            contact: "CANAUX DE CONTACT :\n- GitHub : https://github.com/JokerIbrah\n- Email : Voir formulaire officiel sur la page Contact.",
             clear: "clear"
           };
 
@@ -229,17 +231,49 @@ fsociety@klein:~$ </pre>
               // Append command typed
               shellOutput.textContent += inputVal + '\n';
 
-              const cmd = inputVal.toLowerCase();
+              const args = inputVal.trim().split(/\s+/);
+              const cmd = args[0].toLowerCase();
+              const target = args[1] ? args[1].toLowerCase() : '';
+
               if (cmd === 'clear') {
-                shellOutput.textContent = 'Console effacée. Tapez "help" pour voir les commandes.\n\nfsociety@klein:~$ ';
+                shellOutput.textContent = 'Console effacée. Tapez "help" pour voir les commandes.\n\nvisiteur@klein-portfolio:~$ ';
               } else if (cmd === 'decrypt') {
                 simulateDecryption();
               } else if (cmd === 'matrix') {
                 startMatrixRain();
+              } else if (cmd === 'cd' || cmd === 'goto') {
+                if (!target) {
+                  shellOutput.textContent += 'Erreur : Spécifiez une destination (ex: cd skills, cd cv, cd projets).\n\nvisiteur@klein-portfolio:~$ ';
+                } else {
+                  const routes = {
+                    about: 'index.html',
+                    apropos: 'index.html',
+                    index: 'index.html',
+                    competences: 'skills.html',
+                    skills: 'skills.html',
+                    parcours: 'CV.html',
+                    cv: 'CV.html',
+                    projets: 'project.html',
+                    projects: 'project.html',
+                    veille: 'veille.html',
+                    contact: 'contact.html',
+                    doc: 'documentationpersonnelle.html',
+                    documentation: 'documentationpersonnelle.html'
+                  };
+                  const route = routes[target];
+                  if (route) {
+                    shellOutput.textContent += `Redirection en cours vers la page "${target}"...\n`;
+                    setTimeout(() => {
+                      window.location.href = route;
+                    }, 1000);
+                  } else {
+                    shellOutput.textContent += `Erreur : Destination "${target}" introuvable.\nPages disponibles : skills, cv, projets, veille, contact, doc.\n\nvisiteur@klein-portfolio:~$ `;
+                  }
+                }
               } else if (commands[cmd]) {
-                shellOutput.textContent += commands[cmd] + '\n\nfsociety@klein:~$ ';
+                shellOutput.textContent += commands[cmd] + '\n\nvisiteur@klein-portfolio:~$ ';
               } else {
-                shellOutput.textContent += `Erreur: Commande "${inputVal}" inconnue. Tapez "help" pour de l'aide.\n\nfsociety@klein:~$ `;
+                shellOutput.textContent += `Erreur: Commande "${inputVal}" inconnue. Tapez "help" pour de l'aide.\n\nvisiteur@klein-portfolio:~$ `;
               }
 
               // Scroll to bottom
@@ -251,7 +285,7 @@ fsociety@klein:~$ </pre>
             let lines = 0;
             const maxLines = 12;
             shellInput.disabled = true;
-            shellOutput.textContent += '[INITIALISATION DU DÉCRYPTAGE FSOCIETY...]\n';
+            shellOutput.textContent += '[INITIALISATION DU PROTOCOLE DE DÉCRYPTAGE COMPATIBLE...]\n';
 
             const interval = setInterval(() => {
               let randomHex = "";
@@ -264,13 +298,13 @@ fsociety@klein:~$ </pre>
 
               if (lines >= maxLines) {
                 clearInterval(interval);
-                shellOutput.textContent += '\n>>> VERROU BRISÉ - DECRYPTION COMPLÈTE <<<\n\n';
-                shellOutput.textContent += 'MESSAGE : "Le monde est contrôlé par un groupe de personnes secrètes qui jouent à Dieu sans permission. Nous allons les libérer."\n\nfsociety@klein:~$ ';
+                shellOutput.textContent += '\n>>> DÉCHIFFREMENT ACCOMPLI <<<\n\n';
+                shellOutput.textContent += 'MESSAGE : "HELLO WORLD - DOSSIER SYSTÈME INITIALISÉ EN TOUTE SÉCURITÉ"\n\nvisiteur@klein-portfolio:~$ ';
                 shellInput.disabled = false;
                 shellInput.focus();
                 shellBody.scrollTop = shellBody.scrollHeight;
               }
-            }, 150);
+            }, 100);
           }
 
           function startMatrixRain() {
@@ -288,7 +322,7 @@ fsociety@klein:~$ </pre>
             let width = (canvas.width = window.innerWidth);
             let height = (canvas.height = window.innerHeight);
 
-            const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZFSOCIETYMRROBOT";
+            const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const alphabet = chars.split("");
 
             const fontSize = 16;
@@ -323,7 +357,7 @@ fsociety@klein:~$ </pre>
                 requestAnimationFrame(draw);
               } else {
                 canvas.remove();
-                shellOutput.textContent += 'Flux Matrix déconnecté. Session rétablie.\n\nfsociety@klein:~$ ';
+                shellOutput.textContent += 'Flux Matrix déconnecté. Session rétablie.\n\nvisiteur@klein-portfolio:~$ ';
                 shellBody.scrollTop = shellBody.scrollHeight;
               }
             };
@@ -331,7 +365,7 @@ fsociety@klein:~$ </pre>
             canvas.addEventListener('click', () => {
               frames = 999;
               canvas.remove();
-              shellOutput.textContent += 'Flux Matrix interrompu.\n\nfsociety@klein:~$ ';
+              shellOutput.textContent += 'Flux Matrix interrompu.\n\nvisiteur@klein-portfolio:~$ ';
               shellBody.scrollTop = shellBody.scrollHeight;
             });
 

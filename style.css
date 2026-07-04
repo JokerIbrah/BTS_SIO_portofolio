@@ -23,6 +23,51 @@
     --font-pixel: 'Press Start 2P', monospace;
 }
 
+/* CRT Color Themes */
+html[data-theme="green"] {
+    --bg: #000;
+    --panel: #0d0d0d;
+    --green: #39FF14;
+    --neon-green: #39FF14;
+    --neon-cyan: #00f0ff;
+    --yellow: #FFFF33;
+    --blue: #00f0ff;
+    --mr-robot-red: #ff003c;
+}
+
+html[data-theme="amber"] {
+    --bg: #000;
+    --panel: #0c0800;
+    --green: #ffb000;
+    --neon-green: #ffb000;
+    --neon-cyan: #ffb000;
+    --yellow: #ffd700;
+    --blue: #ffb000;
+    --mr-robot-red: #ff3300;
+}
+
+html[data-theme="cyan"] {
+    --bg: #000;
+    --panel: #000b10;
+    --green: #00e5ff;
+    --neon-green: #00e5ff;
+    --neon-cyan: #00e5ff;
+    --yellow: #ffff00;
+    --blue: #00e5ff;
+    --mr-robot-red: #ff007f;
+}
+
+html[data-theme="red"] {
+    --bg: #000;
+    --panel: #100000;
+    --green: #ff003c;
+    --neon-green: #ff003c;
+    --neon-cyan: #ff003c;
+    --yellow: #ffeb3b;
+    --blue: #ff003c;
+    --mr-robot-red: #ff003c;
+}
+
 /* Reset basique */
 * {
     margin: 0;
@@ -1002,4 +1047,67 @@ header nav ul li a:focus::before {
     font-size: clamp(0.85rem, 1.8vw, 1.15rem);
     flex-grow: 1;
     caret-color: var(--neon-green);
+}
+
+/* Floating CRT Theme Selector Widget */
+.crt-theme-selector {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0b0b0b;
+    border: 1px solid var(--green);
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.15);
+    padding: 8px 12px;
+    border-radius: 5px;
+    z-index: 100001;
+    font-family: var(--font-mono);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+}
+
+.crt-theme-selector .theme-title {
+    color: var(--green);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.crt-theme-selector .theme-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.crt-theme-selector .theme-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+}
+
+.crt-theme-selector .theme-dot:hover {
+    transform: scale(1.3);
+}
+
+.crt-theme-selector .theme-dot.active {
+    outline: 2px solid var(--green);
+    outline-offset: 1px;
+}
+
+.crt-theme-selector .dot-green {
+    background-color: #39FF14;
+}
+
+.crt-theme-selector .dot-amber {
+    background-color: #ffb000;
+}
+
+.crt-theme-selector .dot-cyan {
+    background-color: #00ffff;
+}
+
+.crt-theme-selector .dot-red {
+    background-color: #ff003c;
 }
