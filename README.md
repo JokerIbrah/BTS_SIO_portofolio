@@ -2,7 +2,7 @@
 
 Portfolio réalisé dans le cadre du BTS SIO option SISR (examens E5/E6), codé à la main en HTML, CSS et JavaScript, avec un style rétro terminal.
 
-🌐 **Site en ligne** : [https://jokeribrah.github.io/BTS_SIO_portofolio/](https://jokeribrah.github.io/BTS_SIO_portofolio/)
+**Site en ligne** : [https://jokeribrah.github.io/BTS_SIO_portofolio/](https://jokeribrah.github.io/BTS_SIO_portofolio/)
 
 ## Contenu
 
