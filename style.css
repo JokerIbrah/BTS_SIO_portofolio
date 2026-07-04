@@ -1,63 +1,128 @@
+/* ==========================================================================
+   Portfolio BTS SIO SISR — KLEIN Vincent
+   Style rétro terminal (fond noir, vert néon, polices monospace)
+   Version responsive : typographie fluide avec clamp() et largeurs adaptatives
+   ========================================================================== */
+
+/* Variables du thème rétro */
+:root {
+    --bg: #000;
+    --panel: #111;
+    --green: #0f0;
+    --neon-green: #39FF14;
+    --apple-green: #7FFF00;
+    --neon-cyan: #00FFFF;
+    --neon-mint: #00FF66;
+    --yellow: #FFFF33;
+    --violet: violet;
+    --blue: blue;
+    --font-mono: "Fira Code", "Consolas", "Courier New", monospace;
+    --font-pixel: 'Press Start 2P', monospace;
+}
+
 /* Reset basique */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-mono);
 }
 
-/* Header */
-header {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: blue;
-    color: white;
-    padding: 20px 0;
+html {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
     text-align: center;
+    /* Taille de texte fluide : s'adapte du mobile au grand écran */
+    font-size: clamp(15px, 1vw + 12px, 18px);
+}
+
+/* body : bloc fluide, le texte revient à la ligne normalement */
+body {
+    background-color: var(--bg);
+    color: var(--neon-green);
+    font-family: var(--font-mono);
+    text-align: center;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: clamp(10px, 3vw, 40px);
+    line-height: 1.6;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ==========================================================================
+   Header et navigation
+   ========================================================================== */
+
+header {
+    font-family: var(--font-mono);
+    background-color: var(--blue);
+    color: white;
+    padding: clamp(10px, 2vw, 20px) 0;
+    text-align: center;
+    border-radius: 8px;
 }
 
 header h1 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    font-family: var(--font-mono);
     margin-bottom: 10px;
-    font-size: 10rem;
+    font-size: clamp(1.6rem, 5vw, 3.5rem);
 }
 
 header nav ul {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    font-size: 25px;
+    font-family: var(--font-mono);
+    font-size: clamp(0.95rem, 2vw, 1.4rem);
     list-style: none;
-    margin-top: 10px;
-    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(6px, 1.5vw, 20px);
+    margin: 10px auto 0;
+    padding: 0 10px;
 }
 
 header nav ul li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    display: inline;
-    margin: 0 15px;
+    font-family: var(--font-mono);
+    display: inline-block;
+    margin: 0;
 }
 
-header nav ul li a {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited {
+    font-family: var(--font-mono);
     color: yellow;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    padding: 6px 10px;
+    /* Zone de clic confortable sur écran tactile */
+    min-height: 44px;
+    line-height: 1.4;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover,
+header nav ul li a:focus {
     text-decoration: underline;
 }
 
-/* Sections */
+/* ==========================================================================
+   Sections et contenus
+   ========================================================================== */
+
 .section {
-    padding: 40px 20px;
+    padding: clamp(20px, 4vw, 40px) clamp(10px, 3vw, 20px);
     max-width: 900px;
     margin: auto;
 }
 
 .section h2 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    font-family: var(--font-mono);
     color: white;
     margin-bottom: 15px;
-    background-color: blue;
+    background-color: var(--blue);
 }
 
 .card {
@@ -68,92 +133,112 @@ header nav ul li a:hover {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-ul {
-    padding-left: 20px;
-}
-
-/* Footer */
-footer {
-    background: #333;
-    color: violet;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 30px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    header nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
-
-/*img */
+/* Images : jamais plus larges que l'écran */
 img {
-    max-width: 50%;
+    max-width: min(90%, 500px);
     height: auto;
     border-radius: 8px;
     margin-top: 15px;
 }
 
-/* body */
-body {
-    display: inline-block;
-    background-color: black;
+/* ==========================================================================
+   Typographie type terminal (texte vert sur fond sombre)
+   ========================================================================== */
+
+p {
+    font-family: var(--font-mono);
+    background-color: var(--panel);
+    color: var(--green);
+    padding: clamp(10px, 2vw, 15px);
+    border-radius: 8px;
+    font-size: clamp(1rem, 1.5vw + 0.5rem, 1.375rem);
     text-align: center;
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    white-space: nowrap;
-    color: lime;
-    width: 100%;
-    overflow-x: auto;
-    box-sizing: border-box;
-    max-width: 100vw;
-    margin: 0px;
-    padding: 40px;
-    text-align: center;
-    text-size: 20px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin: 16px auto;
+    display: block;
+    max-width: 100%;
+    line-height: 1.7;
 }
 
-
-/* Pour rendre plus lisible la page 
-    choix1 background-image: url("https://www.google.fr/url?sa=i&url=https%3A%2F%2Fwww.etsy.com%2Fmarket%2Fmr_robot_fan_art&psig=AOvVaw1pKMJsszLvXLIo9hTc_wvz&ust=1759404729421000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqGAoTCICApMvzgpADFQAAAAAdAAAAABCVAQ");
-choix 2 choisir une couleur de background (blanc, jaune, black)
-choix 3 faire une animation comme si une lumière blanche nous chercher
-body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(-45deg, #39FF14, #F8F8FF, #39FF14, black);
-    background-size: 400% 400%;
-    animation: neonMove 10s ease infinite;
-    color: white;
-    font-family: "Fira Code", monospace;
-}
-*/
-
-/*Pour être sûr que rien ne dépasse*/
-html {
-    width: 100%;
-    max-width: 100vw;
-    overflow-x: auto;
-    margin: 0;
-    padding: 0;
+h1 {
+    font-family: var(--font-mono);
     text-align: center;
-
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
+h2 {
+    font-family: var(--font-mono);
+    text-align: center;
+    font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+    color: var(--yellow);
+}
 
-/* Sous menu documentation personnelle */
+h3 {
+    color: #FF1493;
+    font-family: var(--font-mono);
+    text-align: center;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h4,
+h5,
+h6 {
+    font-family: var(--font-mono);
+    text-align: center;
+    font-size: clamp(1.1rem, 2.5vw, 1.8rem);
+    white-space: normal;
+    word-wrap: break-word;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Titres sur fond sombre façon terminal */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    background-color: var(--panel);
+    color: var(--green);
+    padding: clamp(10px, 2vw, 15px);
+    margin: 16px auto;
+}
+
+/* ==========================================================================
+   Sous-menu documentation personnelle
+   ========================================================================== */
 
 .navigation {
     margin: 20px 0;
     padding: 15px;
-    background-color: black;
+    background-color: var(--bg);
     border-radius: 10px;
 }
 
 .navigation h2 {
-    font-size: 24px;
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
     margin-bottom: 10px;
 }
 
@@ -167,7 +252,7 @@ html {
 }
 
 .navigation a {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    font-family: var(--font-mono);
     text-decoration: none;
     color: lime;
     font-weight: bold;
@@ -178,27 +263,31 @@ html {
     text-decoration: underline;
 }
 
-/* carré compétences */
+/* ==========================================================================
+   Carrés de niveau de compétences
+   ========================================================================== */
+
 .skills-list {
     list-style: none;
     padding: 0;
 }
 
 .skills-list li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    ;
+    font-family: var(--font-mono);
     margin: 10px 0;
-    font-size: 32px;
+    font-size: clamp(1rem, 2.5vw, 1.6rem);
 }
 
 .level {
     margin-left: 15px;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .level span {
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: clamp(10px, 2vw, 15px);
+    height: clamp(10px, 2vw, 15px);
     margin-right: 4px;
     border: 2px solid lime;
     border-radius: 3px;
@@ -206,230 +295,96 @@ html {
 
 .level .filled {
     background-color: yellow;
-    /* couleur du carré rempli */
 }
 
 .level .empty {
     background-color: white;
-    /* vide */
 }
 
-/* Environnement de terminal */
-p {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 12px;
-    text-align: center;
-    white-space: normal;
-    /* permet le retour à la ligne */
-    word-wrap: break-word;
-    /* casse les mots longs si besoin */
-    margin: 16px 0;
-    display: block;
-    max-width: 100%;
-}
-
-h1 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    text-align: center;
-    font-size: 40px;
-    white-space: normal;
-    word-wrap: break-word;
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: 8px;
-
-
-
-}
-
-h3 {
-    color: #FF1493;
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    text-align: center;
-    font-size: 32px;
-    white-space: normal;
-    word-wrap: break-word;
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-
-
-
-
-h2 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    text-align: center;
-    font-size: 34px;
-    white-space: normal;
-    word-wrap: break-word;
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: 8px;
-    color: #FFFF33;
-
-
-
-}
-
-
-h4 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    text-align: center;
-    font-size: 32px;
-    white-space: normal;
-    word-wrap: break-word;
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: 8px;
-
-
-
-}
-
-
-h5,
-h6 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    text-align: center;
-    font-size: 38px;
-    white-space: normal;
-    word-wrap: break-word;
-    margin: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: 8px;
-
-
-
-}
-
-
+/* ==========================================================================
+   Environnement de terminal
+   ========================================================================== */
 
 .skills-list,
 .terminal {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
+    font-family: var(--font-mono);
+    background-color: var(--panel);
+    color: var(--green);
+    padding: clamp(10px, 2vw, 15px);
     border-radius: 8px;
-    font-size: 32px;
+    font-size: clamp(1rem, 2.5vw, 1.6rem);
     text-align: center;
     white-space: normal;
-    /* permet le retour à la ligne */
     word-wrap: break-word;
-    /* casse les mots longs si besoin */
     margin: 16px 0;
     display: block;
     max-width: 100%;
 }
 
-
-/*Style page CV.html*/
+/* Style page CV.html */
 .social-links {
-
     background-color: lime;
 }
 
-/*Style page veille.html*/
+/* ==========================================================================
+   Page veille.html
+   ========================================================================== */
+
 .veille {
-    background-color: black;
+    background-color: var(--bg);
     color: lime;
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    font-family: var(--font-mono);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
 .veille p {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
+    font-family: var(--font-mono);
+    background-color: var(--panel);
+    color: var(--green);
     padding: 15px;
     border-radius: 8px;
-    font-size: 28px;
     text-align: center;
     white-space: normal;
-    /* permet le retour à la ligne */
     word-wrap: break-word;
-    /* casse les mots longs si besoin */
     margin: 16px 0;
     display: block;
     max-width: 100%;
-    font-size: 22px;
-}
-
-.veille h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 28px;
-    text-align: center;
-    white-space: normal;
-    /* permet le retour à la ligne */
-    word-wrap: break-word;
-    /* casse les mots longs si besoin */
-    margin: 16px 0;
-    display: block;
-    max-width: 100%;
-    font-size: 45px;
+    font-size: clamp(1rem, 2vw, 1.375rem);
 }
 
 ul,
 li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
+    font-family: var(--font-mono);
     text-align: center;
-
 }
 
-
-
-/*Style page project.html*/
+/* ==========================================================================
+   Page project.html — barre de chargement
+   ========================================================================== */
 
 .loading-bar {
-    width: 500px;
+    width: min(500px, 90%);
     height: 25px;
-    border: 2px solid #0f0;
+    margin: 0 auto;
+    border: 2px solid var(--green);
     border-radius: 5px;
     overflow: hidden;
     background: rgba(0, 255, 0, 0.1);
-    box-shadow: 0 0 15px #0f0;
+    box-shadow: 0 0 15px var(--green);
 }
 
 .progress {
     height: 100%;
     width: 0%;
     background: linear-gradient(90deg, #0f0, #0a0);
-    box-shadow: 0 0 20px #0f0;
+    box-shadow: 0 0 20px var(--green);
     transition: width 0.2s ease-in-out;
 }
 
 .glitch {
-    font-size: 40px;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     margin-top: 20px;
     text-shadow: 0 0 5px #0f0, 0 0 15px #0f0, 0 0 25px #0f0;
     animation: flicker 1.2s infinite;
@@ -455,133 +410,116 @@ li {
     }
 }
 
-/*Style certification diplôme.html*/
+/* Style certification diplôme.html */
 .certification,
 .diplome {
-    background-color: black;
+    background-color: var(--bg);
     color: lime;
 }
 
-li {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-}
+/* ==========================================================================
+   Bouton rétro arcade
+   ========================================================================== */
 
-
-
-
-
-
-
-/*Attention à ne pas supprimer le code au dessus de cette ligne*/
-
-/*Style bouton rétro arcade*/
 .retro-btn {
     display: inline-block;
     background-color: #000;
-    /* Fond noir */
-    color: #7FFF00;
-    /* Vert pomme */
-    border: 2px solid #7FFF00;
-    /* Contour vert lumineux */
-    font-family: 'Press Start 2P', monospace;
-    /* Police rétro pixel */
+    color: var(--apple-green);
+    border: 2px solid var(--apple-green);
+    font-family: var(--font-pixel);
     padding: 12px 24px;
+    font-size: clamp(0.7rem, 1.5vw, 1rem);
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
-    text-shadow: 0 0 5px #7FFF00;
-    box-shadow: 0 0 8px #7FFF00 inset, 0 0 8px #7FFF00;
+    text-shadow: 0 0 5px var(--apple-green);
+    box-shadow: 0 0 8px var(--apple-green) inset, 0 0 8px var(--apple-green);
     transition: all 0.3s ease;
     border-radius: 30px;
-    /* Légèrement arrondi, optionnel */
-    white-space: nowrap;
+    white-space: normal;
     line-height: 1.5;
-    /* plus d’espace vertical */
     text-align: center;
     text-decoration: none;
+    max-width: 100%;
 }
 
 .retro-btn:hover {
     color: #000;
-    /* Texte noir */
-    color: #000;
-    /* Texte noir au survol */
-    background-color: #7FFF00;
-    /* Inversion des couleurs */
+    background-color: var(--apple-green);
     text-shadow: 0 0 8px #000;
     box-shadow:
-        0 0 10px #7FFF00,
-        0 0 20px #00FF66,
-        0 0 40px #00FF66,
-        0 0 80px #00FF66;
-    /* Effet néon intense */
+        0 0 10px var(--apple-green),
+        0 0 20px var(--neon-mint),
+        0 0 40px var(--neon-mint),
+        0 0 80px var(--neon-mint);
     transform: scale(1.05);
-    /* Léger zoom au survol */
+    animation: neon-blink 0.8s infinite alternate;
 }
 
 .retro-btn:active {
     transform: scale(0.95);
-    /* Effet de pression */
-    box-shadow: 0 0 5px #7FFF00 inset;
+    box-shadow: 0 0 5px var(--apple-green) inset;
 }
 
 @keyframes neon-blink {
 
     0%,
     100% {
-        box-shadow: 0 0 15px #7FFF00;
+        box-shadow: 0 0 15px var(--apple-green);
     }
 
     50% {
-        box-shadow: 0 0 30px #00FF66;
+        box-shadow: 0 0 30px var(--neon-mint);
     }
 }
 
-.retro-btn:hover {
-    animation: neon-blink 0.8s infinite alternate;
-}
+/* ==========================================================================
+   Listes à puces rétro
+   ========================================================================== */
 
-/* Fin style bouton rétro arcade */
-
-/* style pour les listes à puce */
 ul {
     list-style: none;
-    /* retire les puces classiques */
-    font-family: 'Press Start 2P', monospace;
-    color: #39FF14;
-    /* vert néon lisible sur fond noir */
-    padding: 20px;
+    font-family: var(--font-pixel);
+    color: var(--neon-green);
+    padding: clamp(10px, 2vw, 20px);
     margin: 0;
 }
 
 li {
     position: relative;
     padding-left: 30px;
-    /* espace pour la puce personnalisée */
     margin: 12px 0;
     line-height: 1.6;
-    text-shadow: 0 0 6px #39FF14;
+    text-shadow: 0 0 6px var(--neon-green);
     transition: all 0.2s ease;
+    font-family: var(--font-mono);
 }
 
-/* Puce rétro par défaut : carré vert clignotant */
+/* Puce rétro : carré vert clignotant */
 li::before {
     content: '▣';
     position: absolute;
     left: 0;
-    color: #00FF66;
-    text-shadow: 0 0 5px #00FF66, 0 0 10px #00FF66;
+    color: var(--neon-mint);
+    text-shadow: 0 0 5px var(--neon-mint), 0 0 10px var(--neon-mint);
     animation: blink 1.2s infinite alternate;
 }
 
-/* Survol : effet néon bleu clair */
+/* La navigation garde des liens sans puce animée */
+header nav ul li::before {
+    content: none;
+}
+
+header nav ul li {
+    padding-left: 0;
+}
+
 li:hover {
-    color: #00FFFF;
-    text-shadow: 0 0 8px #00FFFF, 0 0 16px #00FFFF;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 8px var(--neon-cyan), 0 0 16px var(--neon-cyan);
     transform: scale(1.02);
 }
 
-/* Animation de clignotement néon */
 @keyframes blink {
 
     0%,
@@ -594,149 +532,172 @@ li:hover {
     }
 }
 
-/* Fin style pour les listes à puce */
+/* Respecte les préférences d'accessibilité : coupe les animations */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* ==========================================================================
+   Blocs principaux .main et .footer
+   ========================================================================== */
 
 .main h1,
 .main h2,
 .main h3 {
-    background-color: black;
+    background-color: var(--bg);
     color: lime;
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    padding: 20px;
+    font-family: var(--font-mono);
+    padding: clamp(12px, 2.5vw, 20px);
     border-radius: 10px;
-    margin-top: 20px;
-    width: 70%;
-    margin-left: 15%;
+    margin: 20px auto 0;
+    width: min(100%, 800px);
     text-align: center;
-    font-size: 45px;
-}
-
-.footer {
-    background-color: black;
-    color: violet;
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-align: center;
-    width: 20%;
-    margin-left: 40%;
+    font-size: clamp(1.5rem, 4vw, 2.8rem);
 }
 
 .main p {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
+    font-family: var(--font-mono);
+    background-color: var(--panel);
+    color: var(--green);
     padding: 15px;
     border-radius: 8px;
-    font-size: 28px;
     text-align: center;
     white-space: normal;
-    /* permet le retour à la ligne */
     word-wrap: break-word;
-    /* casse les mots longs si besoin */
-    margin: 16px 0;
+    margin: 16px auto;
     display: block;
     max-width: 100%;
-    font-size: 22px;
+    font-size: clamp(1rem, 2vw, 1.375rem);
 }
 
-
-.footer p {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 22px;
+.footer {
+    background-color: var(--bg);
+    color: var(--violet);
+    font-family: var(--font-mono);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto 0;
     text-align: center;
-    white-space: normal;
-    /* permet le retour à la ligne */
-    word-wrap: break-word;
-    /* casse les mots longs si besoin */
-    margin: 16px 0;
-    display: block;
-    max-width: 100%;
+    width: min(100%, 600px);
 }
 
-.footer h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
+footer {
+    background: #333;
+    color: var(--violet);
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
     border-radius: 8px;
-    font-size: 45px;
+}
+
+.footer p,
+footer p {
+    font-family: var(--font-mono);
+    background-color: var(--panel);
+    color: var(--green);
+    padding: 12px;
+    border-radius: 8px;
+    font-size: clamp(0.85rem, 1.5vw, 1.1rem);
     text-align: center;
     white-space: normal;
-    /* permet le retour à la ligne */
     word-wrap: break-word;
-    /* casse les mots longs si besoin */
-    margin: 16px 0;
+    margin: 12px auto;
     display: block;
     max-width: 100%;
 }
 
-.footer p {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    background-color: #111;
-    /* fond noir */
-    color: #0f0;
-    /* texte vert fluo façon terminal */
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 22px;
-    text-align: center;
-    white-space: normal;
-    /* permet le retour à la ligne */
-    word-wrap: break-word;
-    /* casse les mots longs si besoin */
-    margin: 16px 0;
-    display: block;
-    max-width: 100%;
-    font-size: 22px;
+.footer a,
+footer a {
+    font-family: var(--font-mono);
+    color: var(--apple-green);
+    font-size: clamp(0.85rem, 1.5vw, 1.1rem);
 }
 
-.footer a {
-    font-family: "Fira Code", "Consolas", "Courier New", monospace;
-    color: #7FFF00;
-    /* Vert pomme */
-    font-size: 22px;
-}
+/* ==========================================================================
+   Liens
+   ========================================================================== */
 
 a:link,
 a:visited {
-    color: purple background-color: black;
-    padding: 10px;
+    color: var(--apple-green);
+    background-color: transparent;
+    padding: 4px;
     border-radius: 5px;
     text-decoration: none;
-    text align: center;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 a:hover {
     color: red;
-    background-color: black;
-    padding: 10px;
-    border-radius: 5px;
+    background-color: var(--bg);
     text-decoration: none;
-    text align: center;
 }
 
-.footer a:link,
-.footer a:visited {
-    color: purple background-color: black;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    text align: center;
+/* ==========================================================================
+   Responsive : ajustements mobile / tablette
+   ========================================================================== */
+
+@media (max-width: 768px) {
+
+    /* Navigation empilée verticalement sur petit écran */
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 4px 0;
+        width: 100%;
+    }
+
+    header nav ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    /* Les listes ne débordent pas */
+    li {
+        padding-left: 24px;
+        text-align: left;
+    }
+
+    /* Les niveaux de compétences passent à la ligne proprement */
+    .level {
+        display: block;
+        margin: 6px 0 0;
+    }
+
+    .retro-btn {
+        padding: 10px 16px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    img {
+        max-width: 95%;
+    }
+}
+
+/* Confort de lecture sur très grand écran */
+@media (min-width: 1400px) {
+
+    .section,
+    .main {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

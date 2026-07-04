@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jokeribrah.github.io/BTS_SIO_portofolio/sitemap.xml
