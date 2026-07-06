@@ -9,7 +9,7 @@ Portfolio réalisé dans le cadre du BTS SIO option SISR (examens E5/E6), codé 
 - **À propos** : présentation et parcours de reconversion
 - **Compétences** : systèmes, réseaux, cybersécurité, scripting
 - **Parcours** : CV, certifications, présentation du BTS SIO et de l'école Mewo
-- **Documentation personnelle** : TP blocs 1 à 3, veille technologique, tableau de synthèse
+- **Documentation personnelle** : TP blocs 1 à 3, veille technologique
 - **Projets** et **Contact**
 
 ## Technique

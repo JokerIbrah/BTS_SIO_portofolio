@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- Référencement (SEO) -->
+    <title>TP BTS SIO : systèmes, réseaux et cybersécurité — Vincent Klein</title>
+    <meta name="description"
+        content="Tous les travaux pratiques du BTS SIO SISR de Vincent Klein : bloc 1 administration système (Linux, Active Directory, GLPI, RAID), bloc 2 administration réseaux (Cisco, IPv6, routage, scripts Bash), bloc 3 cybersécurité (pentest, proxy, sauvegarde).">
+    <meta name="author" content="Vincent Klein">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jokeribrah.github.io/BTS_SIO_portofolio/TP%20BTS%20SIO.html">
+    <link rel="icon" type="image/png" href="photopixelart.png">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Partage sur les réseaux sociaux (Open Graph / Twitter) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Portfolio de Vincent Klein — BTS SIO SISR">
+    <meta property="og:title" content="TP BTS SIO : systèmes, réseaux et cybersécurité — Vincent Klein">
+    <meta property="og:description"
+        content="Tous les travaux pratiques du BTS SIO SISR de Vincent Klein : administration système, administration réseaux et cybersécurité.">
+    <meta property="og:url" content="https://jokeribrah.github.io/BTS_SIO_portofolio/TP%20BTS%20SIO.html">
+    <meta property="og:image" content="https://jokeribrah.github.io/BTS_SIO_portofolio/photopixelart.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: white;
+        }
+
+        img {
+            width: clamp(80px, 15vw, 250px);
+            height: auto;
+        }
+
+        /* Titre de chaque bloc, un peu plus marqué que les thèmes */
+        .bloc-titre {
+            color: white;
+            border: 2px solid var(--green, #0f0);
+            box-shadow: 0 0 15px #0f0;
+            scroll-margin-top: 20px;
+        }
+    </style>
+    <!-- Import de la police rétro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Menu principal-->
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">A propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="CV.html">Parcours</a></li>
+                <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!--Sous-menu de la section documentation-->
+        <nav aria-label="Navigation documentation">
+            <ul>
+                <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+                <li><a href="TP BTS SIO.html">TP BTS SIO</a></li>
+                <li><a href="veille.html">Veille technologique</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+        <h1>TP BTS SIO</h1>
+        <p>Retrouvez ici tous mes travaux pratiques réalisés pendant le BTS SIO SISR, classés selon les trois blocs de
+            compétences du référentiel.</p>
+
+        <!--Sommaire : accès direct à chaque bloc-->
+        <nav aria-label="Sommaire des blocs">
+            <ul>
+                <li><a href="#bloc1">Bloc 1 — Administration système</a></li>
+                <li><a href="#bloc2">Bloc 2 — Administration réseaux</a></li>
+                <li><a href="#bloc3">Bloc 3 — Cybersécurité</a></li>
+            </ul>
+        </nav>
+
+        <!-- ============================================================
+             BLOC 1 : ADMINISTRATION SYSTEME
+             ============================================================ -->
+        <section id="bloc1">
+            <h2 class="bloc-titre">BLOC 1 — ADMINISTRATION SYSTÈME</h2>
+
+            <img src="logo vmware.png" alt="Logo VMware" class="vmware-logo">
+            <h3>Procédure pour créer une machine virtuelle</h3>
+            <p>Création d'une machine virtuelle à l'aide de VMware.
+                <a href="Procedure_pour_creer_une_machine_virtuelle_VM_sur_Workstation_en_16_étapes_et_16_pages_KLEIN_Vincent.pdf"
+                    target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <br>
+            <img src="logo linux.png" alt="Logo Linux" class="linux-logo">
+            <h3>Linux</h3>
+            <p>Ligne de commande shell pour gérer les utilisateurs.
+                <a href="Exercice_8_KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir
+                    le PDF</a>
+            </p>
+            <p>Droits Linux
+                <a href="Gestion_des_droits_Linux.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir
+                    le PDF</a>
+            </p>
+            <p>Installation d'un serveur Ubuntu
+                <a href="procedure_Ubuntu_sans_interface_graphique.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <br>
+
+            <img src="logo glpi.png" alt="Logo GLPI" class="glpi-logo">
+            <h3>GLPI</h3>
+            <p>Déploiement et configuration de GLPI
+                <a href="Deploiement_et_configuration_de_GLPI.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Ajout d'un utilisateur
+                <a href="KLEINVincent-Procedure_pour_ajouter_un_utilisateur.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création d'un ticket
+                <a href="KLEIN_Vincent_creation_de_ticket.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Gabarit de ticket
+                <a href="KLEIN_Vincent_categorie_et_gabarit_ticket_sur_glpi.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Faire un contrat
+                <a href="faire_des_contrats_sur_GLPI.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="logo ocs inventory.png" alt="Logo OCS Inventory" class="ocs-logo">
+            <h3>OCS Inventory</h3>
+            <p>Installation d'un agent OCS Inventory Windows/Linux
+                <a href="KLEIN_Vincent-agent_OCS_windows_umbuntu_lier_a_un_user_glpi.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <br>
+
+            <img src="raid.png" alt="Schéma d'un système RAID" class="raid">
+            <h3>RAID</h3>
+            <p>Le RAID (Redundant Array of Independent Disks) est une technologie qui permet de combiner plusieurs
+                disques durs en un seul volume logique pour améliorer la performance et la fiabilité.</p>
+            <p>Création sur Windows
+                <a href="KLEIN Vincent Mettre_des_disques_en_RAID_simulation_de_panne_sur_VM_Ware.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création sur Linux
+                <a href="KLEIN_VINCENT_réparation_de_panne_de_disque_sur_RAID.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <br>
+
+            <img src="logo windows server.png" alt="Logo Windows Server" class="windows-server-logo">
+            <h3>Active Directory</h3>
+            <p>Un Active Directory est un service d'annuaire Windows qui permet de gérer les identités et les
+                ressources d'un réseau local.</p>
+            <p>Création d'une Unité d'Organisation (OU)
+                <a href="KLEIN_Vincent_creation_d_UO_1.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création d'un user
+                <a href="KLEIN_Vincent-création_d_un_utilisateur_1.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création d'un dossier partagé et GPO lecteur réseaux
+                <a href="KLEIN_Vincent_procédure_création_d_un_dossier_partagé_(1).pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création GPO d'interdiction d'accès au panneau de configuration
+                <a href="KLEIN_Vincent_interdire_l_accès_au_panneau_de_configuration_1.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Créer des groupes de sécurité
+                <a href="KLEIN_Vincent_créer_un_groupe_de_sécurité_2.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création d'un utilisateur itinérant
+                <a href="KLEIN_Vincent_creation_d_utilisateur_itinerant _1.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création d'un utilisateur obligatoire
+                <a href="KLEIN_Vincent-creation_d_un_user_obligatoire_1.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Création d'une politique de mot de passe
+                <a href="KLEIN_Vincent-politique_de_mot_de_passe_1.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Mise en place d'un DNS
+                <a href="Mise_en_place_du_serveur_DNS_1.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Mise en place d'un serveur DHCP
+                <a href="DHCP_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="serveur-de-fichiers-samba-debian.jpg" alt="Principe de Samba expliqué sur cette image"
+                class="samba-img">
+            <h3>Samba</h3>
+            <p>Samba est un logiciel libre qui permet de partager des fichiers et des imprimantes entre machines sous
+                Linux et Windows.</p>
+            <p>Mise en place de Samba
+                <a href="Serveur_Samba_1.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir le
+                    PDF</a>
+            </p>
+        </section>
+
+        <!-- ============================================================
+             BLOC 2 : ADMINISTRATION RESEAUX
+             ============================================================ -->
+        <section id="bloc2">
+            <h2 class="bloc-titre">BLOC 2 — ADMINISTRATION RÉSEAUX</h2>
+
+            <h3>Zabbix</h3>
+            <p>Zabbix est une plateforme de supervision open source pour la surveillance des réseaux et des
+                applications. Elle permet de collecter des données en temps réel, de générer des alertes et de
+                visualiser les performances des systèmes.</p>
+            <p>Installation et configuration de Zabbix. Ajout d'agent Linux/Windows
+                <a href="Documentation_pour_Examens_ZABBIX_Rsylog.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="logo linux.png" alt="Logo Linux" class="linux-logo">
+            <h3>Linux</h3>
+            <p>Configuration d'IP statique sur une machine Debian
+                <a href="Configuration_d_IP_statique_sur_une_machine_Linux_Debian.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+
+            <h3>Script Bash sur un environnement Linux</h3>
+            <p>Un script Bash est un fichier texte contenant une série de commandes à exécuter par l'interpréteur de
+                commandes Bash. Il permet d'automatiser des tâches répétitives et de simplifier la gestion du
+                système.</p>
+            <p>Script d'automatisation des sauvegardes
+                <a href="créer_et_automatiser_un_script_de_sauvegarde_bash.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Script pour surveiller un service et alerter en cas de panne
+                <a href="creer_un_script_bash_pour_surveiller_un_service_et_alerter_en_cas_de_panne.pdf"
+                    target="_blank" rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="logo windows server.png" alt="Logo Windows Server" class="windows-server-logo">
+            <h3>Active Directory (Windows Server)</h3>
+            <p>Création en masse de comptes utilisateurs Active Directory
+                <a href="Création_en_masse_de_compte_utilisateurs_Active_Directory_sur_Win_Serv.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Sauvegarde centralisée avec UrBackup
+                <a href="Sauvegarde_centralise_avec_Urback_linux.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="cloud informatique.jpg" alt="Image de cloud informatique modélisant le principe"
+                class="cloud-img">
+            <h3>Cloud</h3>
+            <p>Bâtir son propre Cloud
+                <a href="Batir_son_propre_cloud_Privee.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="firewall.jpg" alt="Image en pixel art d'un firewall" class="firewall-img">
+            <h3>Firewall</h3>
+            <p>Un firewall est un dispositif de sécurité réseau qui surveille et contrôle le trafic réseau entrant et
+                sortant en fonction de règles de sécurité prédéfinies.</p>
+            <p>Mise en place d'un proxy filtrant transparent avec Squid sur une machine Linux
+                <a href="Mise_en_place_d_un_proxy_filtrant_transparent_avec_Squid.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+
+            <img src="Cisco-Packet-Tracer-Logo.png" alt="Logo Cisco Packet Tracer" class="cisco-logo">
+            <h3>Cisco Packet Tracer</h3>
+            <p>Cisco Packet Tracer est un simulateur de réseau développé par Cisco Systems. Il permet aux utilisateurs
+                de concevoir, configurer et simuler des réseaux informatiques virtuels.</p>
+            <p>Centralisation des logs avec Syslog et synchronisation du temps avec NTP
+                <a href="Centraliser_les_Journaux_avec_Syslog_et_synchroniser_le_temps_avec_NTP.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Contrôle d'accès centralisé avec un serveur RADIUS (AAA)
+                <a href="Controle_d'acces_centralise_avec_un_serveur_RADIUS _AAA.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Découverte et configuration de base d'IPv6
+                <a href="Decouverte_et_configuration_de_base_d_IPv6.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Le routage statique IPv6
+                <a href="Le_routage_statique_IPv6.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">voir
+                    le PDF</a>
+            </p>
+            <p>Adressage automatique IPv6 avec SLAAC et DHCPv6
+                <a href="Adressage_automatique_en_IPv6_SLAAC_et_DHCPv6.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a>
+            </p>
+            <p>Configuration Etherchannel sur un switch
+                <a href="TP_configuration_Etherchannel_sur_switch_Cisco.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">Voir le PDF</a>
+            </p>
+            <p>Etherchannel (LACP PAgP)
+                <a href="TP_Etherchannel_LACP_et_PAgP.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">Voir le PDF</a>
+            </p>
+            <p>IP DHCP Snooping
+                <a href="TP_IP_DHCP_Snooping.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le
+                    PDF</a>
+            </p>
+            <p>IPv6 SLAAC
+                <a href="TP_IPV6_SLAAC.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+            </p>
+            <p>IPv6 Stateful
+                <a href="TP_IPv6_Stateful.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le
+                    PDF</a>
+            </p>
+            <p>IPv6 Stateless
+                <a href="TP_IPv6_Stateless.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le
+                    PDF</a>
+            </p>
+            <p>Routage dynamique avec le protocole RIP (Routing Information Protocol)
+                <a href="TP_Routage_dynamique_avec_RIP_Routing_Information_Protocol_.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+            </p>
+            <p>Routage dynamique avec le protocole OSPF
+                <a href="TP_routage_dynamique_IPv4_OSPF.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">Voir le PDF</a>
+            </p>
+            <p>Squid
+                <a href="TP_Squid.pdf" target="_blank" rel="noopener noreferrer" class="retro-btn">Voir le PDF</a>
+            </p>
+        </section>
+
+        <!-- ============================================================
+             BLOC 3 : CYBERSECURITE
+             ============================================================ -->
+        <section id="bloc3">
+            <h2 class="bloc-titre">BLOC 3 — CYBERSÉCURITÉ</h2>
+
+            <img src="message caché.png" alt="Exemple de message caché dans une image" class="message-cache">
+            <h3>Stéganographie</h3>
+            <p>La stéganographie est une technique qui consiste à cacher des messages dans un fichier (photo,
+                audio).</p>
+            <p><a href="TP_1_steganographie-Mewo-SISR2-KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a></p>
+
+            <img src="systeme hack.png" alt="Illustration d'un système compromis" class="systeme-hack">
+            <h3>Intrusion dans un système Windows</h3>
+            <p>La méthode utilisée a été d'essayer de contourner les mots de passe Windows en utilisant une
+                vulnérabilité, afin de pouvoir se connecter sans même connaître le mot de passe.</p>
+            <p><a href="TP2-Mewo-SISR2-KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a></p>
+
+            <img src="banniere cookie.png" alt="Bannière de cookies" class="cookies">
+            <h3>Cookies</h3>
+            <p>Les cookies sont de petits fichiers stockés sur l'ordinateur de l'utilisateur par le navigateur web. Ils
+                sont utilisés pour mémoriser des informations sur l'utilisateur, comme ses préférences ou son état de
+                connexion.</p>
+            <p><a href="TP_3_MEWO_SISR2_KLEIN_Vincent_1.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a></p>
+
+            <img src="git logo.png" alt="Logo Git" class="git-logo">
+            <h3>Git</h3>
+            <p>Git est un système de contrôle de version distribué, utilisé pour suivre les modifications dans le code
+                source pendant le développement logiciel.</p>
+            <p><a href="TP_4_Klein_Vincent_SISR_2_git.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a></p>
+
+            <img src="opnsense.png" alt="Logo OPNsense" class="proxy">
+            <h3>Proxy</h3>
+            <p>Un proxy est un serveur qui agit comme intermédiaire entre un client et un serveur distant. Il peut être
+                utilisé pour filtrer le trafic réseau, améliorer la sécurité ou masquer l'identité de l'utilisateur. En
+                cours on a vu la mise en place d'un proxy OPNsense.</p>
+            <p><a href="procédure_pour_mettre_en_place_un_proxy_OPNsens_KLEIN_Vincent.pdf" target="_blank"
+                    rel="noopener noreferrer" class="retro-btn">voir le PDF</a></p>
+
+            <img src="Veeam.png" alt="Logo Veeam" class="veeam">
+            <h3>Veeam</h3>
+            <p>Veeam est un logiciel de sauvegarde et de récupération de données utilisé dans les environnements
+                informatiques pour protéger les systèmes d'information.</p>
+            <p><a href="TP_sur_Veeam_KLEIN_Vincent.pdf" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">voir le PDF</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <!--Mention légale-->
+        <p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
+        <p style="font-size: 22px;"><a href="Politique_de_confidentialité.html">Politique de confidentialité</a></p>
+        <p style="font-size: 22px;"><a href="mentions_legales.html">Mentions légales</a></p>
+    </footer>
+
+</body>
+
+</html>

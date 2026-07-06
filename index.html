@@ -68,8 +68,9 @@
     <div class="container">
       <h1 class="glitch-text" data-text="Portfolio de KLEIN Vincent">Portfolio de KLEIN Vincent</h1>
 
-      <p>Étudiant BTS SIO option SISR — Technicien informatique de niveau 2 — Intérêt pour la cybersécurité, l'univers
-        open-source, Linux et le shell</p>
+      <p>Jeune Diplômé BTS SIO option SISR — Technicien informatique de niveau 2 — Intérêt pour la cybersécurité, l'univers
+        open-source et le shell </p>
+        <p><bold>A LA RECHERCHE D'OPPORTUNITÉS PROFESSIONNELLES</bold></p>
     </div>
   </header>
   <main class="main">
@@ -129,7 +130,7 @@
 
     <script>
       const texte = [
-        "J'ai 28 ans. Je suis en reconversion professionnelle, étudiant en BTS SIO option SISR. Je souhaiterais me spécialiser dans la cybersécurité par la suite. Avant je travaillais dans le domaine de l'industrie.",
+        "J'ai 28 ans. Je suis en reconversion professionnelle, je viens d'avoir eu mon diplôme BTS SIO option SISR. Je souhaiterais me spécialiser dans la cybersécurité par la suite. Avant je travaillais dans le domaine de l'industrie.",
         "C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série 'Mr. Robot'. Après avoir terminé la série, j'ai commencé à apprendre le développement web par moi-même, en suivant des cours gratuits en anglais sur le HTML. Par la suite j'ai découvert le CSS, puis le JavaScript et le PHP. J'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées, nos idées! Dans un sens, ce site est conçu par 3 grandes technologies de languages (HTML, CSS, JavaScript). Vous pourriez dire qu'il est le fruit de mon apprentissage et aussi vous demandez pourquoi je n'ai pas mis de cookies? Très concrètement, je n'en vois pas l'utilité pour l'instant de créer une base de données SQL pour récupérer des données des utilisateurs. ",
         "À la suite de ma formation à l'école 42 Luxembourg, j'ai compris qu'il me fallait une formation plus encadrée pour approfondir mes connaissances et compétences.",
         "Après avoir découvert l'environnement Linux, je le préfère à l'environnement Windows, surtout l'interface graphique plasma KDE. La capacité de personnalisation de l'environnement est un véritable atout pour les personnes comme moi. Et qu'une chose aussi merveilleuse soit gratuite et open source, me rend encore plus accro.",
@@ -145,7 +146,7 @@
           if (cIndex < paragraphe.length) {
             document.getElementById("apropos").innerHTML += paragraphe.charAt(cIndex);
             cIndex++;
-            setTimeout(typeWriter, 10); // vitesse d’écriture
+            setTimeout(typeWriter, 15); // vitesse d’écriture
           } else {
             document.getElementById("apropos").innerHTML += "<br><br>";
             pIndex++;
@@ -169,7 +170,7 @@
       let angle = 0;
 
       function animate() {
-        angle += 0.05;
+        angle += 0.05;  // vitesse de l'animation
         const y = Math.sin(angle) * 15;  // amplitude
         img.style.transform = `translateY(${y}px)`;
         requestAnimationFrame(animate);
@@ -195,7 +196,7 @@
           <span class="shell-title">visiteur@klein-portfolio:~#</span>
         </div>
         <div class="shell-body" id="shell-body">
-          <pre class="shell-output">Bienvenue dans la console de diagnostic du portfolio de Vincent Klein.
+          <pre class="shell-output">Hello world! Bienvenue dans la console de diagnostic du portfolio de Vincent Klein.
 Tapez "help" pour voir la liste des commandes disponibles.
 Initialisation du système... OK.
 
