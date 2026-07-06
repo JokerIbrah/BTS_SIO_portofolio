@@ -31,7 +31,73 @@
   <!-- Import de la police rétro -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rye&display=swap" rel="stylesheet">
+
+  <!-- Style affiche far-west pour l'annonce de recherche d'emploi -->
+  <style>
+    /* Force la police western aussi sur les éléments enfants
+       (le sélecteur * de style.css impose sinon la police terminal) */
+    .wanted-poster,
+    .wanted-poster * {
+      font-family: 'Rye', 'Georgia', serif;
+    }
+
+    .wanted-poster {
+      display: inline-block;
+      position: relative;
+      font-family: 'Rye', 'Georgia', serif;
+      /* Papier parchemin vieilli */
+      background:
+        radial-gradient(ellipse at center, #f5e6c4 60%, #e2c98f 100%);
+      color: #4a2c17;
+      font-size: clamp(0.95rem, 2.5vw, 1.5rem);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 1.8;
+      padding: clamp(15px, 3vw, 30px) clamp(20px, 4vw, 45px);
+      margin: 25px auto 10px;
+      max-width: 90%;
+      /* Double cadre façon affiche WANTED */
+      border: 3px solid #4a2c17;
+      box-shadow:
+        inset 0 0 0 5px #f5e6c4,
+        inset 0 0 0 8px #4a2c17,
+        0 8px 20px rgba(0, 0, 0, 0.7);
+      border-radius: 3px;
+      transform: rotate(-2deg);
+      transition: transform 0.3s ease;
+      text-shadow: none;
+      white-space: normal;
+      word-wrap: break-word;
+    }
+
+    /* Le clou qui retient l'affiche */
+    .wanted-poster::before {
+      content: '';
+      position: absolute;
+      top: -7px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #ddd, #555 70%, #222);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    /* L'affiche se redresse au survol */
+    .wanted-poster:hover {
+      transform: rotate(0deg) scale(1.03);
+    }
+
+    .wanted-poster .wanted-stars {
+      display: block;
+      color: #8b5a2b;
+      font-size: 0.8em;
+      letter-spacing: 10px;
+      padding-left: 10px;
+    }
+  </style>
 
   <!-- Données structurées pour les moteurs de recherche -->
   <script type="application/ld+json">
@@ -70,7 +136,11 @@
 
       <p>Jeune Diplômé BTS SIO option SISR — Technicien informatique de niveau 2 — Intérêt pour la cybersécurité, l'univers
         open-source et le shell </p>
-        <p><bold>A LA RECHERCHE D'OPPORTUNITÉS PROFESSIONNELLES</bold></p>
+        <p class="wanted-poster">
+          <span class="wanted-stars">★ ★ ★</span>
+          <strong>À la recherche d'opportunités professionnelles</strong>
+          <span class="wanted-stars">★ ★ ★</span>
+        </p>
     </div>
   </header>
   <main class="main">
@@ -131,7 +201,7 @@
     <script>
       const texte = [
         "J'ai 28 ans. Je suis en reconversion professionnelle, je viens d'avoir eu mon diplôme BTS SIO option SISR. Je souhaiterais me spécialiser dans la cybersécurité par la suite. Avant je travaillais dans le domaine de l'industrie.",
-        "C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série 'Mr. Robot'. Après avoir terminé la série, j'ai commencé à apprendre le développement web par moi-même, en suivant des cours gratuits en anglais sur le HTML. Par la suite j'ai découvert le CSS, puis le JavaScript et le PHP. J'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées, nos idées! Dans un sens, ce site est conçu par 3 grandes technologies de languages (HTML, CSS, JavaScript). Vous pourriez dire qu'il est le fruit de mon apprentissage et aussi vous demandez pourquoi je n'ai pas mis de cookies? Très concrètement, je n'en vois pas l'utilité pour l'instant de créer une base de données SQL pour récupérer des données des utilisateurs. ",
+        "C'est pendant le confinement que j'ai découvert ma passion pour l'informatique et la cybersécurité en regardant la série 'Mr. Robot'. Après avoir terminé la série, j'ai commencé à apprendre le développement web par moi-même, en suivant des cours gratuits en anglais sur le HTML. Par la suite j'ai découvert le CSS, puis le JavaScript et le PHP. J'ai été fasciné par la façon dont ces technologies pouvaient donner vie à des idées.",
         "À la suite de ma formation à l'école 42 Luxembourg, j'ai compris qu'il me fallait une formation plus encadrée pour approfondir mes connaissances et compétences.",
         "Après avoir découvert l'environnement Linux, je le préfère à l'environnement Windows, surtout l'interface graphique plasma KDE. La capacité de personnalisation de l'environnement est un véritable atout pour les personnes comme moi. Et qu'une chose aussi merveilleuse soit gratuite et open source, me rend encore plus accro.",
       ];
