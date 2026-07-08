@@ -836,11 +836,10 @@ h2::after {
 
 /* Indicateur de commande sur les liens de menu au survol */
 header nav ul li a::before {
-    content: "$ ";
+    content: ">_";
     color: var(--yellow);
     opacity: 0;
     transition: opacity 0.15s ease-in-out;
-    margin-right: 4px;
 }
 
 header nav ul li a:hover::before,
