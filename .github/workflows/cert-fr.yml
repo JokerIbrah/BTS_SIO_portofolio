@@ -1,0 +1,64 @@
+# =============================================================================
+# Mise à jour automatique du flux CERT-FR
+# -----------------------------------------------------------------------------
+# Cette action tourne gratuitement sur les serveurs de GitHub : aucun hébergement
+# ni serveur personnel n'est nécessaire. Toutes les 3 heures, elle télécharge les
+# flux RSS du CERT-FR, les convertit en data/cert-fr.js et commite le fichier.
+# La page cyberveille.html lit ensuite ce fichier depuis le même domaine, ce qui
+# évite complètement le blocage CORS du navigateur.
+#
+# Déclenchement manuel possible : onglet « Actions » > « Veille CERT-FR »
+# > bouton « Run workflow ».
+# =============================================================================
+
+name: Veille CERT-FR
+
+on:
+  schedule:
+    # Toutes les 3 heures (heure UTC)
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-cert-fr.mjs'
+      - '.github/workflows/cert-fr.yml'
+
+# Autorise l'action à écrire dans le dépôt
+permissions:
+  contents: write
+
+# Évite deux exécutions simultanées qui se marcheraient dessus
+concurrency:
+  group: veille-cert-fr
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupération du dépôt
+        uses: actions/checkout@v4
+
+      - name: Installation de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Récupération des flux CERT-FR
+        run: node scripts/fetch-cert-fr.mjs
+
+      - name: Commit du fichier si modifié
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- data/cert-fr.js; then
+            echo "Aucun nouveau bulletin : rien à commiter."
+            exit 0
+          fi
+
+          git add data/cert-fr.js
+          git commit -m "chore(veille): mise a jour automatique du flux CERT-FR"
+          git push

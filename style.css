@@ -613,6 +613,20 @@ li:hover {
     html {
         scroll-behavior: auto;
     }
+
+    /* Repli sans animation : les deux calques du titre glitch (::before et
+       ::after) sont positionnes en absolu et decoupes par clip. Sans
+       animation ils restent figes sur une decoupe arbitraire et masquent
+       une partie du titre. On les supprime : le titre reste net et lisible. */
+    .glitch-text::before,
+    .glitch-text::after {
+        display: none;
+    }
+
+    .glitch-text {
+        color: #fff;
+        text-shadow: 0 0 5px var(--mr-robot-red), 0 0 10px var(--mr-robot-red);
+    }
 }
 
 /* ==========================================================================

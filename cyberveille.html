@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connect-src autorise le cache local (self) et les relais CORS de secours -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://api.allorigins.win https://api.codetabs.com https://corsproxy.io https://www.cert.ssi.gouv.fr;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- Référencement (SEO) -->
+    <title>Cyberveille CERT-FR — Alertes et avis de sécurité | Vincent Klein BTS SIO SISR</title>
+    <meta name="description"
+        content="Flux en direct des alertes et avis de sécurité du CERT-FR (ANSSI) : vulnérabilités, alertes actives, bulletins d'actualité. Page de veille cybersécurité automatisée du portfolio de Vincent Klein, BTS SIO SISR.">
+    <meta name="author" content="Vincent Klein">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jokeribrah.github.io/BTS_SIO_portofolio/cyberveille.html">
+    <link rel="icon" type="image/png" href="photopixelart.png">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Partage sur les réseaux sociaux (Open Graph / Twitter) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Portfolio de Vincent Klein — BTS SIO SISR">
+    <meta property="og:title" content="Cyberveille CERT-FR — Alertes et avis de sécurité | Vincent Klein">
+    <meta property="og:description"
+        content="Flux automatisé des alertes et avis de sécurité du CERT-FR (ANSSI), intégré au portfolio de Vincent Klein.">
+    <meta property="og:url" content="https://jokeribrah.github.io/BTS_SIO_portofolio/cyberveille.html">
+    <meta property="og:image" content="https://jokeribrah.github.io/BTS_SIO_portofolio/photopixelart.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="terminal-themes.js" defer></script>
+    <!-- Bulletins embarqués : la page fonctionne même sans connexion -->
+    <script src="data/cert-fr.js" defer></script>
+    <script src="cert-fr.js" defer></script>
+    <!-- Import de la police rétro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        /* ==================================================================
+           Styles propres à la page Cyberveille
+           Tout est basé sur les variables du thème CRT de style.css
+           (--green, --yellow, --neon-cyan, --mr-robot-red, --panel)
+           pour que le sélecteur de couleur en bas à droite fonctionne ici aussi.
+           ================================================================== */
+
+        .cert-wrap {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* --- Bandeau console : rappelle le terminal-shell de la page d'accueil --- */
+        .cert-console {
+            background-color: #050505;
+            border: 1px solid var(--mr-robot-red);
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(255, 0, 60, 0.15);
+            margin: 25px auto;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .cert-console-header {
+            background-color: #0d0d0d;
+            border-bottom: 1px solid #222;
+            padding: 8px 12px;
+            font-weight: bold;
+            color: var(--mr-robot-red);
+            font-size: clamp(0.8rem, 1.8vw, 1.05rem);
+        }
+
+        .cert-console-body {
+            padding: 14px;
+            color: var(--green);
+            font-size: clamp(0.8rem, 1.7vw, 1.05rem);
+            white-space: pre-wrap;
+            line-height: 1.5;
+            margin: 0;
+            background: transparent;
+            border: none;
+            font-family: var(--font-mono);
+        }
+
+        /* --- Compteurs --- */
+        .cert-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px;
+            margin: 20px auto;
+        }
+
+        .cert-stat {
+            background-color: var(--panel);
+            border: 1px solid var(--green);
+            border-radius: 8px;
+            padding: 14px 10px;
+            box-shadow: 0 0 10px rgba(57, 255, 20, 0.12);
+        }
+
+        .cert-stat-value {
+            display: block;
+            font-size: clamp(1.6rem, 5vw, 2.4rem);
+            font-weight: bold;
+            color: var(--green);
+            text-shadow: 0 0 8px var(--green);
+            line-height: 1.2;
+        }
+
+        .cert-stat-label {
+            display: block;
+            font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+            color: var(--yellow);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 6px;
+        }
+
+        .cert-stat.is-alert {
+            border-color: var(--mr-robot-red);
+            box-shadow: 0 0 12px rgba(255, 0, 60, 0.25);
+        }
+
+        .cert-stat.is-alert .cert-stat-value {
+            color: var(--mr-robot-red);
+            text-shadow: 0 0 8px var(--mr-robot-red);
+        }
+
+        /* --- Barre de filtres --- */
+        .cert-toolbar {
+            background-color: var(--panel);
+            border: 1px solid var(--neon-cyan);
+            border-radius: 8px;
+            padding: 14px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 240, 255, 0.12);
+        }
+
+        .cert-filters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .cert-chip {
+            background-color: #000;
+            color: var(--green);
+            border: 1px solid var(--green);
+            border-radius: 20px;
+            padding: 7px 14px;
+            font-family: var(--font-mono);
+            font-size: clamp(0.75rem, 1.6vw, 0.95rem);
+            cursor: pointer;
+            letter-spacing: 1px;
+            transition: all 0.2s ease;
+            min-height: 38px;
+        }
+
+        .cert-chip:hover,
+        .cert-chip:focus {
+            background-color: rgba(57, 255, 20, 0.12);
+            box-shadow: 0 0 10px var(--green);
+        }
+
+        .cert-chip[aria-pressed="true"] {
+            background-color: var(--green);
+            color: #000;
+            font-weight: bold;
+            box-shadow: 0 0 14px var(--green);
+        }
+
+        .cert-search-line {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: #000;
+            border: 1px solid var(--green);
+            border-radius: 6px;
+            padding: 8px 12px;
+        }
+
+        .cert-search-line .prompt {
+            color: var(--yellow);
+            white-space: nowrap;
+            font-size: clamp(0.75rem, 1.6vw, 1rem);
+        }
+
+        #cert-search {
+            flex-grow: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-family: var(--font-mono);
+            font-size: clamp(0.85rem, 1.8vw, 1.05rem);
+            caret-color: var(--green);
+            min-width: 0;
+        }
+
+        /* --- Liste des bulletins --- */
+        .cert-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-family: var(--font-mono);
+        }
+
+        /* neutralise la puce ▣ globale de style.css dans cette liste */
+        .cert-list li {
+            padding-left: 0;
+            margin: 0 0 14px 0;
+            text-shadow: none;
+            text-align: left;
+        }
+
+        .cert-list li::before {
+            content: none;
+        }
+
+        .cert-list li:hover {
+            transform: none;
+            color: inherit;
+            text-shadow: none;
+        }
+
+        .cert-item {
+            display: block;
+            background-color: var(--panel);
+            border: 1px solid #1e1e1e;
+            border-left: 4px solid var(--green);
+            border-radius: 6px;
+            padding: 14px 16px;
+            text-align: left;
+            text-decoration: none;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        /* style.css centre tous les liens via a:link : on rétablit l'alignement
+           à gauche avec une spécificité au moins équivalente */
+        .cert-item:link,
+        .cert-item:visited {
+            color: inherit;
+            background-color: var(--panel);
+            text-align: left;
+            padding: 14px 16px;
+        }
+
+        .cert-item:hover,
+        .cert-item:focus {
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 14px rgba(0, 240, 255, 0.2);
+            transform: translateX(3px);
+            color: inherit;
+            background-color: #101010;
+        }
+
+        .cert-item-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+        }
+
+        .cert-badge {
+            border: 1px solid currentColor;
+            border-radius: 4px;
+            padding: 2px 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .cert-id {
+            color: #7a7a7a;
+        }
+
+        .cert-date {
+            color: var(--yellow);
+            margin-left: auto;
+        }
+
+        .cert-item-title {
+            color: var(--green);
+            font-size: clamp(0.95rem, 2vw, 1.15rem);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .cert-item-desc {
+            color: #8a8a8a;
+            font-size: clamp(0.75rem, 1.6vw, 0.9rem);
+            line-height: 1.5;
+            margin-top: 8px;
+        }
+
+        /* Couleurs par type de publication */
+        .type-alerte {
+            border-left-color: var(--mr-robot-red);
+        }
+
+        .type-alerte .cert-badge {
+            color: var(--mr-robot-red);
+        }
+
+        .type-alerte .cert-item-title {
+            color: #ff6b8a;
+        }
+
+        .type-avis {
+            border-left-color: var(--yellow);
+        }
+
+        .type-avis .cert-badge {
+            color: var(--yellow);
+        }
+
+        .type-cti {
+            border-left-color: violet;
+        }
+
+        .type-cti .cert-badge {
+            color: violet;
+        }
+
+        .type-actualite {
+            border-left-color: var(--neon-cyan);
+        }
+
+        .type-actualite .cert-badge {
+            color: var(--neon-cyan);
+        }
+
+        .type-ioc,
+        .type-dur {
+            border-left-color: #7FFF00;
+        }
+
+        .type-ioc .cert-badge,
+        .type-dur .cert-badge {
+            color: #7FFF00;
+        }
+
+        /* Petit clignotement sur les alertes récentes */
+        .cert-item.is-fresh .cert-badge {
+            animation: blink 1.4s infinite alternate;
+        }
+
+        /* --- Statut de la source --- */
+        .cert-source {
+            font-size: clamp(0.7rem, 1.5vw, 0.85rem);
+            color: #7a7a7a;
+            margin: 14px auto 0;
+            background: transparent;
+            padding: 0;
+            text-align: center;
+        }
+
+        .cert-source .ok {
+            color: var(--green);
+        }
+
+        .cert-source .warn {
+            color: var(--yellow);
+        }
+
+        .cert-source .ko {
+            color: var(--mr-robot-red);
+        }
+
+        /* --- Etat vide / erreur --- */
+        .cert-empty {
+            background-color: var(--panel);
+            border: 1px dashed var(--yellow);
+            border-radius: 8px;
+            padding: 25px 18px;
+            color: var(--yellow);
+            margin: 20px auto;
+        }
+
+        /* --- Squelette de chargement --- */
+        .cert-skeleton {
+            background-color: var(--panel);
+            border-left: 4px solid #333;
+            border-radius: 6px;
+            height: 84px;
+            margin-bottom: 14px;
+            opacity: 0.5;
+            animation: blink 1.6s infinite alternate;
+        }
+
+        .cert-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px auto;
+        }
+
+        @media (max-width: 600px) {
+            .cert-date {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">A propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="CV.html">Parcours</a></li>
+                <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <li><a href="cyberveille.html">Cyberveille</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav aria-label="Navigation de la veille">
+            <ul>
+                <li><a href="documentationpersonnelle.html">Documentation personnelle</a></li>
+                <li><a href="TP BTS SIO.html">TP BTS SIO (blocs 1, 2 et 3)</a></li>
+                <li><a href="veille.html">Veille technologique</a></li>
+                <li><a href="cyberveille.html">Cyberveille CERT-FR</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+        <div class="cert-wrap">
+
+            <h1>Cyberveille CERT-FR</h1>
+
+            <p>Flux automatisé des publications du <strong>CERT-FR</strong>, le centre gouvernemental de veille,
+                d'alerte et de réponse aux attaques informatiques, rattaché à l'ANSSI. Cette page agrège les
+                <em>alertes</em>, <em>avis de sécurité</em>, <em>bulletins d'actualité</em> et <em>rapports de
+                    menaces</em> publiés officiellement, et me sert d'outil de veille passive au quotidien.
+            </p>
+
+            <!-- Bandeau console : état de la récupération du flux -->
+            <div class="cert-console">
+                <div class="cert-console-header">visiteur@klein-portfolio:~$ ./cyberveille --source cert-fr</div>
+                <pre class="cert-console-body" id="cert-console">[*] Initialisation du module de veille CERT-FR...</pre>
+            </div>
+
+            <!-- Compteurs -->
+            <div class="cert-stats" id="cert-stats" aria-live="polite">
+                <div class="cert-stat is-alert">
+                    <span class="cert-stat-value" id="stat-alertes">—</span>
+                    <span class="cert-stat-label">Alertes</span>
+                </div>
+                <div class="cert-stat">
+                    <span class="cert-stat-value" id="stat-avis">—</span>
+                    <span class="cert-stat-label">Avis de sécurité</span>
+                </div>
+                <div class="cert-stat">
+                    <span class="cert-stat-value" id="stat-semaine">—</span>
+                    <span class="cert-stat-label">Publiés sur 7 jours</span>
+                </div>
+                <div class="cert-stat">
+                    <span class="cert-stat-value" id="stat-total">—</span>
+                    <span class="cert-stat-label">Bulletins chargés</span>
+                </div>
+            </div>
+
+            <!-- Filtres et recherche -->
+            <div class="cert-toolbar">
+                <div class="cert-filters" id="cert-filters" role="group" aria-label="Filtrer par type de publication">
+                    <button type="button" class="cert-chip" data-filter="all" aria-pressed="true">Tout</button>
+                    <button type="button" class="cert-chip" data-filter="alerte" aria-pressed="false">Alertes</button>
+                    <button type="button" class="cert-chip" data-filter="avis" aria-pressed="false">Avis</button>
+                    <button type="button" class="cert-chip" data-filter="actualite"
+                        aria-pressed="false">Actualités</button>
+                    <button type="button" class="cert-chip" data-filter="cti" aria-pressed="false">Menaces
+                        (CTI)</button>
+                    <button type="button" class="cert-chip" data-filter="ioc" aria-pressed="false">IOC</button>
+                    <button type="button" class="cert-chip" data-filter="dur"
+                        aria-pressed="false">Durcissement</button>
+                </div>
+                <div class="cert-search-line">
+                    <span class="prompt">grep&nbsp;-i</span>
+                    <label for="cert-search" class="sr-only" hidden>Rechercher dans les bulletins</label>
+                    <input type="search" id="cert-search" autocomplete="off"
+                        placeholder="ex : cisco, windows, fortinet, vmware...">
+                </div>
+            </div>
+
+            <!-- Liste des bulletins -->
+            <ul class="cert-list" id="cert-list" aria-live="polite">
+                <li>
+                    <div class="cert-skeleton"></div>
+                </li>
+                <li>
+                    <div class="cert-skeleton"></div>
+                </li>
+                <li>
+                    <div class="cert-skeleton"></div>
+                </li>
+            </ul>
+
+            <p class="cert-source" id="cert-source">Source&nbsp;: en cours de détermination…</p>
+
+            <div class="cert-actions">
+                <button type="button" class="retro-btn" id="cert-refresh">Actualiser le flux</button>
+                <a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener noreferrer"
+                    class="retro-btn">Site officiel du CERT-FR</a>
+                <a href="veille.html" class="retro-btn">Ma veille technologique</a>
+            </div>
+
+            <p style="font-size: 0.85rem; color: #7a7a7a; background: transparent;">
+                Les contenus affichés sont la propriété du CERT-FR / ANSSI et sont repris ici à titre de veille, avec
+                un lien systématique vers la publication d'origine. Cette page n'est pas un service officiel.
+            </p>
+        </div>
+
+        <div id="footer">
+            <footer>
+                <p style="font-size: 22px;">&copy; Tous droits réservés 2025 - Portfolio BTS SIO SISR KLEIN Vincent</p>
+                <p style="font-size: 22px;"><a href="Politique_de_confidentialité.html">Politique de confidentialité</a>
+                </p>
+                <p style="font-size: 22px;"><a href="mentions_legales.html">Mentions légales</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
