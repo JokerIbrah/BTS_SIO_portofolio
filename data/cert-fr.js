@@ -2,11 +2,27 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-08-25T09:52:42.151Z",
+  "generatedAt": "2026-08-25T13:12:21.208Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Cisco IOS XE",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1077/",
+      "date": "Tue, 25 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Cisco IOS XE. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1077"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Keycloak",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1078/",
+      "date": "Tue, 25 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Keycloak. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur. Le CERT-FR a connaissance d'une preuve de concept publique pour la vulnérabilité...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1078"
+    },
     {
       "title": "Multiples vulnérabilités dans Metabase",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1075/",
@@ -182,14 +198,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1060"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Synacor Zimbra Collaboration",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1041/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Synacor Zimbra Collaboration. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS)....",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1041"
     },
     {
       "title": "Multiples vulnérabilités dans les produits Axis",
@@ -438,14 +446,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-027"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mattermost Desktop App",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0777/",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Desktop App. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-0777"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-026",
