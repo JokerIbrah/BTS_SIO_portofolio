@@ -2,11 +2,75 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-08-26T09:58:32.253Z",
+  "generatedAt": "2026-08-26T13:17:40.285Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans OpenSSL",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1079/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1079"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Veeam",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1080/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1080"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1081/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1081"
+    },
+    {
+      "title": "Vulnérabilité dans Apereo CAS",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1082/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1082"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache Tomcat",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1083/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1083"
+    },
+    {
+      "title": "Multiples vulnérabilités dans SonicWall NetExtender",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1084/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans SonicWall NetExtender. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1084"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Redmine",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1085/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Redmine. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1085"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1086/",
+      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1086"
+    },
     {
       "title": "Multiples vulnérabilités dans Cisco IOS XE",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1077/",
@@ -200,62 +264,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1060"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Axis",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1042/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Axis. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1042"
-    },
-    {
-      "title": "Vulnérabilité dans Apereo CAS",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1043/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1043"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Python",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1044/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Python. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1044"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1045/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1045"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Joomla!",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1046/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Joomla!. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à l'intégrité des données et une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1046"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Database Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1047/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1047"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Java SE",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1048/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1048"
-    },
-    {
       "title": "Multiples vulnérabilités dans Oracle MySQL",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1049/",
       "date": "Wed, 19 Aug 2026 00:00:00 +0000",
@@ -310,14 +318,6 @@ window.CERT_FR_DATA = {
       "description": "Une vulnérabilité a été découverte dans les produits Moxa. Elle permet à un attaquant de provoquer un déni de service à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1055"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Apple",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1038/",
-      "date": "Tue, 18 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1038"
     },
     {
       "title": "Vulnérabilité dans SPIP",
