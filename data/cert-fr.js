@@ -2,11 +2,27 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-08-27T00:48:28.782Z",
+  "generatedAt": "2026-08-27T14:13:57.575Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans CPython",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1087/",
+      "date": "Thu, 27 Aug 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1087"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Traefik",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
+      "date": "Thu, 27 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1088"
+    },
     {
       "title": "Multiples vulnérabilités dans OpenSSL",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1079/",
@@ -262,22 +278,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1060"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle MySQL",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1049/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1049"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle PeopleSoft",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1050/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un déni de service.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1050"
     },
     {
       "title": "Multiples vulnérabilités dans Oracle Systems",
