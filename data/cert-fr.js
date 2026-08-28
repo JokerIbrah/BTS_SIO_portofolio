@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-08-28T00:25:23.475Z",
+  "generatedAt": "2026-08-28T15:24:20.919Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Tenable Enclave Security",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1089/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1089"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1090"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1091/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1091"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1092/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1092"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1093/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1093"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits IBM",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1094/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1094"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Papercut",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1095/",
+      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Papercut. Elles permettent à un attaquant de contourner l'authentification et d'exécuter du code arbitraire à distance. Papercut indique que ces vulnérabilités sont activement exploitées. L'éditeur explique que le correctif bloque les requêtes...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1095"
+    },
     {
       "title": "Vulnérabilité dans CPython",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1087/",
@@ -240,22 +296,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1074"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Splunk",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1056/",
-      "date": "Thu, 20 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1056"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Ceph",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1057/",
-      "date": "Thu, 20 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Ceph. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1057"
-    },
-    {
       "title": "Multiples vulnérabilités dans les produits Cisco",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1058/",
       "date": "Thu, 20 Aug 2026 00:00:00 +0000",
@@ -278,46 +318,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1060"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Systems",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1051/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1051"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Virtualization",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1052/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1052"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Weblogic",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1053/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1053"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1054/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1054"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Moxa",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1055/",
-      "date": "Wed, 19 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits Moxa. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1055"
     },
     {
       "title": "Vulnérabilité dans SPIP",
