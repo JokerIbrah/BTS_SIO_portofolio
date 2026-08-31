@@ -2,11 +2,35 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-08-31T05:37:45.426Z",
+  "generatedAt": "2026-08-31T13:53:55.972Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1096/",
+      "date": "Mon, 31 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1096"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Tenable",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1097/",
+      "date": "Mon, 31 Aug 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1097"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-037",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-037/",
+      "date": "Mon, 31 Aug 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-037"
+    },
     {
       "title": "Multiples vulnérabilités dans Tenable Enclave Security",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1089/",
@@ -294,22 +318,6 @@ window.CERT_FR_DATA = {
       "description": "**[Mise à jour du 24 août 2026]** Microsoft a modifié son bulletin de sécurité pour préciser que la vulnérabilité CVE-2026-69836 n'est pas activement exploitée. **[Publication initiale]** Une vulnérabilité a été découverte dans Microsoft Entra ID. Elle permet à un attaquant de provoquer une...",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1074"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Cisco",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1058/",
-      "date": "Thu, 20 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1058"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Citrix",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1059/",
-      "date": "Thu, 20 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer un déni de service à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1059"
     },
     {
       "title": "Multiples vulnérabilités dans Microsoft Windows",
@@ -758,14 +766,6 @@ window.CERT_FR_DATA = {
       "description": "**[Mise à jour du 11 décembre 2025]** Le CERT-FR a connaissance de multiples exploitations de la vulnérabilité CVE-2025-55182. Les serveurs avec une version vulnérable exposés après la publication des preuves de concept publiques du 5 décembre 2025 doivent être considérés comme compromis....",
       "type": "alerte",
       "id": "CERTFR-2025-ALE-014"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2025-ACT-054",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2025-ACT-054/",
-      "date": "Fri, 05 Dec 2025 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2025-ACT-054"
     },
     {
       "title": "Téléphones mobiles : État de la menace depuis 2015",
