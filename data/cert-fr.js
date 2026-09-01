@@ -2,11 +2,51 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-01T08:40:49.615Z",
+  "generatedAt": "2026-09-01T14:09:24.352Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
+      "date": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1098"
+    },
+    {
+      "title": "Vulnérabilité dans Mozilla Firefox pour iOS",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1099/",
+      "date": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Mozilla Firefox pour iOS. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1099"
+    },
+    {
+      "title": "Multiples vulnérabilités dans JFrog Artifactory",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1100/",
+      "date": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans JFrog Artifactory. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une falsification de requêtes côté serveur (SSRF) et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1100"
+    },
+    {
+      "title": "Vulnérabilité dans Kaspersky Endpoint Security Windows",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1101/",
+      "date": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Kaspersky Endpoint Security Windows. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1101"
+    },
+    {
+      "title": "Multiples vulnérabilités dans SPIP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1102/",
+      "date": "Tue, 01 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1102"
+    },
     {
       "title": "Multiples vulnérabilités dans Microsoft Edge",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1096/",
@@ -208,38 +248,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-036"
     },
     {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1061/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1061"
-    },
-    {
-      "title": "Vulnérabilité dans Python",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1062/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Python. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1062"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1064/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1064"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1065/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1065"
-    },
-    {
       "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1066/",
       "date": "Fri, 21 Aug 2026 00:00:00 +0000",
@@ -318,14 +326,6 @@ window.CERT_FR_DATA = {
       "description": "**[Mise à jour du 24 août 2026]** Microsoft a modifié son bulletin de sécurité pour préciser que la vulnérabilité CVE-2026-69836 n'est pas activement exploitée. **[Publication initiale]** Une vulnérabilité a été découverte dans Microsoft Entra ID. Elle permet à un attaquant de provoquer une...",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1074"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Windows",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1060/",
-      "date": "Thu, 20 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1060"
     },
     {
       "title": "Vulnérabilité dans SPIP",
