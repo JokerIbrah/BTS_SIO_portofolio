@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-02T11:20:38.304Z",
+  "generatedAt": "2026-09-02T16:35:55.624Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "Le 01 septembre 2026, SonicWall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-83548 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié. La vulnérabilité...",
+      "type": "alerte",
+      "id": "CERTFR-2026-ALE-009"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits SonicWall",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1103/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF). L'éditeur indique que les vulnérabilités CVE-2026-83548 et CVE-2026-83549...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1103"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1104/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1104"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1105/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1105"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Mozilla",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1106/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1106"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Elastic",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1107/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1107"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Curl",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1108/",
+      "date": "Wed, 02 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Curl. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1108"
+    },
     {
       "title": "Multiples vulnérabilités dans Mattermost Server",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
@@ -246,54 +302,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-036"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1066/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1066"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits IBM",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1067/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1067"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1068/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1068"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1069/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1069"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Traefik",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1070/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Traefik. Certaines d'entre elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1070"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Edge",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1071/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1071"
     },
     {
       "title": "Vulnérabilité dans Microsoft Office",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "English version : 🇬🇧 Dans cette quatrième édition du panorama de la menace, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) revient sur les grandes tendances de la menace informatique ainsi que sur les éléments et incidents marquants dont elle a eu connaissance en 2024. Dans...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-003"
-    },
-    {
-      "title": "Collectivités territoriales - Synthèse de la menace",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-002/",
-      "date": "Mon, 24 Feb 2025 00:00:00 +0000",
-      "description": "Les collectivités territoriales gèrent de nombreux services selon leurs compétences, en matière administrative et régalienne, mais également sur de nombreux aspects de la vie sociale, territoriale et économique d’un territoire. Les conséquences d’attaques informatiques peuvent donc être majeures...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-002"
     }
   ]
 };
