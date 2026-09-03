@@ -2,11 +2,35 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-03T11:16:39.367Z",
+  "generatedAt": "2026-09-03T16:26:49.846Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans SPIP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1109/",
+      "date": "Thu, 03 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1109"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Cisco",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1110/",
+      "date": "Thu, 03 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1110"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits F5",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1111/",
+      "date": "Thu, 03 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1111"
+    },
     {
       "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-009/",
@@ -304,22 +328,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-036"
     },
     {
-      "title": "Vulnérabilité dans Microsoft Office",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1072"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Microsoft",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1073/",
-      "date": "Fri, 21 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un déni de service.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1073"
-    },
-    {
       "title": "Vulnérabilité dans SPIP",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1063/",
       "date": "Fri, 21 Aug 2026 00:00:00 +0000",
@@ -334,14 +342,6 @@ window.CERT_FR_DATA = {
       "description": "**[Mise à jour du 24 août 2026]** Microsoft a modifié son bulletin de sécurité pour préciser que la vulnérabilité CVE-2026-69836 n'est pas activement exploitée. **[Publication initiale]** Une vulnérabilité a été découverte dans Microsoft Entra ID. Elle permet à un attaquant de provoquer une...",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1074"
-    },
-    {
-      "title": "Vulnérabilité dans SPIP",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
-      "date": "Mon, 17 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans SPIP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1033"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-035",
