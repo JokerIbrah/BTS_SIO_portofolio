@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-07T12:35:38.408Z",
+  "generatedAt": "2026-09-07T19:10:42.426Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Roundcube Webmail",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1122/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une falsification de requêtes côté serveur (SSRF), une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1122"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1123/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et une injection de requêtes illégitimes par rebond (CSRF).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1123"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Juniper Networks",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1124/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1124"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits VMware",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1125/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1125"
+    },
+    {
+      "title": "Vulnérabilité dans Belden HiOS Switch Platform",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1126/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Belden HiOS Switch Platform. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1126"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Traefik",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1127/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1127"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-038",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-038/",
+      "date": "Mon, 07 Sep 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-038"
+    },
     {
       "title": "Multiples vulnérabilités dans Google Chrome",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1112/",
@@ -288,60 +344,12 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1095"
     },
     {
-      "title": "Vulnérabilité dans CPython",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1087/",
-      "date": "Thu, 27 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1087"
-    },
-    {
       "title": "Multiples vulnérabilités dans Traefik",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
       "date": "Thu, 27 Aug 2026 00:00:00 +0000",
       "description": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1088"
-    },
-    {
-      "title": "Vulnérabilité dans Apereo CAS",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1082/",
-      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Apereo CAS. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1082"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Apache Tomcat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1083/",
-      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1083"
-    },
-    {
-      "title": "Multiples vulnérabilités dans SonicWall NetExtender",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1084/",
-      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans SonicWall NetExtender. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1084"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Redmine",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1085/",
-      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Redmine. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1085"
-    },
-    {
-      "title": "Multiples vulnérabilités dans GitLab",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1086/",
-      "date": "Wed, 26 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1086"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-036",
@@ -758,14 +766,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2025-ACT-056"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2025-ACT-055",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2025-ACT-055/",
-      "date": "Mon, 15 Dec 2025 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2025-ACT-055"
     },
     {
       "title": "[MàJ] Vulnérabilité dans React Server Components",
