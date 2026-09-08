@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-08T11:21:21.864Z",
+  "generatedAt": "2026-09-08T16:39:38.941Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1128"
+    },
+    {
+      "title": "Multiples vulnérabilités dans strongSwan",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1129/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans strongSwan. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1129"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Adobe",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1130/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans les produits Adobe. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Adobe indique que la vulnérabilité CVE-2026-75650 est activement exploitée.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1130"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Typo3",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1131/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Typo3. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1131"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Schneider Electric EcoStruxure",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1132/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Schneider Electric EcoStruxure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1132"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Siemens",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1133/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Elles permettent à un attaquant de provoquer une exécution de code arbitraire et une élévation de privilèges.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1133"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits SAP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1134/",
+      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1134"
+    },
     {
       "title": "Multiples vulnérabilités dans Roundcube Webmail",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1122/",
@@ -288,68 +344,12 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-037"
     },
     {
-      "title": "Multiples vulnérabilités dans Tenable Enclave Security",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1089/",
-      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1089"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
-      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1090"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1091/",
-      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1091"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1092/",
-      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1092"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1093/",
-      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1093"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits IBM",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1094/",
-      "date": "Fri, 28 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1094"
-    },
-    {
       "title": "Multiples vulnérabilités dans Papercut",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1095/",
       "date": "Fri, 28 Aug 2026 00:00:00 +0000",
       "description": "De multiples vulnérabilités ont été découvertes dans Papercut. Elles permettent à un attaquant de contourner l'authentification et d'exécuter du code arbitraire à distance. Papercut indique que ces vulnérabilités sont activement exploitées. L'éditeur explique que le correctif bloque les requêtes...",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1095"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Traefik",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
-      "date": "Thu, 27 Aug 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1088"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-036",
