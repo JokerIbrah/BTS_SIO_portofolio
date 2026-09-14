@@ -2,7 +2,7 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-14T19:51:18.623Z",
+  "generatedAt": "2026-09-14T23:52:51.527Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
@@ -46,6 +46,14 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur. Microsoft indique que la vulnérabilité CVE-2026-87491 est activement exploitée.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1171"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-039",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-039/",
+      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-039"
     },
     {
       "title": "Multiples vulnérabilités dans GitLab",
@@ -766,14 +774,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2025-ACT-057"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2025-ACT-056",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2025-ACT-056/",
-      "date": "Mon, 22 Dec 2025 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2025-ACT-056"
     },
     {
       "title": "[MàJ] Vulnérabilité dans React Server Components",
