@@ -2,11 +2,51 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-14T12:50:15.017Z",
+  "generatedAt": "2026-09-14T19:51:18.623Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans CPython",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1167/",
+      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1167"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Squid",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1168/",
+      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Squid. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1168"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1169/",
+      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1169"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MISP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1170/",
+      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans MISP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1170"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1171/",
+      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur. Microsoft indique que la vulnérabilité CVE-2026-87491 est activement exploitée.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1171"
+    },
     {
       "title": "Multiples vulnérabilités dans GitLab",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1160/",
@@ -168,6 +208,14 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1138"
     },
     {
+      "title": "Multiples vulnérabilités dans Xen",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
+      "date": "Wed, 09 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1136"
+    },
+    {
       "title": "Multiples vulnérabilités dans Citrix Workspace app",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1137/",
       "date": "Wed, 09 Sep 2026 00:00:00 +0000",
@@ -182,14 +230,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1135"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Xen",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1136/",
-      "date": "Wed, 09 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1136"
     },
     {
       "title": "Multiples vulnérabilités dans les produits Adobe",
@@ -270,46 +310,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1149"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mattermost Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
-      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1128"
-    },
-    {
-      "title": "Multiples vulnérabilités dans strongSwan",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1129/",
-      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans strongSwan. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1129"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Adobe",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1130/",
-      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits Adobe. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Adobe indique que la vulnérabilité CVE-2026-75650 est activement exploitée.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1130"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Typo3",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1131/",
-      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Typo3. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1131"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Schneider Electric EcoStruxure",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1132/",
-      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Schneider Electric EcoStruxure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une falsification de requêtes côté serveur (SSRF).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1132"
     },
     {
       "title": "Multiples vulnérabilités dans les produits Siemens",
