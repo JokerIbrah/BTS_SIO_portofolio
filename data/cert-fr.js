@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-17T11:44:05.261Z",
+  "generatedAt": "2026-09-17T17:00:49.988Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans ISC BIND",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1192/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans ISC BIND. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1192"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Check Point",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1193/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans les produits Check Point. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Checkpoint recommande de rechercher, via la *SmartConsole*, le motif **\"Administrator failed to log in: Username too long\"** dans les journaux...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1193"
+    },
+    {
+      "title": "Vulnérabilité dans NetApp ONTAP 9",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1194/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans NetApp ONTAP 9. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1194"
+    },
+    {
+      "title": "Vulnérabilité dans KeyCloak",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1195"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Drupal",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1196/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1196"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Cisco",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1197/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76460 est...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1197"
+    },
+    {
+      "title": "Vulnérabilité dans Nextcloud Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1198/",
+      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Nextcloud Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1198"
+    },
     {
       "title": "Multiples vulnérabilités dans Google Pixel",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1176/",
@@ -54,22 +110,6 @@ window.CERT_FR_DATA = {
       "description": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1181"
-    },
-    {
-      "title": "Vulnérabilité dans F5 NGINX",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1182/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1182"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1183/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1183"
     },
     {
       "title": "Multiples vulnérabilités dans Oracle Database Server",
@@ -134,6 +174,22 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1191"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Mozilla",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1183/",
+      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1183"
+    },
+    {
+      "title": "Vulnérabilité dans F5 NGINX",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1182/",
+      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1182"
     },
     {
       "title": "Multiples vulnérabilités dans les produits Apple",
@@ -216,22 +272,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-039"
     },
     {
-      "title": "Multiples vulnérabilités dans GitLab",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1160/",
-      "date": "Fri, 11 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1160"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1161/",
-      "date": "Fri, 11 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1161"
-    },
-    {
       "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1162/",
       "date": "Fri, 11 Sep 2026 00:00:00 +0000",
@@ -278,46 +318,6 @@ window.CERT_FR_DATA = {
       "description": "Le 06 août 2026, Metabase a publié un avis de sécurité concernant une vulnérabilité critique permettant à un attaquant non authentifié de provoquer une injection SQL (SQLi) dans la base de donnée de l'application Metabase. Cette injection SQL permet d’obtenir les droits administrateur de...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-010"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Moodle",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1155/",
-      "date": "Thu, 10 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Moodle. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1155"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1156/",
-      "date": "Thu, 10 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1156"
-    },
-    {
-      "title": "Multiples vulnérabilités dans MongoDB Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1157/",
-      "date": "Thu, 10 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1157"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Android",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1158/",
-      "date": "Thu, 10 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1158"
-    },
-    {
-      "title": "Vulnérabilité dans Microsoft Edge",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1159/",
-      "date": "Thu, 10 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Microsoft Edge. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Microsoft indique que la vulnérabilité CVE-2026-85046 est activement exploitée.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1159"
     },
     {
       "title": "Multiples vulnérabilités dans Mattermost Server",
