@@ -2,11 +2,43 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-21T12:51:05.174Z",
+  "generatedAt": "2026-09-21T19:59:59.094Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans les produits Mattermost",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1207/",
+      "date": "Mon, 21 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1207"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1208/",
+      "date": "Mon, 21 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1208"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Synology DSM",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1209/",
+      "date": "Mon, 21 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1209"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-040",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-040/",
+      "date": "Mon, 21 Sep 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-040"
+    },
     {
       "title": "Multiples vulnérabilités dans Google Chrome",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1199/",
@@ -286,30 +318,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une injection SQL (SQLi). Cisco indique que la vulnérabilité CVE-2026-76461 est...",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1175"
-    },
-    {
-      "title": "Multiples vulnérabilités dans MISP",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1170/",
-      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans MISP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1170"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Edge",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1171/",
-      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur. Microsoft indique que la vulnérabilité CVE-2026-87491 est activement exploitée.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1171"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Python",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1167/",
-      "date": "Mon, 14 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Python. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1167"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-039",
@@ -766,14 +774,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-001"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2025-ACT-057",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2025-ACT-057/",
-      "date": "Mon, 29 Dec 2025 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2025-ACT-057"
     },
     {
       "title": "[MàJ] Vulnérabilité dans React Server Components",
