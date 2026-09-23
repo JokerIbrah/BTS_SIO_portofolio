@@ -2,11 +2,83 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-23T11:39:27.901Z",
+  "generatedAt": "2026-09-23T17:01:56.546Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1212/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1212"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1213/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1213"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits FoxIT",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1214/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1214"
+    },
+    {
+      "title": "Multiples vulnérabilités dans SolarWinds Observability Self-Hosted",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1215/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans SolarWinds Observability Self-Hosted. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1215"
+    },
+    {
+      "title": "Vulnérabilité dans WordPress",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1216/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1216"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1217/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1217"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache Tomcat",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1218/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1218"
+    },
+    {
+      "title": "Vulnérabilité dans Check Point Security Management Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1219/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Check Point Security Management Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. L'éditeur indique que la vulnérabilité CVE-2026-93616 est activement exploitée. Check...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1219"
+    },
+    {
+      "title": "Vulnérabilité dans F5 BIG-IP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1220/",
+      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans F5 BIG-IP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique que la vulnérabilité CVE-2026-94127 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1220"
+    },
     {
       "title": "Multiples vulnérabilités dans Moodle",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1210/",
@@ -176,54 +248,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1198"
     },
     {
-      "title": "Multiples vulnérabilités dans Google Pixel",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1176/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Pixel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Google indique que la vulnérabilité...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1176"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Apache Zookeeper",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1177/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1177"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1178/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1178"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1179/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1179"
-    },
-    {
-      "title": "Vulnérabilité dans StrongSwan",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1180/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans StrongSwan. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1180"
-    },
-    {
-      "title": "Vulnérabilité dans Netgate pfSense",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1181/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Netgate pfSense. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1181"
-    },
-    {
       "title": "Multiples vulnérabilités dans Oracle Database Server",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1184/",
       "date": "Wed, 16 Sep 2026 00:00:00 +0000",
@@ -304,22 +328,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1182"
     },
     {
-      "title": "Multiples vulnérabilités dans Microsoft Edge",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1173/",
-      "date": "Tue, 15 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1173"
-    },
-    {
-      "title": "Vulnérabilité dans Microsoft Windows",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1174/",
-      "date": "Tue, 15 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Microsoft Windows. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1174"
-    },
-    {
       "title": "Multiples vulnérabilités dans les produits Cisco",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
       "date": "Tue, 15 Sep 2026 00:00:00 +0000",
@@ -342,14 +350,6 @@ window.CERT_FR_DATA = {
       "description": "Le 06 août 2026, Metabase a publié un avis de sécurité concernant une vulnérabilité critique permettant à un attaquant non authentifié de provoquer une injection SQL (SQLi) dans la base de donnée de l'application Metabase. Cette injection SQL permet d’obtenir les droits administrateur de...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-010"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mattermost Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
-      "date": "Tue, 08 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1128"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-038",
