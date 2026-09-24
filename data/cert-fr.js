@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-24T11:48:06.569Z",
+  "generatedAt": "2026-09-24T17:12:54.911Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Wireshark",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1221/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1221"
+    },
+    {
+      "title": "Multiples vulnérabilités dans LibreNMS",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1222/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans LibreNMS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1222"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Papercut",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1223/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Papercut. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1223"
+    },
+    {
+      "title": "Vulnérabilité dans Microsoft Office",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1224/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1224"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1225/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1225"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Zabbix Agent",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1226/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Zabbix Agent. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1226"
+    },
+    {
+      "title": "Multiples vulnérabilités dans PHP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1227/",
+      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1227"
+    },
     {
       "title": "Multiples vulnérabilités dans Mattermost Server",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1212/",
@@ -246,70 +302,6 @@ window.CERT_FR_DATA = {
       "description": "Une vulnérabilité a été découverte dans Nextcloud Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1198"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Database Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1184/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1184"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Java SE",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1185/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1185"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Weblogic",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1186/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1186"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle PeopleSoft",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1187/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1187"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Oracle Virtualization",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1188"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Docker",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1189/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Docker. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1189"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mattermost Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1190/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1190"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Edge",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1191/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1191"
     },
     {
       "title": "Multiples vulnérabilités dans les produits Mozilla",
@@ -760,22 +752,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-003"
     },
     {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-002",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-002/",
-      "date": "Mon, 19 Jan 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-002"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-001",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-001/",
-      "date": "Mon, 12 Jan 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-001"
-    },
-    {
       "title": "[MàJ] Vulnérabilité dans React Server Components",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-014/",
       "date": "Fri, 05 Dec 2025 00:00:00 +0000",
@@ -875,7 +851,7 @@ window.CERT_FR_DATA = {
       "title": "Opération ENDGAME 2025",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-008/",
       "date": "Fri, 23 May 2025 00:00:00 +0000",
-      "description": "Entre le 19 et le 23 mai 2025, de nouvelles actions de démantèlement ont été menées contre plusieurs infrastructures liées à des codes cybercriminels. Ces actions ont été réalisées dans le cadre de l’opération de coopération judiciaire internationale ENDGAME lancée en...",
+      "description": "Entre le 19 et le 23 mai 2025, de nouvelles actions de démantèlement ont été menées contre plusieurs infrastructures liées à des codes cybercriminels. Ces actions ont été réalisées dans le cadre de l’opération de coopération judiciaire internationale ENDGAME lancée en /cti/CERTFR-2024-CTI-004/ et...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-008"
     },
@@ -966,6 +942,30 @@ window.CERT_FR_DATA = {
       "description": "Version française: 🇫🇷 In this fourth edition of the Cyber Threat Overview, The French Cybersecurity Agency (ANSSI) addresses prevalent cybersecurity threats and the pivotal incidents which occurred in 2024. In line with the previous years, ANSSI estimates that attackers associated with the...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-004"
+    },
+    {
+      "title": "Panorama de la cybermenace 2024",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-003/",
+      "date": "Tue, 11 Mar 2025 00:00:00 +0000",
+      "description": "English version : 🇬🇧 Dans cette quatrième édition du panorama de la menace, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) revient sur les grandes tendances de la menace informatique ainsi que sur les éléments et incidents marquants dont elle a eu connaissance en 2024. Dans...",
+      "type": "cti",
+      "id": "CERTFR-2025-CTI-003"
+    },
+    {
+      "title": "Collectivités territoriales - Synthèse de la menace",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-002/",
+      "date": "Mon, 24 Feb 2025 00:00:00 +0000",
+      "description": "Les collectivités territoriales gèrent de nombreux services selon leurs compétences, en matière administrative et régalienne, mais également sur de nombreux aspects de la vie sociale, territoriale et économique d’un territoire. Les conséquences d’attaques informatiques peuvent donc être majeures...",
+      "type": "cti",
+      "id": "CERTFR-2025-CTI-002"
+    },
+    {
+      "title": "Secteur du cloud - État de la menace informatique",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-001/",
+      "date": "Thu, 20 Feb 2025 00:00:00 +0000",
+      "description": "Le *Cloud computing*, devenu incontournable pour les secteurs public et privé, favorise la transformation numérique mais offre également de nouvelles opportunités d’attaques et problématiques de sécurité pour les organisations qui l’utilisent. L'ANSSI observe une augmentation des attaques contre...",
+      "type": "cti",
+      "id": "CERTFR-2025-CTI-001"
     }
   ]
 };
