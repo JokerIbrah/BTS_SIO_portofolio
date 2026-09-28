@@ -2,11 +2,43 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-28T05:25:58.321Z",
+  "generatedAt": "2026-09-28T13:57:58.058Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+      "date": "Mon, 28 Sep 2026 00:00:00 +0000",
+      "description": "Le 27 septembre 2026, Citrix a publié un avis de sécurité concernant plusieurs vulnérabilités qui affectent NetScaler ADC et Gateway. Parmi celles-ci, les vulnérabilités CVE-2026-88771 et CVE-2026-88772 permettent une exécution de code arbitraire à distance par un attaquant non authentifié. Ces...",
+      "type": "alerte",
+      "id": "CERTFR-2026-ALE-011"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1234/",
+      "date": "Mon, 28 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB. Elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1234"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1235/",
+      "date": "Mon, 28 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité. Citrix indique que les...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1235"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-041",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-041/",
+      "date": "Mon, 28 Sep 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-041"
+    },
     {
       "title": "Multiples vulnérabilités dans les produits Elastic",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1228/",
@@ -296,28 +328,12 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1206"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Cisco",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1197/",
-      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Cisco indique que la vulnérabilité CVE-2026-76460 est...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1197"
-    },
-    {
       "title": "Vulnérabilité dans Nextcloud Server",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1198/",
       "date": "Thu, 17 Sep 2026 00:00:00 +0000",
       "description": "Une vulnérabilité a été découverte dans Nextcloud Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1198"
-    },
-    {
-      "title": "Vulnérabilité dans F5 NGINX",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1182/",
-      "date": "Wed, 16 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans F5 NGINX. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1182"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-039",
@@ -728,14 +744,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ALE-001"
     },
     {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-004",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-004/",
-      "date": "Mon, 26 Jan 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-004"
-    },
-    {
       "title": "Recommandations à destination des acteurs du secteur de l’énergie et de l’eau",
       "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
       "date": "Thu, 22 Jan 2026 00:00:00 +0000",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "Les collectivités territoriales gèrent de nombreux services selon leurs compétences, en matière administrative et régalienne, mais également sur de nombreux aspects de la vie sociale, territoriale et économique d’un territoire. Les conséquences d’attaques informatiques peuvent donc être majeures...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-002"
-    },
-    {
-      "title": "Secteur du cloud - État de la menace informatique",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-001/",
-      "date": "Thu, 20 Feb 2025 00:00:00 +0000",
-      "description": "Le *Cloud computing*, devenu incontournable pour les secteurs public et privé, favorise la transformation numérique mais offre également de nouvelles opportunités d’attaques et problématiques de sécurité pour les organisations qui l’utilisent. L'ANSSI observe une augmentation des attaques contre...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-001"
     }
   ]
 };
