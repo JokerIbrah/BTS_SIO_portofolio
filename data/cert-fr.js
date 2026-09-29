@@ -2,11 +2,19 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-29T09:51:39.840Z",
+  "generatedAt": "2026-09-29T18:05:45.967Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans les produits Apple",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1236/",
+      "date": "Tue, 29 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans les produits Apple. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Apple indique que la vulnérabilité CVE-2026-86950 est activement exploitée.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1236"
+    },
     {
       "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
@@ -326,14 +334,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1206"
-    },
-    {
-      "title": "Vulnérabilité dans Nextcloud Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1198/",
-      "date": "Thu, 17 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Nextcloud Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1198"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-039",
