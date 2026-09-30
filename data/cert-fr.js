@@ -2,11 +2,59 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-30T12:36:48.715Z",
+  "generatedAt": "2026-09-30T20:02:49.703Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1237/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1237"
+    },
+    {
+      "title": "Multiples vulnérabilités dans HPE Aruba Networking Instant On",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1238/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Instant On. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1238"
+    },
+    {
+      "title": "Vulnérabilité dans CPython",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1239/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1239"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Mozilla",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1240/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1240"
+    },
+    {
+      "title": "Multiples vulnérabilités dans OpenSSL",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1241/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1241"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1242/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité. Gitlab indique que la vulnérabilité CVE-2026-85706 est activement exploitée.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1242"
+    },
     {
       "title": "Point de situation de l’opération REACTIV – septembre 2026",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-006/",
@@ -27,7 +75,7 @@ window.CERT_FR_DATA = {
       "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
       "date": "Mon, 28 Sep 2026 00:00:00 +0000",
-      "description": "Le 27 septembre 2026, Citrix a publié un avis de sécurité concernant plusieurs vulnérabilités qui affectent NetScaler ADC et Gateway. Parmi celles-ci, les vulnérabilités CVE-2026-88771 et CVE-2026-88772 permettent une exécution de code arbitraire à distance par un attaquant non authentifié. Ces...",
+      "description": "[Mise à jour du 30 septembre 2026] Dans un billet de blogue du 29 septembre 2026 (cf. section Documentation), Mandiant et Google Threat Intelligence Group (GTIG) fournissent des indicateurs de compromission ainsi que des règles de détection au format YARA. Ceux-ci n'ont pas été qualifiés par...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-011"
     },
@@ -278,54 +326,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-040"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1199/",
-      "date": "Fri, 18 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1199"
-    },
-    {
-      "title": "Multiples vulnérabilités dans WordPress",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1200/",
-      "date": "Fri, 18 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans WordPress. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1200"
-    },
-    {
-      "title": "Vulnérabilité dans Kaspersky Secure Mail Gateway",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1201/",
-      "date": "Fri, 18 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Kaspersky Secure Mail Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1201"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1202/",
-      "date": "Fri, 18 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1202"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1203/",
-      "date": "Fri, 18 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1203"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1204/",
-      "date": "Fri, 18 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1204"
     },
     {
       "title": "Vulnérabilité dans les produits Moxa",
