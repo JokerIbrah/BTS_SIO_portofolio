@@ -2,11 +2,19 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-09-30T05:34:34.356Z",
+  "generatedAt": "2026-09-30T12:36:48.715Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Point de situation de l’opération REACTIV – septembre 2026",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-006/",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
+      "description": "Face à l’intensification des attaques cybercriminelles liées à des violations de données affectant les services de l’État, le Premier ministre a demandé le 1er septembre 2026 à l’Agence nationale de la sécurité des systèmes d’information (ANSSI) de mettre en place une capacité renforcée de...",
+      "type": "cti",
+      "id": "CERTFR-2026-CTI-006"
+    },
     {
       "title": "Vulnérabilité dans les produits Apple",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1236/",
@@ -768,20 +776,20 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2025-ALE-014"
     },
     {
-      "title": "Téléphones mobiles : État de la menace depuis 2015",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-012/",
-      "date": "Wed, 26 Nov 2025 00:00:00 +0000",
-      "description": "English version : 🇬🇧 Les téléphones mobiles font aujourd'hui partie du quotidien. L'augmentation croissante des usages, aussi bien liés à la vie personnelle que professionnelle, en font une cible de choix pour les attaquants. Comme tout équipement informatique, et bien que de nouvelles mesures de...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-012"
-    },
-    {
       "title": "🇬🇧 Mobile phones : Threat landscape since 2015",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-013/",
       "date": "Wed, 26 Nov 2025 00:00:00 +0000",
       "description": "Version française: 🇫🇷 Mobile phones are an integral part of everyday life. Their use in every aspect of life, personal as well as professional, makes them a prime target for malicious actors. Mobile phones actually offer unique opportunities for attackers, stemming from their specific use and...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-013"
+    },
+    {
+      "title": "Téléphones mobiles : État de la menace depuis 2015",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-012/",
+      "date": "Wed, 26 Nov 2025 00:00:00 +0000",
+      "description": "English version : 🇬🇧 Les téléphones mobiles font aujourd'hui partie du quotidien. L'augmentation croissante des usages, aussi bien liés à la vie personnelle que professionnelle, en font une cible de choix pour les attaquants. Comme tout équipement informatique, et bien que de nouvelles mesures de...",
+      "type": "cti",
+      "id": "CERTFR-2025-CTI-012"
     },
     {
       "title": "Opération ENDGAME de novembre 2025",
@@ -880,20 +888,20 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2025-ALE-006"
     },
     {
-      "title": "Ciblage et compromission d'entités françaises au moyen du mode opératoire d'attaque APT28",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-006/",
-      "date": "Tue, 29 Apr 2025 00:00:00 +0000",
-      "description": "English version : 🇬🇧 L’ANSSI et ses partenaires du Centre de coordination des crises cyber (C4) ont observé entre 2021 et 2024 des attaques informatiques conduites par les opérateurs d’APT28, qui sont publiquement rattachés par différentes sources à la Russie. Le mode opératoire d’attaque APT28 a...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-006"
-    },
-    {
       "title": "🇬🇧 Targeting and compromise of french entities using the APT28 intrusion set",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-007/",
       "date": "Tue, 29 Apr 2025 00:00:00 +0000",
       "description": "Version française: 🇫🇷 ANSSI and its partners at the Cyber Crisis Coordination Center (C4) have observed informatic attacks conducted by APT28 operators between 2021 and 2024. The attackers are publicly linked to the Russian Federation. The APT28 intrusion set has been used againt various entities...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-007"
+    },
+    {
+      "title": "Ciblage et compromission d'entités françaises au moyen du mode opératoire d'attaque APT28",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-006/",
+      "date": "Tue, 29 Apr 2025 00:00:00 +0000",
+      "description": "English version : 🇬🇧 L’ANSSI et ses partenaires du Centre de coordination des crises cyber (C4) ont observé entre 2021 et 2024 des attaques informatiques conduites par les opérateurs d’APT28, qui sont publiquement rattachés par différentes sources à la Russie. Le mode opératoire d’attaque APT28 a...",
+      "type": "cti",
+      "id": "CERTFR-2025-CTI-006"
     },
     {
       "title": "Vulnérabilité dans SAP NetWeaver",
@@ -944,14 +952,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2025-DUR-002"
     },
     {
-      "title": "🇬🇧 Cyber Threat Overview 2024",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-004/",
-      "date": "Tue, 11 Mar 2025 00:00:00 +0000",
-      "description": "Version française: 🇫🇷 In this fourth edition of the Cyber Threat Overview, The French Cybersecurity Agency (ANSSI) addresses prevalent cybersecurity threats and the pivotal incidents which occurred in 2024. In line with the previous years, ANSSI estimates that attackers associated with the...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-004"
-    },
-    {
       "title": "Panorama de la cybermenace 2024",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-003/",
       "date": "Tue, 11 Mar 2025 00:00:00 +0000",
@@ -960,12 +960,12 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2025-CTI-003"
     },
     {
-      "title": "Collectivités territoriales - Synthèse de la menace",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-002/",
-      "date": "Mon, 24 Feb 2025 00:00:00 +0000",
-      "description": "Les collectivités territoriales gèrent de nombreux services selon leurs compétences, en matière administrative et régalienne, mais également sur de nombreux aspects de la vie sociale, territoriale et économique d’un territoire. Les conséquences d’attaques informatiques peuvent donc être majeures...",
+      "title": "🇬🇧 Cyber Threat Overview 2024",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-004/",
+      "date": "Tue, 11 Mar 2025 00:00:00 +0000",
+      "description": "Version française: 🇫🇷 In this fourth edition of the Cyber Threat Overview, The French Cybersecurity Agency (ANSSI) addresses prevalent cybersecurity threats and the pivotal incidents which occurred in 2024. In line with the previous years, ANSSI estimates that attackers associated with the...",
       "type": "cti",
-      "id": "CERTFR-2025-CTI-002"
+      "id": "CERTFR-2025-CTI-004"
     }
   ]
 };
