@@ -2,11 +2,99 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-02T09:48:09.397Z",
+  "generatedAt": "2026-10-02T17:52:55.515Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Tenable Nessus",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1247/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Tenable Nessus. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1247"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache HTTP Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1248/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Apache HTTP Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1248"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits VMware",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1249/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1249"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Moxa",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1250/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1250"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1251/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1251"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1252"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1253/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1253"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1254/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1254"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1255/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1255"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits IBM",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1256/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1256"
+    },
+    {
+      "title": "Vulnérabilité dans Fortinet FortiMail",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Fortinet FortiMail. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. Fortinet indique que la vulnérabilité CVE-2026-104286 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1257"
+    },
     {
       "title": "Vulnérabilités de produits du secteur santé : Retour d'expérience du CERT Santé et du CERT-FR",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-007/",
@@ -248,100 +336,12 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1227"
     },
     {
-      "title": "Multiples vulnérabilités dans Mattermost Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1212/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1212"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1213/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1213"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits FoxIT",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1214/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits FoxIT. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1214"
-    },
-    {
-      "title": "Multiples vulnérabilités dans SolarWinds Observability Self-Hosted",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1215/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans SolarWinds Observability Self-Hosted. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1215"
-    },
-    {
-      "title": "Vulnérabilité dans WordPress",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1216/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans WordPress. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1216"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1217/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1217"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Apache Tomcat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1218/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1218"
-    },
-    {
-      "title": "Vulnérabilité dans Check Point Security Management Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1219/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Check Point Security Management Server. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. L'éditeur indique que la vulnérabilité CVE-2026-93616 est activement exploitée. Check...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1219"
-    },
-    {
       "title": "Vulnérabilité dans F5 BIG-IP",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1220/",
       "date": "Wed, 23 Sep 2026 00:00:00 +0000",
       "description": "Une vulnérabilité a été découverte dans F5 BIG-IP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique que la vulnérabilité CVE-2026-94127 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1220"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Moodle",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1210/",
-      "date": "Tue, 22 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection SQL (SQLi) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1210"
-    },
-    {
-      "title": "Vulnérabilité dans SolarWinds Access Rights Manager",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1211/",
-      "date": "Tue, 22 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans SolarWinds Access Rights Manager. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1211"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Synology DSM",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1209/",
-      "date": "Mon, 21 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1209"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-040",
