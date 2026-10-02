@@ -2,11 +2,19 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-02T00:48:15.457Z",
+  "generatedAt": "2026-10-02T09:48:09.397Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilités de produits du secteur santé : Retour d'expérience du CERT Santé et du CERT-FR",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-007/",
+      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
+      "description": "Le CERT Santé et le CERT-FR assurent le traitement des vulnérabilités qui leur sont signalées par des tiers. A ce titre, ils accompagnent les éditeurs affectés dans la conception et le suivi de plan d’action incluant le développement de correctifs et la communication vers leurs utilisateurs. Dans...",
+      "type": "cti",
+      "id": "CERTFR-2026-CTI-007"
+    },
     {
       "title": "Multiples vulnérabilités dans CPython",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
@@ -950,14 +958,6 @@ window.CERT_FR_DATA = {
       "description": "With the proliferation of threats targeting mobile phones, ANSSI recommands adopting 10 best practice rules for using these devices.",
       "type": "dur",
       "id": "CERTFR-2025-DUR-002"
-    },
-    {
-      "title": "Panorama de la cybermenace 2024",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-003/",
-      "date": "Tue, 11 Mar 2025 00:00:00 +0000",
-      "description": "English version : 🇬🇧 Dans cette quatrième édition du panorama de la menace, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) revient sur les grandes tendances de la menace informatique ainsi que sur les éléments et incidents marquants dont elle a eu connaissance en 2024. Dans...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-003"
     },
     {
       "title": "🇬🇧 Cyber Threat Overview 2024",
