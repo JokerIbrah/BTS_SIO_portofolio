@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-05T05:43:18.151Z",
+  "generatedAt": "2026-10-05T14:43:02.131Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans Microsoft Exchange Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1258/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Microsoft Exchange Server. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1258"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1259/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1259"
+    },
+    {
+      "title": "Multiples vulnérabilités dans OpenOffice",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1260/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1260"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Zabbix",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1261/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Zabbix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1261"
+    },
+    {
+      "title": "Vulnérabilité dans GitLab",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1262/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1262"
+    },
+    {
+      "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1263/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer un déni de service à distance. La CISA indique que la vulnérabilité CVE-2026-88779 est activement exploitée.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1263"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-042",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-042/",
+      "date": "Mon, 05 Oct 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-042"
+    },
     {
       "title": "Multiples vulnérabilités dans Tenable Nessus",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1247/",
@@ -203,7 +259,7 @@ window.CERT_FR_DATA = {
       "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
       "date": "Mon, 28 Sep 2026 00:00:00 +0000",
-      "description": "[Mise à jour du 30 septembre 2026] Dans un billet de blogue du 29 septembre 2026 (cf. section Documentation), Mandiant et Google Threat Intelligence Group (GTIG) fournissent des indicateurs de compromission ainsi que des règles de détection au format YARA. Ceux-ci n'ont pas été qualifiés par...",
+      "description": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de service à distance. La CISA indique que cette vulnérabilité est activement exploitée. **[Mise à jour du 30 septembre 2026]** Dans un billet...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-011"
     },
@@ -280,46 +336,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1233"
     },
     {
-      "title": "Multiples vulnérabilités dans Wireshark",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1221/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1221"
-    },
-    {
-      "title": "Multiples vulnérabilités dans LibreNMS",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1222/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans LibreNMS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1222"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Papercut",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1223/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Papercut. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1223"
-    },
-    {
-      "title": "Vulnérabilité dans Microsoft Office",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1224/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1224"
-    },
-    {
-      "title": "Multiples vulnérabilités dans GitLab",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1225/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1225"
-    },
-    {
       "title": "Multiples vulnérabilités dans Zabbix Agent",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1226/",
       "date": "Thu, 24 Sep 2026 00:00:00 +0000",
@@ -334,14 +350,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1227"
-    },
-    {
-      "title": "Vulnérabilité dans F5 BIG-IP",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1220/",
-      "date": "Wed, 23 Sep 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans F5 BIG-IP. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique que la vulnérabilité CVE-2026-94127 est activement exploitée. Des indicateurs de compromission sont disponibles dans l'avis de l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1220"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-040",
@@ -742,14 +750,6 @@ window.CERT_FR_DATA = {
       "description": "En tant que service numérique innovant, performant et flexible, l’IA générative est progressivement intégrée à l’éventail d’outils et de services auxquels sont susceptibles de recourir les attaquants informatiques quel que soit leur profil. Des modèles d’IA générative sont ainsi utilisées et/ou...",
       "type": "cti",
       "id": "CERTFR-2026-CTI-001"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-005",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-005/",
-      "date": "Mon, 02 Feb 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-005"
     },
     {
       "title": "[MàJ] Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile",
