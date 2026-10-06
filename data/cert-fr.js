@@ -2,11 +2,35 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-06T06:23:13.180Z",
+  "generatedAt": "2026-10-06T15:58:04.183Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans les produits Atlassian",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1264/",
+      "date": "Tue, 06 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Atlassian. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1264"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Android",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1265/",
+      "date": "Tue, 06 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1265"
+    },
+    {
+      "title": "Vulnérabilité dans Microsoft Office",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1266/",
+      "date": "Tue, 06 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1266"
+    },
     {
       "title": "Vulnérabilité dans Microsoft Exchange Server",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1258/",
@@ -334,22 +358,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1233"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Zabbix Agent",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1226/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Zabbix Agent. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1226"
-    },
-    {
-      "title": "Multiples vulnérabilités dans PHP",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1227/",
-      "date": "Thu, 24 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1227"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-040",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "With the proliferation of threats targeting mobile phones, ANSSI recommands adopting 10 best practice rules for using these devices.",
       "type": "dur",
       "id": "CERTFR-2025-DUR-002"
-    },
-    {
-      "title": "🇬🇧 Cyber Threat Overview 2024",
-      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-004/",
-      "date": "Tue, 11 Mar 2025 00:00:00 +0000",
-      "description": "Version française: 🇫🇷 In this fourth edition of the Cyber Threat Overview, The French Cybersecurity Agency (ANSSI) addresses prevalent cybersecurity threats and the pivotal incidents which occurred in 2024. In line with the previous years, ANSSI estimates that attackers associated with the...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-004"
     }
   ]
 };
