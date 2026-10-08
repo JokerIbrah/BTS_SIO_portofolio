@@ -2,11 +2,35 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-08T10:37:19.791Z",
+  "generatedAt": "2026-10-08T18:51:52.178Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans Ceph",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1280/",
+      "date": "Thu, 08 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Ceph. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1280"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Splunk",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1281/",
+      "date": "Thu, 08 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1281"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Cisco",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
+      "date": "Thu, 08 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1282"
+    },
     {
       "title": "Multiples vulnérabilités dans Microsoft Edge",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1267/",
@@ -318,30 +342,6 @@ window.CERT_FR_DATA = {
       "description": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-76504 est activement exploitée.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1246"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1240/",
-      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1240"
-    },
-    {
-      "title": "Multiples vulnérabilités dans OpenSSL",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1241/",
-      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1241"
-    },
-    {
-      "title": "Multiples vulnérabilités dans GitLab",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1242/",
-      "date": "Wed, 30 Sep 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité. Gitlab indique que la vulnérabilité CVE-2026-85706 est activement exploitée.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1242"
     },
     {
       "title": "Point de situation de l’opération REACTIV – septembre 2026",
