@@ -2,7 +2,7 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-07T20:38:20.969Z",
+  "generatedAt": "2026-10-08T01:01:23.609Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
