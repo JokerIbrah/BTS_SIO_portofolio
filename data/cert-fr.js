@@ -2,11 +2,51 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-12T10:52:48.854Z",
+  "generatedAt": "2026-10-12T21:17:03.132Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Incident de sécurité ciblant les Danfoss série AK-SM et AK-SC",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+      "date": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "description": "Le CERT-FR a connaissance de nombreuses compromissions de Danfoss série AK-SM et AK-SC. L'exposition d'une interface de gestion sur Internet est contraire aux bonnes pratiques. Dans le cas où l’administration à distance est impérative, une première mesure temporaire peut consister à restreindre...",
+      "type": "alerte",
+      "id": "CERTFR-2026-ALE-012"
+    },
+    {
+      "title": "Multiples vulnérabilités dans PostgreSQL JDBC",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1292/",
+      "date": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans PostgreSQL JDBC. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1292"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1293/",
+      "date": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits MongoDB. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1293"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1294/",
+      "date": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1294"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-043",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-043/",
+      "date": "Mon, 12 Oct 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-043"
+    },
     {
       "title": "Multiples vulnérabilités dans les produits Nextcloud",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
@@ -286,30 +326,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-042"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1252/",
-      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1252"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1253/",
-      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1253"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1254/",
-      "date": "Fri, 02 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1254"
     },
     {
       "title": "Multiples vulnérabilités dans le noyau Linux de SUSE",
@@ -744,14 +760,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-007"
     },
     {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-006",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-006/",
-      "date": "Mon, 09 Feb 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-006"
-    },
-    {
       "title": "L’intelligence artificielle générative face aux attaques informatiques",
       "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-001/",
       "date": "Wed, 04 Feb 2026 00:00:00 +0000",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "Dans un contexte de prolifération des menaces ciblant les téléphones mobiles, l’ANSSI préconise d’adopter 10 règles de bonnes pratiques pour l’utilisation de ces équipements.",
       "type": "dur",
       "id": "CERTFR-2025-DUR-001"
-    },
-    {
-      "title": "10 best practice rules for using mobile phones",
-      "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-002/",
-      "date": "Thu, 03 Apr 2025 00:00:00 +0000",
-      "description": "With the proliferation of threats targeting mobile phones, ANSSI recommands adopting 10 best practice rules for using these devices.",
-      "type": "dur",
-      "id": "CERTFR-2025-DUR-002"
     }
   ]
 };
