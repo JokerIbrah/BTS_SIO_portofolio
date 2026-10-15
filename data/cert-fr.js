@@ -2,11 +2,91 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-15T11:31:55.683Z",
+  "generatedAt": "2026-10-15T17:02:49.268Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans les produits F5",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1317"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Moodle",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1318/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1318"
+    },
+    {
+      "title": "Vulnérabilité dans PostgreSQL psqlODBC",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1319/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans PostgreSQL psqlODBC. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1319"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1320/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Sonicwall Network Security Manager. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1320"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Drupal",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1321/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1321"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Juniper Networks",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1322/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1322"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Microsoft",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1323/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1323"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Symfony",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1324"
+    },
+    {
+      "title": "Vulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1325/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Cisco AsyncOS Software pour Secure Email Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. Cisco indique que la vulnérabilité CVE-2026-76519 est activement exploitée.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1325"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1326/",
+      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Palo Alto Networks indique que la...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1326"
+    },
     {
       "title": "Vulnérabilité dans Ivanti Connect Secure (ICS)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-013/",
@@ -232,38 +312,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-043"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Nextcloud",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
-      "date": "Fri, 09 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Nextcloud. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1283"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Tenable",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1284/",
-      "date": "Fri, 09 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits Tenable. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur indique qu'une réinstallation d'un composant est nécessaire après la mise à jour.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1284"
-    },
-    {
-      "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1285/",
-      "date": "Fri, 09 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Citrix NetScaler ADC et Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1285"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1286/",
-      "date": "Fri, 09 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1286"
-    },
-    {
       "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1287/",
       "date": "Fri, 09 Oct 2026 00:00:00 +0000",
@@ -302,54 +350,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1291"
-    },
-    {
-      "title": "Vulnérabilité dans Ceph",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1280/",
-      "date": "Thu, 08 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Ceph. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1280"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Splunk",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1281/",
-      "date": "Thu, 08 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1281"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Cisco",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
-      "date": "Thu, 08 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1282"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1277/",
-      "date": "Wed, 07 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1277"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Veeam",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1278/",
-      "date": "Wed, 07 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1278"
-    },
-    {
-      "title": "Multiples vulnérabilités dans SPIP",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1279/",
-      "date": "Wed, 07 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1279"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-042",
