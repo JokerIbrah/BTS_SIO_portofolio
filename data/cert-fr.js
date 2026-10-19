@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-19T13:19:35.092Z",
+  "generatedAt": "2026-10-19T20:36:06.733Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Juniper Networks Session Smart Router",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1337/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Juniper Networks Session Smart Router. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1337"
+    },
+    {
+      "title": "Vulnérabilité dans Mattermost Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1338/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1338"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Stormshield Network Security",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1339/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Stormshield Network Security. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1339"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Roundcube Webmail",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1340/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1340"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits F5",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1341/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1341"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1342/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1342"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-044",
+      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-044/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-044"
+    },
     {
       "title": "Multiples vulnérabilités dans Moxa AIG-302 Series",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1327/",
@@ -176,22 +232,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ALE-013"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Adobe",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1301/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Adobe. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1301"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Xen",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1302/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1302"
-    },
-    {
       "title": "Vulnérabilité dans Symantec Endpoint Detection and Response",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1303/",
       "date": "Wed, 14 Oct 2026 00:00:00 +0000",
@@ -302,38 +342,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1316"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mozilla Firefox",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1297/",
-      "date": "Tue, 13 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1297"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Siemens",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1298/",
-      "date": "Tue, 13 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1298"
-    },
-    {
-      "title": "Vulnérabilité dans Schneider Electric Harmony",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1299/",
-      "date": "Tue, 13 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Schneider Electric Harmony. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1299"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits SAP",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1300/",
-      "date": "Tue, 13 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une injection SQL (SQLi).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1300"
     },
     {
       "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération",
@@ -758,14 +766,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-008"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-007",
-      "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-007/",
-      "date": "Mon, 16 Feb 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-007"
     },
     {
       "title": "L’intelligence artificielle générative face aux attaques informatiques",
