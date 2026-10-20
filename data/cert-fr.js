@@ -2,11 +2,35 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-20T08:34:39.981Z",
+  "generatedAt": "2026-10-20T14:19:17.565Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Laravel",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1343/",
+      "date": "Tue, 20 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1343"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1344/",
+      "date": "Tue, 20 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1344"
+    },
+    {
+      "title": "Violations de données applicatives - Retour d’expérience du CERT-FR",
+      "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-008/",
+      "date": "Tue, 20 Oct 2026 00:00:00 +0000",
+      "description": "En 2025, le CERT-FR a suivi près de 200 violations de données issues d’applications web. Dans de nombreux cas, ces exfiltrations ont été permises par des actions attaquantes d’un faible niveau de complexité, sans exploitation de vulnérabilité technique. Les divulgations de données ont des impacts...",
+      "type": "cti",
+      "id": "CERTFR-2026-CTI-008"
+    },
     {
       "title": "Multiples vulnérabilités dans Juniper Networks Session Smart Router",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1337/",
@@ -230,22 +254,6 @@ window.CERT_FR_DATA = {
       "description": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que cette vulnérabilité CVE-2026-104935 est...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-013"
-    },
-    {
-      "title": "Vulnérabilité dans Symantec Endpoint Detection and Response",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1303/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Symantec Endpoint Detection and Response. Elle permet à un attaquant de provoquer une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1303"
-    },
-    {
-      "title": "Multiples vulnérabilités dans MongoDB Server",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1304/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB Server. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1304"
     },
     {
       "title": "Multiples vulnérabilités dans les produits Mozilla",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "Fortinet a publié le 10 avril 2025 un billet de blogue [1] indiquant l'utilisation d'une technique de post-exploitation qui permet une atteinte à la confidentialité des données de l'ensemble du système des équipements Fortigate affectés. Cette technique repose sur l'utilisation d'un lien...",
       "type": "alerte",
       "id": "CERTFR-2025-ALE-004"
-    },
-    {
-      "title": "[MàJ] Vulnérabilité dans les produits Ivanti",
-      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-003/",
-      "date": "Thu, 03 Apr 2025 00:00:00 +0000",
-      "description": "**\\[Mise à jour du 11 avril 2025\\]** Le CERT-FR a connaissance d'une preuve de concept publique permettant de provoquer une exécution de code arbitraire à distance. **[Mise à jour du 04 avril 2025]** Le CERT-FR a connaissance d'une preuve de concept publique permettant de provoquer un arrêt du...",
-      "type": "alerte",
-      "id": "CERTFR-2025-ALE-003"
     }
   ]
 };
