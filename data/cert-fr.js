@@ -2,11 +2,19 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-21T04:50:50.846Z",
+  "generatedAt": "2026-10-21T11:51:38.246Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans PHP",
+      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "Le 20 octobre 2026, PHP a publié une communication concernant deux vulnérabilités critiques. L'éditeur annonce la disponibilité des correctifs de sécurité pour le 21 octobre 2026 à 16h00 heure de Paris (14h00 UTC). Pour les versions de PHP 5.x, 6.x, 7.x, 8.0.x et 8.1.x , dont l'éditeur n'assure...",
+      "type": "alerte",
+      "id": "CERTFR-2026-ALE-014"
+    },
     {
       "title": "Multiples vulnérabilités dans Laravel",
       "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1343/",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "La menace à l’encontre des entités des transports urbains cible des entreprises de toutes les tailles dans le monde entier qui opèrent différents modes de transport. La convergence de technologies industrielles et bureautique, l’interconnexion de réseaux informatiques de grande taille composés...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-005"
-    },
-    {
-      "title": "Activités de post-exploitation dans Fortinet FortiGate",
-      "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-004/",
-      "date": "Fri, 11 Apr 2025 00:00:00 +0000",
-      "description": "Fortinet a publié le 10 avril 2025 un billet de blogue [1] indiquant l'utilisation d'une technique de post-exploitation qui permet une atteinte à la confidentialité des données de l'ensemble du système des équipements Fortigate affectés. Cette technique repose sur l'utilisation d'un lien...",
-      "type": "alerte",
-      "id": "CERTFR-2025-ALE-004"
     }
   ]
 };
