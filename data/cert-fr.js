@@ -2,18 +2,90 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-21T11:51:38.246Z",
+  "generatedAt": "2026-10-21T17:14:03.519Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
     {
-      "title": "Multiples vulnérabilités dans PHP",
+      "title": "[Màj] Multiples vulnérabilités dans PHP",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
       "date": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "description": "Le 20 octobre 2026, PHP a publié une communication concernant deux vulnérabilités critiques. L'éditeur annonce la disponibilité des correctifs de sécurité pour le 21 octobre 2026 à 16h00 heure de Paris (14h00 UTC). Pour les versions de PHP 5.x, 6.x, 7.x, 8.0.x et 8.1.x , dont l'éditeur n'assure...",
+      "description": "**[Mise à jours du 21 octobre 2026]** Les correctifs de sécurité sont disponibles sur le site de l'éditeur. PHP indique que les vulnérabilités CVE-2026-109618 et CVE-2026-109619 permettent à un attaquant de provoquer une exécution de code arbitraire à distance. **[Publication Initiale]** Le 20...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-014"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits StormShield",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1345/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits StormShield. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1345"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Mozilla",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1346/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et un déni de service.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1346"
+    },
+    {
+      "title": "Vulnérabilité dans MongoDB PHP Driver",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1347/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans MongoDB PHP Driver. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1347"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1348/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1348"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle Weblogic",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1355/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1355"
+    },
+    {
+      "title": "Vulnérabilité dans Traefik",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1356/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1356"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Google Chrome",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1357/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1357"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache Tomcat",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1358/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1358"
+    },
+    {
+      "title": "Multiples vulnérabilités dans PHP",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1359/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans PHP. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1359"
     },
     {
       "title": "Multiples vulnérabilités dans Laravel",
@@ -262,78 +334,6 @@ window.CERT_FR_DATA = {
       "description": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que cette vulnérabilité CVE-2026-104935 est...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-013"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1305/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1305"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Fortinet",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1306/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1306"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Curl",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1307/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Curl. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1307"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1308/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1308"
-    },
-    {
-      "title": "Vulnérabilité dans Zabbix",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1309/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Zabbix. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1309"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Citrix",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1310/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1310"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Ivanti",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1311/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Ivanti indique que la vulnérabilité...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1311"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Office",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1312/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Office. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données. Microsoft indique que la vulnérabilité...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1312"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft .Net",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1313/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1313"
     },
     {
       "title": "Multiples vulnérabilités dans Microsoft Windows",
