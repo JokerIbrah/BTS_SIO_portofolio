@@ -2,16 +2,72 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-10-22T11:55:14.047Z",
+  "generatedAt": "2026-10-22T17:12:18.628Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
     {
+      "title": "Multiples vulnérabilités dans les produits Cisco",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1360/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1360"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Mozilla",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1361/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans les produits Mozilla. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1361"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1363/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1363"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits SolarWinds",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1364/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits SolarWinds. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1364"
+    },
+    {
+      "title": "Multiples vulnérabilités dans ISC BIND",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1365/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans ISC BIND. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1365"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Splunk",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1366/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1366"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Node",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1367/",
+      "date": "Thu, 22 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1367"
+    },
+    {
       "title": "[Màj] Multiples vulnérabilités dans PHP",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
       "date": "Wed, 21 Oct 2026 00:00:00 +0000",
-      "description": "**[Mise à jours du 21 octobre 2026]** Les correctifs de sécurité sont disponibles sur le site de l'éditeur. PHP indique que les vulnérabilités CVE-2026-109618 et CVE-2026-109619 permettent à un attaquant de provoquer une exécution de code arbitraire à distance. **[Publication Initiale]** Le 20...",
+      "description": "**[Mise à jour du 22 octobre 2026]** Le CERT-FR a connaissance de preuves de concept pour les vulnérabilités CVE-2026-109618 et CVE-2026-109619 pour des déploiements spécifique de PHP. **[Mise à jour du 21 octobre 2026]** Les correctifs de sécurité sont disponibles sur le site de l'éditeur. PHP...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-014"
     },
@@ -46,6 +102,54 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1348"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle Database Server",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1349/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1349"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle Java SE",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1350/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1350"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle MySQL",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1351/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1351"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle PeopleSoft",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1352/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1352"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle Systems",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1353/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Systems. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1353"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle Virtualization",
+      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1354/",
+      "date": "Wed, 21 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1354"
     },
     {
       "title": "Multiples vulnérabilités dans Oracle Weblogic",
@@ -248,116 +352,12 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1336"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits F5",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits F5. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1317"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Moodle",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1318/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1318"
-    },
-    {
-      "title": "Vulnérabilité dans PostgreSQL psqlODBC",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1319/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans PostgreSQL psqlODBC. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1319"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1320/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Sonicwall Network Security Manager. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1320"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Drupal",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1321/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une injection de code indirecte à distance (XSS).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1321"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Juniper Networks",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1322/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Juniper Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1322"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Microsoft",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1323/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits Microsoft. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1323"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Symfony",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1324"
-    },
-    {
-      "title": "Vulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1325/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Cisco AsyncOS Software pour Secure Email Gateway. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et une atteinte à l'intégrité des données. Cisco indique que la vulnérabilité CVE-2026-76519 est activement exploitée.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1325"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1326/",
-      "date": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Palo Alto Networks indique que la...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1326"
-    },
-    {
       "title": "Vulnérabilité dans Ivanti Connect Secure (ICS)",
       "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-013/",
       "date": "Wed, 14 Oct 2026 00:00:00 +0000",
       "description": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que cette vulnérabilité CVE-2026-104935 est...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-013"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Windows",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1314/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance. Microsoft indique que la vulnérabilité CVE-2026-96951...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1314"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Azure",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1315/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1315"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Microsoft",
-      "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1316/",
-      "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1316"
     },
     {
       "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération",
