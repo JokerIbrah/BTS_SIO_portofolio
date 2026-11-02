@@ -2,11 +2,91 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-02T11:11:12.469Z",
+  "generatedAt": "2026-11-02T21:43:01.160Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Redmine",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1434/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Redmine. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS), un contournement de la politique de sécurité et un déni de service.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1434"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Synology",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1435/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1435"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Tenable Identity Exposure",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1436/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1436"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Qnap QNE",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1437/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Qnap QNE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1437"
+    },
+    {
+      "title": "Multiples vulnérabilités dans macmon et NRSW",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1438/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Belden macmon et NRSW. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1438"
+    },
+    {
+      "title": "Vulnérabilité dans Traefik",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1439/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1439"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1440/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1440"
+    },
+    {
+      "title": "Vulnérabilité dans Microsoft Visual Studio",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1441/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Microsoft Visual Studio. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1441"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Ivanti Connect Secure",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que les vulnérabilités CVE-2026-104935,...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1442"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-046",
+      "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
+      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-046"
+    },
     {
       "title": "Multiples vulnérabilités dans les produits Apple",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1421/",
@@ -208,62 +288,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1420"
     },
     {
-      "title": "Vulnérabilité dans CPython",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1397/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1397"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Google Chrome",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1398/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1398"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Veeam",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1399/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1399"
-    },
-    {
-      "title": "Vulnérabilité dans Samba",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1400/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Samba. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1400"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Docker Desktop",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1401/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Docker Desktop. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1401"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Palo Alto Networks PAN-OS",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1402/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Palo Alto Networks PAN-OS. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. Palo Alto Networks indique que les vulnérabilités CVE-2026-109618 et CVE-2026-109619 sont activement exploitées.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1402"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Metabase",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1403/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Metabase. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1403"
-    },
-    {
       "title": "Multiples vulnérabilités dans Mitel OpenScape Endpoint Management",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
       "date": "Wed, 28 Oct 2026 00:00:00 +0000",
@@ -304,30 +328,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1408"
     },
     {
-      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1394/",
-      "date": "Tue, 27 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Citrix NetScaler ADC et Gateway. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1394"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Edge",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1395/",
-      "date": "Tue, 27 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1395"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Palo Alto Networks",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1396/",
-      "date": "Tue, 27 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1396"
-    },
-    {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-045",
       "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-045/",
       "date": "Mon, 26 Oct 2026 00:00:00 +0000",
@@ -352,6 +352,14 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-CTI-008"
     },
     {
+      "title": "Multiples vulnérabilités dans Roundcube Webmail",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1340/",
+      "date": "Mon, 19 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une falsification de requêtes côté serveur (SSRF) et une injection de code indirecte à distance (XSS).",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1340"
+    },
+    {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-044",
       "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-044/",
       "date": "Mon, 19 Oct 2026 00:00:00 +0000",
@@ -360,10 +368,10 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-ACT-044"
     },
     {
-      "title": "Vulnérabilité dans Ivanti Connect Secure (ICS)",
+      "title": "[MàJ] Multiples vulnérabilités dans Ivanti Connect Secure (ICS)",
       "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
       "date": "Wed, 14 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que cette vulnérabilité CVE-2026-104935 est...",
+      "description": "[Mise à jour du 2 novembre 2026] Le 29 octobre 2026, Ivanti a mis à jour son avis de sécurité du 13 octobre 2026 pour ajouter deux vulnérabilités (CVE-2026-111357 et CVE-2026-118527). Celles-ci permettent à un attaquant authentifié d'élever ses privilèges et de téléverser un fichier arbitraire...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-013"
     },
@@ -766,14 +774,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-010"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-009",
-      "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-009/",
-      "date": "Mon, 02 Mar 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-009"
     },
     {
       "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN",
