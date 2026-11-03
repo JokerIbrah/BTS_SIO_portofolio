@@ -2,11 +2,51 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-03T06:50:03.327Z",
+  "generatedAt": "2026-11-03T17:04:20.333Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Google Android",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
+      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1443"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GLPI",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
+      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1444"
+    },
+    {
+      "title": "Multiples vulnérabilités dans PostgreSQL",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
+      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1445"
+    },
+    {
+      "title": "Multiples vulnérabilités dans NetApp ONTAP 9",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
+      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1446"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Xen",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
+      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1447"
+    },
     {
       "title": "Multiples vulnérabilités dans Redmine",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1434/",
@@ -286,46 +326,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1420"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Mitel OpenScape Endpoint Management",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1404/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Mitel OpenScape Endpoint Management. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1404"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Edge",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1405/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1405"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1406/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1406"
-    },
-    {
-      "title": "Vulnérabilité dans les produits Belden",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1407/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits Belden. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1407"
-    },
-    {
-      "title": "Vulnérabilité dans Axis Camera Station Pro",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1408/",
-      "date": "Wed, 28 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Axis Camera Station Pro. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1408"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-045",
