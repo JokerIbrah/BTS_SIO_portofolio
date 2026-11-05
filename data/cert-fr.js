@@ -2,11 +2,75 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-05T17:25:24.519Z",
+  "generatedAt": "2026-11-05T23:38:57.248Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans OpenSSH",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "Le 5 novembre 2026, OpenSSH a publié un avis de sécurité concernant une vulnérabilité qui permet à un attaquant de contourner l’authentification d'un service SSH. En effet, sur les systèmes Linux qui utilisent la bibliothèque standard C musl, compilés sans support PAM ou avec PAM désactivé, un...",
+      "type": "alerte",
+      "id": "CERTFR-2026-ALE-015"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1462/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1462"
+    },
+    {
+      "title": "Multiples vulnérabilités dans OpenOffice",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1463/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1463"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Siemens",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1464"
+    },
+    {
+      "title": "Multiples vulnérabilités dans SPIP",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1465/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à l'intégrité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1465"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1466"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Cisco",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1467/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1467"
+    },
+    {
+      "title": "Vulnérabilité dans OpenSSH",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
+      "date": "Thu, 05 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans OpenSSH. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1468"
+    },
     {
       "title": "Multiples vulnérabilités dans Apache Zookeeper",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
@@ -238,62 +302,6 @@ window.CERT_FR_DATA = {
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-046"
-    },
-    {
-      "title": "Vulnérabilité dans CPython",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1423"
-    },
-    {
-      "title": "Vulnérabilité dans Ruby on Rails trilogy",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1424/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Ruby on Rails trilogy. Elle permet à un attaquant de provoquer une injection SQL (SQLi).",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1424"
-    },
-    {
-      "title": "Vulnérabilité dans Tenable Nessus Plugin",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1425/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Tenable Nessus Plugin. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1425"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Veeam Management Pack",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1426/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Veeam Management Pack. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1426"
-    },
-    {
-      "title": "Vulnérabilité dans GitLab",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1427/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans les produits GitLab. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1427"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Suricata",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1428/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Suricata. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1428"
-    },
-    {
-      "title": "Vulnérabilité dans Stormshield Management Center",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1429/",
-      "date": "Fri, 30 Oct 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans Stormshield Management Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1429"
     },
     {
       "title": "Multiples vulnérabilités dans les produits MongoDB",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "Le 24 avril 2025, SAP a publié un bulletin de sécurité relatif à la vulnérabilité CVE-2025-31324 qui permet l'exécution de code arbitraire à distance pour un utilisateur non authentifié. Cette vulnérabilité est provoquée par un contournement de la politique de sécurité qui permet de télécharger...",
       "type": "alerte",
       "id": "CERTFR-2025-ALE-005"
-    },
-    {
-      "title": "Transports urbains - État de la menace informatique",
-      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-005/",
-      "date": "Thu, 17 Apr 2025 00:00:00 +0000",
-      "description": "La menace à l’encontre des entités des transports urbains cible des entreprises de toutes les tailles dans le monde entier qui opèrent différents modes de transport. La convergence de technologies industrielles et bureautique, l’interconnexion de réseaux informatiques de grande taille composés...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-005"
     }
   ]
 };
