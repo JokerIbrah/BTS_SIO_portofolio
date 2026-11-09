@@ -2,11 +2,75 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-09T06:33:25.897Z",
+  "generatedAt": "2026-11-09T19:50:06.883Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans Moodle",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1481/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Moodle. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1481"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Synology",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1482/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1482"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Sonicwall SonicOS",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1483/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Sonicwall SonicOS. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité. Sonicwall indique que la...",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1483"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache HTTP Server",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1484/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Apache HTTP Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1484"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Xen",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1485/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1485"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits VMware",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1486/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1486"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-047",
+      "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-047/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-047"
+    },
+    {
+      "title": "Activités cyber offensives ciblant la France menées par des acteurs iraniens liés au CGRI",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-009/",
+      "date": "Mon, 09 Nov 2026 00:00:00 +0000",
+      "description": "Les membres du **Centre de Coordination des Crises Cyber (C4)** \\* ont observé plusieurs attaques à but de déstabilisation menées à l’encontre des intérêts français, qu’ils sont en mesure d’imputer **aux unités cyber-offensives Shahid Shoostari et Shahid Kaveh, opérant au sein du Centre...",
+      "type": "cti",
+      "id": "CERTFR-2026-CTI-009"
+    },
     {
       "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1469/",
@@ -168,14 +232,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1468"
     },
     {
-      "title": "Multiples vulnérabilités dans Apache Zookeeper",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
-      "date": "Wed, 04 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1448"
-    },
-    {
       "title": "Multiples vulnérabilités dans les produits Citrix",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1449/",
       "date": "Wed, 04 Nov 2026 00:00:00 +0000",
@@ -280,60 +336,20 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1461"
     },
     {
-      "title": "Multiples vulnérabilités dans Google Android",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
-      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1443"
-    },
-    {
-      "title": "Multiples vulnérabilités dans GLPI",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
-      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1444"
-    },
-    {
-      "title": "Multiples vulnérabilités dans PostgreSQL",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
-      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1445"
-    },
-    {
-      "title": "Multiples vulnérabilités dans NetApp ONTAP 9",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
-      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1446"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Xen",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
-      "date": "Tue, 03 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1447"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Ivanti Connect Secure",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
-      "date": "Mon, 02 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que les vulnérabilités CVE-2026-104935,...",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1442"
-    },
-    {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-046",
       "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
       "date": "Mon, 02 Nov 2026 00:00:00 +0000",
       "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
       "type": "actualite",
       "id": "CERTFR-2026-ACT-046"
+    },
+    {
+      "title": "Multiples vulnérabilités dans WordPress",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1420/",
+      "date": "Thu, 29 Oct 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1420"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-045",
@@ -776,14 +792,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-CTI-002"
     },
     {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-010",
-      "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-010/",
-      "date": "Mon, 09 Mar 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-010"
-    },
-    {
       "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN",
       "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-002/",
       "date": "Wed, 25 Feb 2026 00:00:00 +0000",
@@ -832,20 +840,20 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2025-ALE-014"
     },
     {
-      "title": "🇬🇧 Mobile phones : Threat landscape since 2015",
-      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-013/",
-      "date": "Wed, 26 Nov 2025 00:00:00 +0000",
-      "description": "Version française: 🇫🇷 Mobile phones are an integral part of everyday life. Their use in every aspect of life, personal as well as professional, makes them a prime target for malicious actors. Mobile phones actually offer unique opportunities for attackers, stemming from their specific use and...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-013"
-    },
-    {
       "title": "Téléphones mobiles : État de la menace depuis 2015",
       "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-012/",
       "date": "Wed, 26 Nov 2025 00:00:00 +0000",
       "description": "English version : 🇬🇧 Les téléphones mobiles font aujourd'hui partie du quotidien. L'augmentation croissante des usages, aussi bien liés à la vie personnelle que professionnelle, en font une cible de choix pour les attaquants. Comme tout équipement informatique, et bien que de nouvelles mesures de...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-012"
+    },
+    {
+      "title": "🇬🇧 Mobile phones : Threat landscape since 2015",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-013/",
+      "date": "Wed, 26 Nov 2025 00:00:00 +0000",
+      "description": "Version française: 🇫🇷 Mobile phones are an integral part of everyday life. Their use in every aspect of life, personal as well as professional, makes them a prime target for malicious actors. Mobile phones actually offer unique opportunities for attackers, stemming from their specific use and...",
+      "type": "cti",
+      "id": "CERTFR-2025-CTI-013"
     },
     {
       "title": "Opération ENDGAME de novembre 2025",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "English version : 🇬🇧 L’ANSSI et ses partenaires du Centre de coordination des crises cyber (C4) ont observé entre 2021 et 2024 des attaques informatiques conduites par les opérateurs d’APT28, qui sont publiquement rattachés par différentes sources à la Russie. Le mode opératoire d’attaque APT28 a...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-006"
-    },
-    {
-      "title": "Vulnérabilité dans SAP NetWeaver",
-      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-005/",
-      "date": "Mon, 28 Apr 2025 00:00:00 +0000",
-      "description": "Le 24 avril 2025, SAP a publié un bulletin de sécurité relatif à la vulnérabilité CVE-2025-31324 qui permet l'exécution de code arbitraire à distance pour un utilisateur non authentifié. Cette vulnérabilité est provoquée par un contournement de la politique de sécurité qui permet de télécharger...",
-      "type": "alerte",
-      "id": "CERTFR-2025-ALE-005"
     }
   ]
 };
