@@ -2,11 +2,19 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-12T00:45:18.223Z",
+  "generatedAt": "2026-11-12T11:14:53.865Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Point de situation de l’opération REACTIV – octobre 2026",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
+      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
+      "description": "Face à l’intensification des attaques cybercriminelles liées à des violations de données affectant les services de l’État, le Premier ministre a demandé le 1er septembre 2026 à l’Agence nationale de la sécurité des systèmes d’information (ANSSI) de mettre en place une capacité renforcée de...",
+      "type": "cti",
+      "id": "CERTFR-2026-CTI-010"
+    },
     {
       "title": "Multiples vulnérabilités dans les produits Apple",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1487/",
@@ -958,14 +966,6 @@ window.CERT_FR_DATA = {
       "description": "Version française: 🇫🇷 ANSSI and its partners at the Cyber Crisis Coordination Center (C4) have observed informatic attacks conducted by APT28 operators between 2021 and 2024. The attackers are publicly linked to the Russian Federation. The APT28 intrusion set has been used againt various entities...",
       "type": "cti",
       "id": "CERTFR-2025-CTI-007"
-    },
-    {
-      "title": "Ciblage et compromission d'entités françaises au moyen du mode opératoire d'attaque APT28",
-      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-006/",
-      "date": "Tue, 29 Apr 2025 00:00:00 +0000",
-      "description": "English version : 🇬🇧 L’ANSSI et ses partenaires du Centre de coordination des crises cyber (C4) ont observé entre 2021 et 2024 des attaques informatiques conduites par les opérateurs d’APT28, qui sont publiquement rattachés par différentes sources à la Russie. Le mode opératoire d’attaque APT28 a...",
-      "type": "cti",
-      "id": "CERTFR-2025-CTI-006"
     }
   ]
 };
