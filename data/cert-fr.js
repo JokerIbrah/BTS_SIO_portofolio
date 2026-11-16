@@ -2,11 +2,75 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-16T06:32:45.027Z",
+  "generatedAt": "2026-11-16T19:37:29.146Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Multiples vulnérabilités dans Kerberos",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1540/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Kerberos. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1540"
+    },
+    {
+      "title": "Vulnérabilité dans Git",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Git. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1541"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Trend Micro",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1542"
+    },
+    {
+      "title": "Vulnérabilité dans VMware Tanzu",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1543"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1544"
+    },
+    {
+      "title": "Vulnérabilité dans Citrix App Layering",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Citrix App Layering. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1545"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1546"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-048",
+      "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-048/",
+      "date": "Mon, 16 Nov 2026 00:00:00 +0000",
+      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
+      "type": "actualite",
+      "id": "CERTFR-2026-ACT-048"
+    },
     {
       "title": "Multiples vulnérabilités dans Apple HomeView Software",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1526/",
@@ -118,62 +182,6 @@ window.CERT_FR_DATA = {
       "description": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
       "type": "avis",
       "id": "CERTFR-2026-AVI-1539"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Apache HTTP Server",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1500/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Apache HTTP Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service et un problème de sécurité non spécifié par l'éditeur.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1500"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Check Point",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1501/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Check Point. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1501"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Citrix XenServer",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1502/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Citrix XenServer. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1502"
-    },
-    {
-      "title": "Multiples vulnérabilités dans HPE Aruba Networking Private 5G Core",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1503/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Private 5G Core. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1503"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Laravel",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1504/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Laravel. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1504"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1505/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1505"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Ivanti",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1506/",
-      "date": "Thu, 12 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Ivanti. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1506"
     },
     {
       "title": "Vulnérabilité dans Sonicwall SonicOS",
@@ -782,14 +790,6 @@ window.CERT_FR_DATA = {
       "description": "Le CERT-FR observe une recrudescence de campagnes d’attaques ciblant les comptes de messagerie instantanées. Ces campagnes ciblent particulièrement les secteurs régaliens (personnalités politiques, cadres de l’administration) mais aussi les personnels de la société civile exerçant des fonctions...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-003"
-    },
-    {
-      "title": "Bulletin d'actualité CERTFR-2026-ACT-011",
-      "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-011/",
-      "date": "Mon, 16 Mar 2026 00:00:00 +0000",
-      "description": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'application des...",
-      "type": "actualite",
-      "id": "CERTFR-2026-ACT-011"
     },
     {
       "title": "Panorama de la cybermenace 2025",
