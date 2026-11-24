@@ -2,11 +2,67 @@
    Fichier regenere automatiquement par la GitHub Action "Veille CERT-FR".
    Ne pas editer a la main. */
 window.CERT_FR_DATA = {
-  "generatedAt": "2026-11-24T13:45:21.351Z",
+  "generatedAt": "2026-11-24T23:54:34.143Z",
   "source": "CERT-FR / ANSSI — https://www.cert.ssi.gouv.fr/",
   "note": "Données publiques reprises à des fins de veille, avec lien vers la publication d'origine.",
   "count": 120,
   "items": [
+    {
+      "title": "Vulnérabilité dans Google Chrome",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1608/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Google Chrome. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1608"
+    },
+    {
+      "title": "Vulnérabilité dans Laravel",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1609"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Postfix",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1610"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Traefik",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1611/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1611"
+    },
+    {
+      "title": "Vulnérabilité dans les produits F5",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1612/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "Une vulnérabilité a été découverte dans les produits F5. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1612"
+    },
+    {
+      "title": "Multiples vulnérabilités dans OpenSSL",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1613/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1613"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Elastic",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
+      "date": "Tue, 24 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1614"
+    },
     {
       "title": "Multiples vulnérabilités dans SPIP",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
@@ -232,70 +288,6 @@ window.CERT_FR_DATA = {
       "id": "CERTFR-2026-AVI-1586"
     },
     {
-      "title": "Vulnérabilité dans VMware Tanzu",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1568"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mitel",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1569"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Progress WS_FTP Server",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1570"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Laravel",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1571/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1571"
-    },
-    {
-      "title": "Multiples vulnérabilités dans ClamAV",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1572/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans ClamAV. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1572"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Cisco",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1573"
-    },
-    {
-      "title": "Multiples vulnérabilités dans WordPress",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1574/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1574"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Wireshark",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
-      "date": "Thu, 19 Nov 2026 00:00:00 +0000",
-      "description": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-      "type": "avis",
-      "id": "CERTFR-2026-AVI-1575"
-    },
-    {
       "title": "Multiples vulnérabilités dans les produits Splunk",
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
       "date": "Thu, 19 Nov 2026 00:00:00 +0000",
@@ -350,6 +342,14 @@ window.CERT_FR_DATA = {
       "description": "Le 18 novembre 2026, F5 a publié deux avis de sécurité concernant les vulnérabilités CVE-2026-123633 et CVE-2026-123007. Celles-ci affectent NGINX Open Source et NGINX Plus permettent à un attaquant non authentifié d'exécuter du code à distance, en utilisant le protocole HTTP en version 2. Le...",
       "type": "alerte",
       "id": "CERTFR-2026-ALE-017"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Mitel MiCollab",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+      "date": "Tue, 17 Nov 2026 00:00:00 +0000",
+      "description": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "type": "avis",
+      "id": "CERTFR-2026-AVI-1547"
     },
     {
       "title": "Bulletin d'actualité CERTFR-2026-ACT-048",
